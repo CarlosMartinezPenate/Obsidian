@@ -1,0 +1,1 @@
+ [[AlphaFold]] is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm [[jumper2021]]

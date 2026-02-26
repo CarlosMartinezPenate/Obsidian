@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "881b923c01a97c80",
+        "id": "f2093c1a7af7e385",
         "type": "tabs",
         "children": [
           {
-            "id": "252fd1f47f46c88f",
+            "id": "1bba55f1ad0fc93f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Concepts/AlphaFold.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "AlphaFold"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Templates/Literature Note Template/Literature Note Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Literature Note Template"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Templates/Literature Note Template/Literature Note Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Literature Note Template"
             }
           },
           {
@@ -150,15 +156,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Templates/Literature Note Template/Literature Note Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Literature Note Template"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -176,6 +184,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "252fd1f47f46c88f",
-  "lastOpenFiles": []
+  "active": "1bba55f1ad0fc93f",
+  "lastOpenFiles": [
+    "Sources/jumper2021.md",
+    "Concepts/AlphaFold.md",
+    "Concepts/Deep-Learning.md",
+    "Templates/Literature Note Template/Literature Note Template.md",
+    "Sources/@.md",
+    "().md",
+    "{{selectLink}}.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "2026-02-26.md",
+    "Marine Paper/IOLR Tar Cruise.md",
+    "Untitled.md",
+    "Concepts",
+    "Sources/@",
+    "Sources/jumper2021 1.md",
+    "Sources",
+    "Protein Structure/jumper2021.md",
+    "Alphafold 2.md",
+    "jumperHighlyAccurateProtein2021.md",
+    "Templates/Literature Note Template",
+    "Templates/untitled folder",
+    "Templates",
+    "untitled folder",
+    "Income",
+    "Marine Paper",
+    "Income/Parrila_Project/Metodos y Herramientas.md",
+    "Income/Parrila_Project/Hipotesis Principal.md",
+    "Income/Parrila_Project/Bar de Ensalada.md",
+    "Income/Parrila_Project/Plan de Reunion.md",
+    "Income/Parrila_Project/Fase Tecnica - Data.md",
+    "Income/Parrila_Project/Fase 0 - Arquitectura mínima de control operativo.md",
+    "Income/Parrila_Project/Gobernanza.md",
+    "tamaño real del negocio.md"
+  ]
 }
