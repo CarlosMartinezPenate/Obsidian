@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Literature Note Template/Literature Note Template.md",
+                "file": "Cα root-mean-square deviation at 95% residue coverage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Literature Note Template"
+              "title": "Cα root-mean-square deviation at 95% residue coverage"
+            }
+          },
+          {
+            "id": "f259f425ee62d9ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gibbs Free Energy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gibbs Free Energy"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Literature Note Template/Literature Note Template.md",
+                "file": "Gibbs Free Energy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Literature Note Template"
+              "title": "Outline of Gibbs Free Energy"
             }
           }
         ],
@@ -184,25 +199,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "3107b64dbfcca636",
+  "active": "f259f425ee62d9ed",
   "lastOpenFiles": [
+    "Pasted image 20260305144318.png",
+    "Gibbs Free Energy.md",
+    "branden1999/image-16-x58-y80.png",
+    "adir2020/image-3-x77-y608.png",
+    "Sources/adir2020.md",
+    "Sources/branden1999.md",
+    "branden1999",
+    "Cα root-mean-square deviation at 95% residue coverage.md",
+    "Concepts/Gibbs Free Energy",
+    "2026-02-28.md",
+    "jumper2021/image-3-x141-y621.png",
     "Sources/jumper2021.md",
+    "Concepts/AlphaFold.md",
+    "Concepts/PBS.md",
+    "Concepts/Deep-Learning.md",
+    "adir2020",
+    "Templates/Literature Note Template/Literature Note Template.md",
+    "Income/Parrila_Project/Gobernanza.md",
+    "jumper2021",
     "Untitled.canvas",
     "Untitled 1.base",
     "Untitled 1.canvas",
-    "Concepts/AlphaFold.md",
-    "Cα root-mean-square deviation at 95% residue coverage.md",
     "Concepts/The predicted local distance difference test.md",
-    "2026-02-28.md",
     "Untitled.base",
-    "Concepts/Deep-Learning.md",
-    "Templates/Literature Note Template/Literature Note Template.md",
     "Sources/@.md",
     "().md",
     "{{selectLink}}.md",
     "2026-02-26.md",
     "Marine Paper/IOLR Tar Cruise.md",
-    "Untitled.md",
     "Concepts",
     "Sources/@",
     "Sources/jumper2021 1.md",
@@ -211,17 +238,9 @@
     "Alphafold 2.md",
     "jumperHighlyAccurateProtein2021.md",
     "Templates/Literature Note Template",
-    "Templates/untitled folder",
-    "Templates",
-    "untitled folder",
-    "Income",
     "Income/Parrila_Project/Metodos y Herramientas.md",
     "Income/Parrila_Project/Hipotesis Principal.md",
     "Income/Parrila_Project/Bar de Ensalada.md",
-    "Income/Parrila_Project/Plan de Reunion.md",
-    "Income/Parrila_Project/Fase Tecnica - Data.md",
-    "Income/Parrila_Project/Fase 0 - Arquitectura mínima de control operativo.md",
-    "Income/Parrila_Project/Gobernanza.md",
-    "tamaño real del negocio.md"
+    "Income/Parrila_Project/Plan de Reunion.md"
   ]
 }
