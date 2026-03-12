@@ -34,9 +34,93 @@
               "icon": "lucide-file",
               "title": "Gibbs Free Energy"
             }
+          },
+          {
+            "id": "0c5d39ca83f6f021",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Biological Hoods.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Biological Hoods"
+            }
+          },
+          {
+            "id": "84a53f8f2abac004",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sources/herut2024.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "herut2024"
+            }
+          },
+          {
+            "id": "737cec09c99d76b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sources/herut2024.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "herut2024"
+            }
+          },
+          {
+            "id": "d48c26ddaa522620",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sources/herut2024.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "herut2024"
+            }
+          },
+          {
+            "id": "acb09eab75f959e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cruise 2 Section.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cruise 2 Section"
+            }
+          },
+          {
+            "id": "d94ff5e2cd04e208",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BPPaper.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BPPaper"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -199,22 +283,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "f259f425ee62d9ed",
+  "active": "d94ff5e2cd04e208",
   "lastOpenFiles": [
-    "Pasted image 20260305144318.png",
-    "Gibbs Free Energy.md",
-    "branden1999/image-16-x58-y80.png",
-    "adir2020/image-3-x77-y608.png",
-    "Sources/adir2020.md",
+    "Cruise 2 Section.md",
+    "BPPaper.md",
+    "Sources/herut2024.md",
+    "herut2024/image-8-x93-y465.png",
+    "herut2024/image-8-x160-y464.png",
+    "herut2024/image-8-x229-y464.png",
+    "herut2024/image-8-x365-y464.png",
+    "herut2024/image-7-x384-y489.png",
+    "NMDS for IOLR.md",
+    "Pasted image 20260311164854.png",
+    "herut2024/image-5-x297-y494.png",
+    "Pasted image 20260311162409.png",
+    "Satellite Chlorophyll.md",
+    "Pasted image 20260311162243.png",
+    "Hepes.md",
+    "herut2024/image-7-x70-y140.png",
     "Sources/branden1999.md",
+    "CO2 Incubator.md",
+    "herut2024",
+    "Biological Hoods.md",
+    "Sources/jumper2021.md",
+    "Concepts/AlphaFold.md",
+    "Concepts/PBS.md",
+    "Gibbs Free Energy.md",
+    "Sources/adir2020.md",
     "branden1999",
     "Cα root-mean-square deviation at 95% residue coverage.md",
     "Concepts/Gibbs Free Energy",
     "2026-02-28.md",
-    "jumper2021/image-3-x141-y621.png",
-    "Sources/jumper2021.md",
-    "Concepts/AlphaFold.md",
-    "Concepts/PBS.md",
     "Concepts/Deep-Learning.md",
     "adir2020",
     "Templates/Literature Note Template/Literature Note Template.md",
@@ -233,14 +332,6 @@
     "Concepts",
     "Sources/@",
     "Sources/jumper2021 1.md",
-    "Sources",
-    "Protein Structure/jumper2021.md",
-    "Alphafold 2.md",
-    "jumperHighlyAccurateProtein2021.md",
-    "Templates/Literature Note Template",
-    "Income/Parrila_Project/Metodos y Herramientas.md",
-    "Income/Parrila_Project/Hipotesis Principal.md",
-    "Income/Parrila_Project/Bar de Ensalada.md",
-    "Income/Parrila_Project/Plan de Reunion.md"
+    "Sources"
   ]
 }

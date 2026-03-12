@@ -1,0 +1,3 @@
+A CO2 incubator is a specialized laboratory instrument designed to maintain a stable, sterile, and humidified environment (typically 37 °C, >90% humidity, and 5% CO2) to cultivate living cells, tissues, and microorganisms. They are critical for ensuring proper pH levels in culture media, mimicking in vivo conditions.
+
+https://scimed.phchd.com/product/co2-and-multi-gas-incubators-2/co2-shaking-incubator-anicell-nb-206cxl-nb206cxxl/
