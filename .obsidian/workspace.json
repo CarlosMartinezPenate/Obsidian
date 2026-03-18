@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Onboarding and Experimental version 1.md",
+                "file": "Onboarding and Experimental version 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Onboarding and Experimental version 1"
+              "title": "Onboarding and Experimental version 2"
             }
           }
         ],
@@ -309,7 +309,7 @@
     "Gibbs Free Energy.md",
     "Hepes.md",
     "NMDS for IOLR.md",
-    "Onboarding and Experimental version 1.md",
+    "Onboarding and Experimental version 2.md",
     "Satellite Chlorophyll.md",
     "Pasted image 20260311164854.png",
     "Pasted image 20260311162409.png",
