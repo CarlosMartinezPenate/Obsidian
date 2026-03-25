@@ -1,5 +1,5 @@
 ## **Purpose**
-Receive the incoming axenic dinoflagellate strains safely, minimize stress and contamination, and set up a simple **IMK vs F/2** comparison during the first 1–2 weeks.
+Receive the incoming axenic dinoflagellate strains safely, minimize stress and contamination, and set up a simple **IMK vs F/2** comparison during the first 1–2 weeks. It is expected 5 tubes (I assume 1 for strain) with 5ml liquid algal biomass (aprox 5 million cells per culture).
 ## **Incoming strains - specific culture notes**
 From: [[xiang2013]]
 Expected:
@@ -26,9 +26,9 @@ Expected maintenance conditions:
 ## **Minimal Actions checklist**
 ### Before arrival
 #### Key material procument:
-- [ ] IMK (Confirm Tingting is sending some [[Diago's IMK]] with the cultures)
-	- [ ] Confirm approximate volume
-	- [ ] Confirm whether the cultures themselves will already be in IMK
+- [ ] IMK (50mL sterile 50x Diago Solution for IMK coming with the cultures)
+	- [x] Confirm approximate volume
+	- [x] Confirm whether the cultures themselves will already be in IMK
 - [x]  F2 (Instock by Moran)
 - [x]  CoralSalt (Direct buy by Dvir)
 - [ ] Marine Broth (Ordered by Shira)
