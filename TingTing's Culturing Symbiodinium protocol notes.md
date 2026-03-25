@@ -1,0 +1,59 @@
+- [ ]  Culture conditions:
+	- Parent nonaxenic cultures used for isolation were maintained in **liquid IMK medium**
+	- Maintenance conditions reported for those cultures: **24–26°C** and about **15 µmol photons m^-2 s^-1**
+	- For colony growth on solid F/2 during isolation: **24–26°C**, **12L:12D**, about **30 µmol photons m^-2 s^-1**
+	- For some microscopy-related culture growth: about **27°C**, **12L:12D**, about **10 µmol photons m^-2 s^-1**
+	- For liquid growth experiments, strains were grown around **27°C** with low continuous light, and the paper notes that different strains responded differently to light intensity
+	- Relevant for receiving workflow: start conservatively with **24–26°C** and **low light**, rather than strong light, especially right after shipping
+	- Evidence: Materials and Methods, “Growth media, chemicals, and light,” “Generation of clonal, axenic cultures,” “Microscopy,” and “Growth studies” sections; see especially the journal pages describing culture maintenance and plating conditions.  [oai_citation:1‡Journal of Phycology - 2013 - Xiang - Isolation of clonal axenic strains of the symbiotic dinoflagellate Symbiodinium and.pdf](sediment://file_000000001e4c71fa8b6e4c86fc798ec2)
+
+- [ ] Confirm contamination-related steps were noted
+	- During axenic strain generation, colonies were repeatedly streaked on **F/2 + KAS** or **IMK + KAS**
+	- **KAS antibiotic cocktail** used in the paper:
+		- kanamycin **50 µg/mL**
+		- ampicillin **100 µg/mL**
+		- streptomycin **50 µg/mL**
+	- The authors emphasize that after antibiotics were no longer needed, strains were later passaged on **F/2 or IMK without antibiotics**
+	- Axenicity was checked using:
+		- growth on **rich solid media** such as **Marine Broth**, **IMK + casein hydrolysate**, and **IMK + glucose**
+		- **microscopy** (including DIC and DAPI-based examination)
+		- **PCR for bacterial 16S rDNA**
+	- Relevant for receiving workflow: we do **not** need to start with antibiotics by default, but we should keep contamination checks in mind using microscopy first, and richer follow-up methods if needed
+	- Evidence: Materials and Methods sections on “Generation of clonal, axenic cultures,” “PCR assays for bacterial contamination,” and “Microscopy,” plus Results around Figure 1.  [oai_citation:2‡Journal of Phycology - 2013 - Xiang - Isolation of clonal axenic strains of the symbiotic dinoflagellate Symbiodinium and.pdf](sediment://file_000000001e4c71fa8b6e4c86fc798ec2)
+
+- [ ] Confirm which parts are directly relevant to our immediate receiving workflow
+	- Most directly relevant now:
+		- **ASW-based media** are appropriate
+		- **IMK** is the paper’s liquid maintenance medium
+		- **F/2** was used repeatedly in the clonal/axenic workflow on solid medium
+		- low-to-moderate light and **24–26°C** are reasonable starting conditions
+		- contamination can be checked by **microscopy**, with richer follow-up if needed
+	- For our immediate workflow, the most useful takeaway is:
+		- if **IMK** comes with the cultures, use it for recovery and compare it to **F/2**
+		- if not, **F/2** is still a justified backup based on the paper
+	- Less immediately relevant for day 0:
+		- full clonal isolation workflow
+		- repeated antibiotic passaging
+		- host infection assays
+	- Evidence: liquid IMK maintenance and repeated use of F/2 / F/2 + KAS are described in Materials and Methods; Results also state that different minimal media including **F/2, IMK, L1, and ASP8A** produced little difference in growth for the established strains, while enrichment had larger effects.  [oai_citation:3‡Journal of Phycology - 2013 - Xiang - Isolation of clonal axenic strains of the symbiotic dinoflagellate Symbiodinium and.pdf](sediment://file_000000001e4c71fa8b6e4c86fc798ec2)
+
+- [ ] Confirm any strain-specific notes were captured
+	- Yes — the paper shows clear **strain-specific behavior**
+	- **SSE01**:
+		- grew well in **IMK**
+		- also in **IMK + glucose**
+		- growth was **depressed by casein hydrolysate**
+		- did **not** grow in the dark with glucose or casein
+		- interpreted as an **obligate photoautotroph** under those tested conditions
+	- **SSA02**:
+		- grew very slowly in IMK alone or with only one supplement
+		- robust growth occurred only in **IMK + casein + glucose**
+		- no growth in the dark
+		- appeared **light-sensitive**, with better growth at lower light
+	- **SSB01**:
+		- could grow photoautotrophically, heterotrophically, or mixotrophically
+		- fixed carbon, especially **glucose**, increased growth
+		- glucose also caused a marked drop in normal chlorophyll fluorescence, consistent with pigment loss / bleaching-like behavior
+	- Also relevant: not all strains infected the host equally; **SSA02** and **SSB01** infected Aiptasia, while **SSA03**, **SSE01**, and **SSF01** did not
+	- Immediate implication for us: we should expect **not all incoming strains to respond the same way**, so F/2 vs IMK should be evaluated **per strain**, not assumed globally
+	- Evidence: Results and Discussion sections, especially the growth results associated with Figures 3–4 and infection results in Figure 5.  [oai_citation:4‡Journal of Phycology - 2013 - Xiang - Isolation of clonal axenic strains of the symbiotic dinoflagellate Symbiodinium and.pdf](sediment://file_000000001e4c71fa8b6e4c86fc798ec2)
