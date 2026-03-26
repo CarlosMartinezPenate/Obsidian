@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dino_Project/Receiving Plan for Incoming Axenic Strains.md",
+                "file": "Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Receiving Plan for Incoming Axenic Strains"
+              "title": "Receiving Plan for Incoming Axenic Strains V.1"
             }
           },
           {
@@ -55,16 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dino_Project/Receiving Plan for Incoming Axenic Strains.md",
+                "file": "Dino_Project/Dino Project — Receiving and Recovery Plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Receiving Plan for Incoming Axenic Strains"
+              "title": "Dino Project — Receiving and Recovery Plan"
+            }
+          },
+          {
+            "id": "3e715c6c379e7311",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dino_Project/Dino Project — Receiving and Recovery Plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dino Project — Receiving and Recovery Plan"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -227,16 +241,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "ac65b7ec23e7719c",
+  "active": "3e715c6c379e7311",
   "lastOpenFiles": [
-    "Income/Parrila_Project/Plan de Reunion.md",
+    "Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
+    "Dino_Project/Dino Project — Receiving and Recovery Plan.md",
+    "Symbiodiniaceae Culturing Protocols – Parkinson Lab.md",
     "NblB/Onboarding and Experimental version 2.md",
-    "TingTing's Culturing Symbiodinium link.md",
     "TingTing's Culturing Symbiodinium protocol notes.md",
-    "Dino_Project/Receiving Plan for Incoming Axenic Strains.md",
+    "TingTing's Culturing Symbiodinium Protocol.md",
+    "Concepts/Diago's IMK.md",
+    "Sources/xiang2013.md",
+    "Income/Parrila_Project/Plan de Reunion.md",
     "Notebook HarrisLab.md",
     "ASW.md",
-    "Sources/xiang2013.md",
     "xiang2013/image-3-x46-y607.png",
     "xiang2013",
     "ASW recipe.md",
@@ -245,7 +262,6 @@
     "NblB/NbLB.md",
     "F/2.md",
     "F",
-    "Concepts/Diago's IMK.md",
     "Diago's IMK stock solution recipe",
     "Concepts/IMK2.md",
     "F/2 medium.md",
@@ -265,8 +281,6 @@
     "Pasted image 20260311162409.png",
     "Papers/Marine Paper/Figures/IOLR_tar_cruise_NMDS.png",
     "Papers/Marine Paper/Figures",
-    "Concepts/Hepes.md",
-    "Concepts/Cα root-mean-square deviation at 95% residue coverage.md",
     "Papers",
     "NblB",
     "herut2024/image-8-x93-y465.png",
