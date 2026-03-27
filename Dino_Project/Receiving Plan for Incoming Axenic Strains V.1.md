@@ -30,10 +30,10 @@ Expected maintenance conditions:
 	- [x] 50mL sterile 50x Diago Solution for IMK
 	- [ ] Confirm whether the cultures themselves will already be in IMK
 - [x] F/2 (In stock by Moran)
-- [x] CoralSalt (Direct buy by Dvir)
-- [x] Marine Broth (Ordered by Shira)
-- [x] Glucose ( 100 grams requested to Shira)
-- [x] Casein hydrolysate (100 grams requested to Shira)
+- [x] CoralSalt (Direct buy by Dvir, recieved)
+- [ ] Marine Broth (Ordered by Shira)
+- [ ] Glucose ( 100 grams requested by Carlos)
+- [ ] Casein hydrolysate (100 grams requested by Carlos)
 - [ ] KAS Antibiotic Stock
 - [ ] DAPI Stain
 #### Key Consumables:
@@ -51,7 +51,7 @@ Expected maintenance conditions:
 	- [x] Any dedicated consumables for axenic handling
 #### Key Accesses
 - [ ] Microscopy access
-- [ ] Flow cytometry access 
+- [ ] Cytometry access 
 #### Key Reading
 - [x] Confirm [[TingTing's Culturing Symbiodinium Protocol]] read
 
