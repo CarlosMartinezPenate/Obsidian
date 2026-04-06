@@ -35,12 +35,23 @@ Not default additives for all strains, because Xiang showed strong strain-specif
 
 ### Strain-specific media + requirements 
 
-| **Strain**       | **Priority Media**         | **Notes**                                                             |
-| ---------------- | -------------------------- | --------------------------------------------------------------------- |
-| **SSA01, SSA03** | IMK vs. F/2                | Standard comparison.                                                  |
-| **SSA02**        | **IMK + Casein + Glucose** | **Crucial:** Standard IMK/F2 might not sustain this strain long-term. |
-| **SSB01**        | IMK (Low Glucose)          | Watch for the "bleaching" effect you noted at 5 g/L glucose.          |
-| **SSE01**        | IMK only                   | Avoid Casein here as you noted it depresses growth.                   |
+| **Strain**                                                                   | **Priority Media**             | **Notes**                                                                                                                                                   |
+| ---------------------------------------------------------------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ***Symbiodinium linucheae* (**SSA01**), *Symbiodinium pilosum* (**SSA03**)** | IMK vs. F/2                    | Standard comparison. In the verification workflow.  SSA03 was grown in **IMK + casein hydrolysate** in the verification workflow                            |
+| *Symbiodinium necroappetens* (**SSA02**)                                     | **IMK + Casein + Glucose**<br> | **Crucial:** Standard IMK/F2 might not sustain this strain long-term.                                                                                       |
+| *Breviolum minutum* (**SSB01**)                                              | IMK (Consider Low Glucose)     | Watch for the "bleaching" effect  noted at 5 g/L glucose. Glucose enhanced growth in Xiang, but also reduced the fraction of cells with normal fluorescence |
+| *Effrenium voratum* (**SSE01**)                                              | IMK only                       | SSE01 grew well in IMK and IMK + glucose, Avoid Casein here as it depresses growth.                                                                         |
+
+Version 2
+
+| **Strain**                               | **Priority media**                 | **Notes**                                                                                                                                                                                                                 |
+| ---------------------------------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| *Symbiodinium linucheae* (**SSA01**)     | IMK vs F/2                         | Standard recovery comparison. Xiang does not provide the same detailed growth-response analysis for SSA01 as for SSA02, SSB01, and SSE01.                                                                                 |
+| *Symbiodinium pilosum* (**SSA03**)       | IMK vs F/2                         | Standard recovery comparison. In the verification workflow, SSA03 was grown in **IMK + casein hydrolysate**, but Xiang does not provide a full growth-response panel for this strain.                                     |
+| *Symbiodinium necroappetens* (**SSA02**) | **IMK + casein + glucose**         | Strongest support in the paper. SSA02 grew very slowly in IMK alone or with only one supplement; robust growth occurred only when **both** casein hydrolysate and glucose were present. It also appeared light-sensitive. |
+| *Breviolum minutum* (**SSB01**)          | IMK vs F/2; consider glucose later | . I would not label this simply “IMK (Low Glucose)” unless you are explicitly planning a glucose condition.                                                                                                               |
+| *Effrenium voratum* (**SSE01**)          | IMK                                | Well supported. SSE01 grew well in IMK and IMK + glucose, and growth was depressed by casein hydrolysate. Avoid casein here.                                                                                              |
+
 
 ---
 

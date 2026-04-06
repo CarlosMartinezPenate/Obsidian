@@ -32,7 +32,7 @@ Expected maintenance conditions:
 - [x] F/2 (In stock by Moran)
 - [x] CoralSalt (Direct buy by Dvir, recieved)
 - [ ] Marine Broth (Ordered by Shira)
-- [ ] Glucose ( 100 grams requested by Carlos)
+- [x] Glucose ( 100 grams requested by Carlos)
 - [ ] Casein hydrolysate (100 grams requested by Carlos)
 - [ ] KAS Antibiotic Stock
 - [ ] DAPI Stain
