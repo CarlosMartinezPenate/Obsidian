@@ -295,3 +295,72 @@ The following conditions should be prioritized for microscopy and closer inspect
 - **SSE01 + Daigo**
 - at least one representative parent culture
 - one representative flask from another strain in each medium
+----
+
+# Dino Project — Culture Inspection Update
+
+**Date:** 13/04/2026
+
+## Purpose
+Inspect the dinoflagellate cultures in **Daigo’s IMK**, **F/2**, and the retained **parent cultures**, and document visible changes relative to previous observations.
+
+## Observations
+
+### Daigo’s IMK cultures
+
+#### SSA01, SSA02, SSA03
+- These cultures appear **okay overall by eye**
+- More **whitish suspended “cells” / material** were observed floating in the medium compared with earlier observations
+
+#### SSB01
+- Appears **more turbid** by eye than before
+- Suspended material / “cells” appear to have organized into **sharp, crystal-like clumps**
+
+#### SSE01
+- Appears to be **growing better by eye**
+- Culture looks **more optically dense**
+- This is consistent with prior expectations, since **SSE01** was the strain noted to perform best under autotrophic IMK conditions
+
+### F/2 cultures
+
+#### SSA01, SSA02, SSA03
+- Similarly to the **Daigo’s IMK** cultures, these strains appear to be **growing by eye**
+
+#### SSB01
+- Also appears **more optically dense** by eye than before
+- Unlike the IMK culture, this strain is **not showing the same crystal-like clumps**
+
+#### SSE01
+- Starting to show **brownish coloration**
+
+### Parent cultures
+
+#### A01, A02, A03
+- Appear **similar to how they were received**
+- Possibly showing **slight growth**, with some **suspended material / suspended growth** now visible
+
+#### B01, E01
+- Appear more **precipitated**
+- The bottom **pellet / settled material** looks more concentrated
+- Less suspended matter is visible compared with the A strains
+
+## Documentation
+- **Pictures were taken** for visual record and future comparison
+
+## Preliminary interpretation
+- Several cultures now appear to show **some degree of growth or increased optical density by eye**
+- **SSE01 in Daigo’s IMK** appears to be one of the clearest cases of apparent improvement
+- **SSB01** in Daigo’s IMK shows a distinct **crystal-like clumping pattern** that should be examined microscopically
+- **SSE01 in F/2** is beginning to develop **brownish coloration**, which should also be followed closely
+- Parent cultures remain useful as a visual reference for comparison with the transferred recovery cultures
+
+## Recommended next steps
+- Perform **microscopy** on:
+	- **SSB01 in Daigo’s IMK**
+	- **SSE01 in Daigo’s IMK**
+	- **SSE01 in F/2**
+	- at least one representative **SSA** culture in each medium
+- Perform **cell counts**
+- Continue visual tracking with repeat imaging
+- If feasible, proceed later with **flow cytometry**
+- Continue contamination screening with plating on Marine Broth
