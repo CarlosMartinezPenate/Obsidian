@@ -364,3 +364,104 @@ Inspect the dinoflagellate cultures in **Daigo’s IMK**, **F/2**, and the retai
 - Continue visual tracking with repeat imaging
 - If feasible, proceed later with **flow cytometry**
 - Continue contamination screening with plating on Marine Broth
+---
+# Dino Project — Culture Inspection Update
+
+**Date:** 23/04/2026
+
+## Purpose
+Inspect the dinoflagellate cultures on day 23 of incubation and document visible differences among strains and media (**Daigo’s IMK** vs **F/2**) based on macroscopic observation by eye.
+
+## Observation conditions
+- Inspection performed **by eye only**
+- Cultures were gently stirred during inspection to evaluate turbidity, suspended material, and visible pigmentation
+
+---
+
+## Cultures in Daigo’s IMK
+
+### SSA01
+- Faint **brownish-colored supernatant**
+- Small amount of **whitish precipitate**
+- Became **turbid when gently stirred**
+
+### SSA02
+- Overall **clear appearance**
+- Almost **turbid when stirred**
+- Small amount of **whitish precipitate**
+
+### SSA03
+- Overall **clear appearance**
+- Almost **turbid when stirred**
+- Less precipitate than the other A clades
+
+### SSB01
+- Faint **brownish-colored supernatant**, slightly more pronounced than in SSA01
+- Still shows **feathery / crystal-like clumps**
+- Clumps become apparent when gently stirred
+
+### SSE01
+- **Brownish-colored precipitate**
+- Became **turbid and colored when stirred**
+- Appears to be the **best-growing strain in the IMK set** by eye, based on stronger color and turbidity
+
+---
+
+## Cultures in F/2
+
+### SSA01
+- **Brownish color tint**
+- Some **white precipitate**
+- **Turbid when stirred**
+
+### SSA02
+- Overall **clearish appearance**
+- Some **white precipitate**
+- **Turbid when stirred**
+
+### SSA03
+- Some **brownish color** tint
+- Fairly larger amount of **precipitate**
+- **Turbid when stirred**
+
+### SSB01
+- **Stronger brownish color** tint
+- More precipitate than the A strains
+- **Turbid and almost brown-colored when stirred**
+
+### SSE01
+	- **Strongest brownish color** tint
+- Largest visible precipitate
+- **Turbid and colored when stirred**
+
+---
+
+## Parent cultures
+- All parent cultures appear **okay by eye**
+- The small pellet at the bottom remains present, similar to previous observations
+
+---
+
+## New cultures (small bottles)
+- Additional small-bottle cultures prepared by Maayan were also inspected
+- In both **F/2** and **Daigo’s IMK**, most showed a **light brownish tint**
+- Exceptions: **A01** and **A03**, which did not show the same brownish glimpse
+
+---
+
+## Preliminary interpretation
+- By day 23, several cultures now show more obvious **brownish pigmentation** and **turbidity on stirring**, which is more suggestive of suspended pigmented biomass than in the earlier inspections
+- **SSE01** remains the strain that appears most convincingly established, especially in **Daigo’s IMK**, and also shows the strongest visible signal in **F/2**
+- **SSB01** continues to show a distinct structural phenotype in **Daigo’s IMK** (feathery / crystal-like clumps), while in **F/2** it appears more strongly pigmented
+- **SSA02** still appears comparatively pale / whitish in both media, which may be consistent with weaker performance under standard IMK/F/2 conditions
+- Parent cultures remain visually stable and continue to serve as a useful reference
+
+## Recommended next steps
+- Perform **microscopy**
+	- prioritize **SSB01 in IMK**
+	- prioritize **SSE01 in IMK and F/2**
+	- include **SSA02** in both media
+- Perform **cell counts**
+- If feasible, perform **flow cytometry**
+- Continue visual documentation with repeat photographs
+- Continue contamination screening as needed

@@ -4,91 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "5cab48e523abd016",
+        "id": "a5d7cf9210637738",
         "type": "tabs",
         "children": [
           {
-            "id": "348e4894bb1d3b9e",
+            "id": "95519a6be1a387de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/F2 medium.md",
+                "file": "Templates/Literature Note Template/Literature Note Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "F2 medium"
+              "title": "Literature Note Template"
             }
           },
           {
-            "id": "3fad0db1ea992b37",
+            "id": "5cf95c7dfc1fdcae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASW recipe.md",
+                "file": "Glycerol Stock Preparation and Flash Freezing Workflowed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ASW recipe"
-            }
-          },
-          {
-            "id": "4aecdcd360d6ffde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Receiving Plan for Incoming Axenic Strains V.1"
-            }
-          },
-          {
-            "id": "ac65b7ec23e7719c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dino_Project/Dino Project — Receiving and Recovery Plan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dino Project — Receiving and Recovery Plan"
-            }
-          },
-          {
-            "id": "3e715c6c379e7311",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "b3baf8b8adbaedc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NblB/Onboarding and Experimental version 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Onboarding and Experimental version 2"
+              "title": "Glycerol Stock Preparation and Flash Freezing Workflowed"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +56,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -120,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "biliprotei",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -252,55 +199,55 @@
       "bases:Create new base": false
     }
   },
-  "active": "b3baf8b8adbaedc7",
+  "active": "5cf95c7dfc1fdcae",
   "lastOpenFiles": [
-    "Notebook HarrisLab.md",
+    "Templates/Literature Note Template/Literature Note Template.md",
+    "Glycerol Stock Preparation and Flash Freezing Workflowed.md",
+    "Sources/hu2020.md",
+    "Sources/jumper2021.md",
+    "Sources/xiang2013.md",
+    "2026-04-30.md",
+    "Untitled.canvas",
+    "Sources/adir2020.md",
+    "NblB/Onboarding and Experimental version 2.md",
     "Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
-    "Dino_Project/Dino Project — Receiving and Recovery Plan.md",
+    "phycocyanins.md",
+    "Local DH5α Transformation Workflow.md",
+    "hu2020/image-3-x64-y568.png",
+    "hu2020/image-3-x52-y321.png",
+    "hu2020/image-3-x43-y401.png",
+    "hu2020/image-3-x394-y567.png",
+    "hu2020/image-3-x386-y434.png",
+    "hu2020/image-3-x226-y564.png",
+    "hu2020/image-3-x240-y400.png",
+    "hu2020",
+    "Untitled.base",
+    "Untitled 1.md",
+    "Untitled 1.canvas",
+    "2026-04-16.md",
+    "Concepts/Deep-Learning.md",
+    "Sources/herut2024.md",
+    "Sources/branden1999.md",
     "Users/carlosmartinez/Downloads/# **MBBR Audit ‒ RFI Package and Technical Site Audit Template**.md",
+    "xiang2013/image-3-x46-y607.png",
+    "Pasted image 20260416151627.png",
+    "Pyrrole.md",
+    "ASW recipe.md",
+    "Concepts/F2 medium.md",
+    "Dino_Project/Dino Project — Receiving and Recovery Plan.md",
+    "Notebook HarrisLab.md",
+    "Phycobiliprotein.md",
+    "branden1999/image-16-x58-y80.png",
+    "TingTing's Culturing Symbiodinium Protocol.md",
+    "Untitled",
+    "phycoerythrins.md",
+    "Untitled 1",
     "Request for Information (RFI)Untitled.md",
     "Users/carlosmartinez/Downloads",
     "Users/carlosmartinez",
     "Users",
     "CAID/RFI",
-    "Untitled",
     "CAID",
-    "TingTing's Culturing Symbiodinium Protocol.md",
-    "Symbiodiniaceae Culturing Protocols – Parkinson Lab.md",
-    "Papers/Marine Paper/BPPaper v1.md",
-    "NblB/Onboarding and Experimental version 2.md",
-    "TingTing's Culturing Symbiodinium protocol notes.md",
-    "Concepts/Diago's IMK.md",
-    "Sources/xiang2013.md",
-    "Income/Parrila_Project/Plan de Reunion.md",
-    "ASW.md",
-    "xiang2013/image-3-x46-y607.png",
-    "xiang2013",
-    "ASW recipe.md",
-    "IMK liquid media recipe.md",
-    "Concepts/F2 medium.md",
-    "NblB/NbLB.md",
-    "F/2.md",
-    "F",
-    "Diago's IMK stock solution recipe",
-    "Concepts/IMK2.md",
-    "F/2 medium.md",
-    "Dino_Project",
-    "Concepts/Gibbs Free Energy.md",
-    "Papers/Marine Paper/Cruise 2 Section.md",
-    "Sources/herut2024.md",
-    "Concepts/Biological Hoods.md",
-    "Papers/Marine Paper/Figures/NMDS for IOLR.md",
-    "Papers/Marine Paper/Figures/IOLR_tar_cruise_NMDS 1.png",
-    "Papers/Marine Paper/Figures/Pasted image 20260311162243.png",
-    "Papers/Marine Paper/Figures/Pasted image 20260311164854.png",
-    "Pasted image 20260305144318.png",
-    "Pasted image 20260311162409.png",
-    "Papers/Marine Paper/Figures/IOLR_tar_cruise_NMDS.png",
-    "herut2024/image-8-x93-y465.png",
-    "herut2024/image-8-x160-y464.png",
-    "herut2024/image-8-x229-y464.png",
-    "Untitled.canvas",
-    "Untitled 1.canvas"
+    "xiang2013"
   ]
 }
