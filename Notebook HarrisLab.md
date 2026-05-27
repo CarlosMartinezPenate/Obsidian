@@ -465,3 +465,89 @@ Inspect the dinoflagellate cultures on day 23 of incubation and document visible
 - If feasible, perform **flow cytometry**
 - Continue visual documentation with repeat photographs
 - Continue contamination screening as needed
+  
+# NblA - NblB Proyect
+
+## 03/05/2026
+
+On 02/05/2026, Jenia picked colonies from the transformation plates and inoculated overnight cultures at 37 °C. The following day, plasmid extraction was performed using the GenElute PLN70-1KT miniprep protocol.
+
+In parallel, additional preparatory work was carried out in the lab by Maayan and Moran, including locating kanamycin stocks, autoclaving materials, and preparing reagents.
+
+Maya and I prepared the kanamycin stock solution and aliquots for future use.
+
+---
+
+## 05/05/2026
+
+With the assistance of Raneen, I picked colonies corresponding to:
+- NblA S26C
+- NblB
+
+The colonies were inoculated into LB + kanamycin liquid cultures and incubated overnight at 37 °C.
+
+---
+
+## 06/05/2026
+
+Maayan inoculated large LB cultures using the overnight BL21 cultures containing:
+- NblA S26C
+- NblB
+
+Glycerol stocks were prepared for both BL21 expression strains:
+- NblA S26C BL21
+- NblB BL21
+
+The large cultures were induced with IPTG:
+- 200 µL IPTG added to each culture
+
+After preparation, the glycerol stocks were flash-frozen in liquid nitrogen and stored in the -80 °C freezer.
+
+# Dino Project — Culture Inspection Update
+
+**Date:** 14/05/2026
+
+## Purpose
+Inspect all dinoflagellate cultures by eye, document their current apparent condition, and note relevant project updates.
+
+## Observations
+- All Dino cultures were checked **by eye only**
+- Overall, the cultures now show **strong coloration** and **obvious growth**
+- This pattern is seen in both the main cultures and the small cultures
+
+### Daigo’s IMK / F/2 cultures
+- In general, all strains appear to be growing well by eye
+- The main exception is **A02 in Daigo**, which appears to be **lagging behind** relative to the other cultures
+
+### Small cultures
+- The small cultures appear to follow a **similar pattern** to the main cultures
+- Most show clear visible growth and coloration
+
+### Parent cultures
+- The parent cultures are **not looking as sharp**
+- They are now at **very small volumes**
+- They show **less coloration** and **less precipitation / settled biomass** than in the last inspection
+- This may indicate that they would benefit from:
+	- additional fresh medium
+	- transfer to fresh vessels / medium
+	- or both
+
+## Additional update
+- **Casein shipment was received at the beginning of this week**
+
+## Preliminary interpretation
+- By eye, the cultures now appear **substantially more established** than in the earlier inspections
+- Most strains show clear signs consistent with **continued growth**
+- **A02 in Daigo** remains the main culture of concern in the current inspection
+- The parent cultures appear more stressed or depleted than the transferred working cultures, likely due to their smaller remaining volume and lack of refreshment
+- With casein now available, strain-specific supplementation can be considered later if needed, especially for cultures that continue to underperform
+
+## Suggested next steps
+- Consider **adding fresh medium and/or transferring the parent cultures**
+- Continue routine visual monitoring
+- If possible, follow up with:
+	- **microscopy**
+	- **OD / absorbance measurements**
+	- **cell counts**
+- Keep comparing **A02 in Daigo** to its paired culture in F/2 and to the other A strains
+- If A02 continues to lag, consider whether a **casein- and glucose-supplemented condition** should be tested
