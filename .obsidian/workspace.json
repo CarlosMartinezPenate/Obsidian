@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4e3b486998a29154",
+        "id": "642c3dd69dbbe2ae",
         "type": "tabs",
         "children": [
           {
-            "id": "bb97b1f966624ec9",
+            "id": "b1ab60e2893a4211",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted Images/Pasted image 20260416151627.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260416151627"
-            }
-          },
-          {
-            "id": "132a7a53b9afb5ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dino F2 Scale-Up Protocol.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Dino F2 Scale-Up Protocol"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,14 +181,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "132a7a53b9afb5ba",
+  "active": "b1ab60e2893a4211",
   "lastOpenFiles": [
-    "Pasted Images/Pasted image 20260526144521.png",
     "Pasted Images/Pasted image 20260416151627.png",
     "HarrisLab/Protocols/Symbiodiniaceae Culturing Protocols – Parkinson Lab.md",
+    "Dino F2 Scale-Up Protocol.md",
+    "Pasted Images/Pasted image 20260526144521.png",
     "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
     "Symbiodiniaceae Culturing Protocols Parkinson - Lab.md",
-    "Dino F2 Scale-Up Protocol.md",
     "Homeworks/Homework5_StrBio.md",
     "Homeworks/Scientific Writing Task 4.md",
     "Sources/supasri2021.md",

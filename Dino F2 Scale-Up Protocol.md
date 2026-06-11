@@ -6,7 +6,7 @@ n_strains: 5
 scale_vessel: 500 mL Erlenmeyer
 backup_refill: true
 strain_mode:
-  SSA01: standard
+  SSA01: safer
   SSA02: standard
   SSA03: standard
   SSB01: standard
@@ -69,7 +69,7 @@ dv.paragraph(`Scale each strain to **${finalVol} mL final volume** in a new **${
 
 dv.header(2, "Conservative inoculum options");
 
-dv.paragraph(`### Standard option
+dv.paragraph(`### Standard option - "standard" in this MD
 - inoculum ratio = **${(stdRatio * 100).toFixed(0)}%**
 - remove **${stdInoc} mL** from the ~100 mL culture
 - inoculate into **${stdFresh} mL fresh F/2**
@@ -77,7 +77,7 @@ dv.paragraph(`### Standard option
 ${refill ? `- refill the original backup culture with **${stdInoc} mL fresh F/2**` : ``}
 `);
 
-dv.paragraph(`### Safer option for weaker strains
+dv.paragraph(`### Safer option for weaker strains - "safer" in this MD
 - inoculum ratio = **${(safeRatio * 100).toFixed(0)}%**
 - remove **${safeInoc} mL** from the ~100 mL culture
 - inoculate into **${safeFresh} mL fresh F/2**
@@ -138,7 +138,7 @@ Use the **Lab Companion BC-11B**.
 - marker / labels
 - notebook / spreadsheet for records
 
-## Transfer steps
+## Scale steps
 
 ```dataviewjs
 const p = dv.current();
