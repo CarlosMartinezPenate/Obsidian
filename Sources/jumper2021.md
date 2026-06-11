@@ -73,7 +73,7 @@
 **Note:** This are what has been shown in the paper, the pLDDT
 
 
-![[jumper2021/image-3-x141-y621.png]]
+![[image-3-x141-y621.png]]
 
 
 **Note:** at low IDDT - Calfa (meaning the correct backchain), low fraction of correct rotamers
@@ -85,4 +85,4 @@
 #[[AlphaFold]]
 
 
-%% Import Date: 2026-03-04T21:18:02.796+02:00 %%
+%% Import Date: 2026-06-07T10:23:18.962+03:00 %%

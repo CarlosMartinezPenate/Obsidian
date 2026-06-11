@@ -7,7 +7,7 @@
 ## 🖍️ Annotations
 %% begin annotations %%
 
-![[branden1999/image-16-x58-y80.png]]
+![[image-16-x58-y80.png]]
 
 
 

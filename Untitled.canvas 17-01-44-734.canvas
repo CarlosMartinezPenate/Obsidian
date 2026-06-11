@@ -1,6 +1,0 @@
-{
-	"nodes":[
-		{"id":"e6fb68bff1b43c38","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"Source\n\nMethod\n\npH\n\nTemperature (K)\n\nDetails\n\nTitle\n\nAuthors\n\nhttps://www.rcsb.org/experimental/5N3U\n\nVapor diffusion, sitting drop\n\nN/A\n\n291\n\nNot specified\n\nThe structure of the complex of CpcE and CpcF of phycocyanin lyase from Nostoc sp. PCC7120\n\nHoeppner, A.; Zhao, C.; Xu, Q.-Z.; Gaertner, W.; Scheer, H.; Zhao, K.-H.\n\nhttps://www.rcsb.org/experimental/7MC4\n\nVapor diffusion, hanging drop\n\n7.0\n\n293\n\nNot specified\n\nCrystal structure of a single-chain E/F type bilin lyase-isomerase MpeQ\n\nYang, X.; Kumarapperuma, I.\n\nhttps://www.rcsb.org/experimental/7MCH\n\nVapor diffusion, hanging drop\n\n7.0\n\n293\n\nProtein concentration: 5 mg/mL; 2.1 M DL-malic acid\n\nCrystal structure of a single-chain E/F type bilin lyase-isomerase MpeQ in space group C2221\n\nYang, X.; Kumarapperuma, I."}
-	],
-	"edges":[]
-}
