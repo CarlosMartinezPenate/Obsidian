@@ -23,7 +23,7 @@ Scale all five F/2 dinoflagellate cultures from ~100 mL into larger fresh-medium
 - [[Symbiodiniaceae Culturing Protocols – Parkinson Lab]]
 
 ## Main strategy
-- **F/2 only**
+- For **F/2** cultures only
 - Scale **all strains**
 - Use **conservative inoculation**
 - Preserve **one backup line per strain**
