@@ -1,0 +1,1 @@
+Provided by [[TingTing's Culturing Symbiodinium Protocol]], [[Daigo's IMK Medium]], 50x concentration

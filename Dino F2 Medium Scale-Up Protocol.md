@@ -6,7 +6,7 @@ n_strains: 5
 scale_vessel: 500 mL Erlenmeyer
 backup_refill: true
 strain_mode:
-  SSA01: safer
+  SSA01: standard
   SSA02: standard
   SSA03: standard
   SSB01: standard
@@ -19,12 +19,11 @@ strain_mode:
 Scale all five F/2 dinoflagellate cultures from ~100 mL into larger fresh-medium volumes while preserving a backup line for each strain.
 
 ## References
-- [[Xiang 2013]]: liquid maintenance in IMK at 24–26°C and low light; strain-specific responses, especially for SSA02 and SSE01.
+- [[xiang2013]]
 - [[Symbiodiniaceae Culturing Protocols – Parkinson Lab]]
 
 ## Main strategy
-- For **F/2** cultures only
-- Scale **all strains**
+- For **F/2 media** cultures only
 - Use **conservative inoculation**
 - Preserve **one backup line per strain**
 
