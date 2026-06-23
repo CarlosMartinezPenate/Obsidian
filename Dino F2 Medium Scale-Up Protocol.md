@@ -35,7 +35,7 @@ Scale all five F/2 dinoflagellate cultures from ~100 mL into larger fresh-medium
 - cultures kept **static**
 - incubator: **26°C**, **12:12**
 - medium for scale-up: **fresh F/2 in ASW**
-- 
+
 ## Backup strategy
 Since there are currently no true backups, the present ~100 mL cultures should be treated as the backup line.
 
@@ -133,8 +133,8 @@ Perform all culture transfers inside the **Lab Companion BC-11B** using a **no-f
 ### For scale-up transfer
 - current F/2 cultures (~100 mL), to be preserved as **backup lines**
 - fresh sterile **[[F2 medium]]**
-- pre-labeled **`= this.scale_vessel`** for scale-up
-- gauze
+- pre-labeled **`= this.scale_vessel`** for scale-up (see [[Autoclaving Protocol]])
+- gauze (see [[Autoclaving Protocol]])
 - sterile serological pipettes
 - pipette gun
 - marker / labels
@@ -171,21 +171,6 @@ steps = steps.concat([
 dv.list(steps);
 ```
 
-## Autoclaving note for fresh F/2 medium
-- Use the Tuttnauer **liquid program** for liquid medium.
-- On the 5075 ELVC, the liquid cycles are:
-  - **Program 9: Liquid A = 121°C, 20 min**
-  - **Program 10: Liquid B = 121°C, 30 min**
-- Use **covered, not sealed** bottles.
-- Use **Pyrex / borosilicate** bottles.
-- Do not fill bottles above **2/3** of bottle volume.
-- After the cycle, verify there is no pressure, open carefully, and wait before removing liquid loads.  [oai_citation:1‡5075ELVC-Manual_023210990.pdf](sediment://file_000000001cd072309f408e10abf8c8af)
-
-## Capacity note for the 5075
-According to the 5075 ELV/ELVC loading-capacity table:
-- **250 mL Erlenmeyers**: **3 × 21**
-- **500 mL Erlenmeyers**: **3 × 14**
-- **1000 mL Erlenmeyers**: **3 × 8**  [oai_citation:2‡5075ELVC-Manual_023210990.pdf](sediment://file_000000001cd072309f408e10abf8c8af)
 
 ## Mermaid workflow
 

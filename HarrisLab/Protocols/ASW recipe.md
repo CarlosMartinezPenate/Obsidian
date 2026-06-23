@@ -11,6 +11,7 @@ Using [[TingTing's Culturing Symbiodinium Protocol]]
 Using  [[Symbiodiniaceae Culturing Protocols Parkinson - Lab]]
 1. Make artificial seawater (~28 mL volume of salt per 1 L DI water to get ~32 ppt (32-34 ppt acceptable; check with refractometer).
 2. Filter the seawater (use pump and 0.2 micron filter).
+3. Store until use
 
 ## Note on ratios
 - **Tingting protocol working ratio**: **37.1 g/L**

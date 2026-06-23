@@ -10,7 +10,7 @@ asw_filtration_um: 0.2
 Adapted from [[Symbiodiniaceae Culturing Protocols – Parkinson Lab]]
 
 ## Goal
-Prepare fresh **1× F/2 medium in ASW** using **Guillard’s [[F2 medium]] 50× stock**.
+Prepare fresh **1× F/2 medium in [[ASW]]** using **Guillard’s [[F2 medium]] 50× stock**.
 
 ## Important note about this F/2 stock
 The available **Guillard’s F/2 Marine Water Enrichment Solution 50×** contains:
@@ -37,7 +37,7 @@ Prepare ASW → filter-sterilize ASW → add F/2 50× stock aseptically → fina
 
 ## Static preparation steps
 
-1. Make artificial seawater using DI water and sea salt  
+1. Make artificial seawater using DI water and sea salt (see [[ASW recipe]])
    - Approximate starting point: **~28 mL volume of salt per 1 L DI water** to reach ~32 ppt.
    - Target salinity: **32–34 ppt**.
    - Check salinity with a refractometer.
@@ -55,6 +55,7 @@ Prepare ASW → filter-sterilize ASW → add F/2 50× stock aseptically → fina
 
 4. Dispense medium into clean glassware  
    - See [[Cleaning Glassware]].
+   - See [[Autoclaving Protocol]]
    - Use clean/sterile vessels appropriate for culture work.
 
 5. Do **not** autoclave the complete medium as the default method  
@@ -70,20 +71,6 @@ Prepare ASW → filter-sterilize ASW → add F/2 50× stock aseptically → fina
    - F/2 stock used
    - Sterilization method: **ASW filtered, F/2 added after filtration**
    - Initials
-
-## If F/2 stock sterility is uncertain
-
-If the F/2 50× stock was previously opened or sterility is uncertain, avoid autoclaving it.
-
-Preferred options:
-
-1. Filter-sterilize the F/2 stock separately using a sterile filter, then add to sterile ASW.
-
-or
-
-2. Prepare the complete 1× F/2 medium and filter-sterilize the complete medium.
-
-Use the option that is most practical and consistent with lab practice.
 
 ## Dynamic F/2 calculation
 
@@ -155,18 +142,3 @@ For **50× F/2 stock**:
 - So for **1 L final medium**, use **980 mL sterile ASW + 20 mL stock**, not **1000 mL ASW + 20 mL stock**.
 - Add the F/2 stock **after ASW filtration**, because this stock contains vitamins.
 - Do not autoclave the complete vitamin-containing F/2 medium unless the lab specifically accepts that approach.
-```
-:::
-
-The only part I would remove from your old version is:
-
-```text
-5. Autoclave.
-6. Allow media to cool to room temperature before use.
-```
-
-That was okay only if the F/2 components were heat-stable or vitamins were added later. For your actual stock, the better note is:
-
-```text
-Filter ASW first. Add vitamin-containing F/2 stock after filtration. Do not autoclave complete F/2 medium by default.
-```
