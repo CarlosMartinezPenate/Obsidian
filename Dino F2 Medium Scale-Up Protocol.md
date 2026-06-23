@@ -35,7 +35,7 @@ Scale all five F/2 dinoflagellate cultures from ~100 mL into larger fresh-medium
 - cultures kept **static**
 - incubator: **26°C**, **12:12**
 - medium for scale-up: **fresh F/2 in ASW**
-
+- 
 ## Backup strategy
 Since there are currently no true backups, the present ~100 mL cultures should be treated as the backup line.
 
@@ -127,11 +127,14 @@ dv.table(
 ```
 
 ## Transfer setup
-Use the **Lab Companion BC-11B**.
+Perform all culture transfers inside the **Lab Companion BC-11B** using a **no-flame sterile workflow**.
 
 ## Materials
-- Fresh sterile F/2
-- labeled vessel for scale-up
+### For scale-up transfer
+- current F/2 cultures (~100 mL), to be preserved as **backup lines**
+- fresh sterile **[[F2 medium]]**
+- pre-labeled **`= this.scale_vessel`** for scale-up
+- gauze
 - sterile serological pipettes
 - pipette gun
 - marker / labels
@@ -145,50 +148,68 @@ const refill = p.backup_refill ?? true;
 const finalVol = p.final_volume_ml ?? 250;
 
 let steps = [
-  "Prepare fresh sterile F/2.",
-  "Pre-label all new scale-up flasks and original backup flasks.",
-  "Work inside the **BC-11B**.",
-  "Gently resuspend the source culture.",
+  "Follow [[F2 Medium recipe]] to prepare fresh sterile **1× F/2 medium** in advance." ,
+  "Label all original cultures as **backup** and all new flasks as **scale-up**.",
+  "Bring all materials into the **BC-11B** before starting.",
+  "Gently resuspend the source culture until the cells are evenly distributed.",
   "Remove the chosen inoculum volume from the original ~100 mL culture.",
-  "Transfer it into the new scale-up flask.",
-  `Add fresh F/2 to the new flask to the target final volume (**${finalVol} mL**).`
+  "Transfer that inoculum into the new scale-up flask.",
+  `Add fresh F/2 to the new flask until the final volume reaches **${finalVol} mL**.`
 ];
 
 if (refill) {
-  steps.push("Refill the original flask with the same volume of fresh F/2 that was removed.");
+  steps.push("Refill the original backup flask with the same volume of fresh F/2 that was removed.");
 }
 
 steps = steps.concat([
+  "Cover both flasks with **gauze**.",
   "Swirl both flasks gently to mix.",
   "Return both the new scale-up culture and the refilled backup culture to the incubator.",
-  "Record all volumes and notes."
+  "Record strain, date, inoculum volume, final volume, OD, color, and notes."
 ]);
 
 dv.list(steps);
 ```
 
+## Autoclaving note for fresh F/2 medium
+- Use the Tuttnauer **liquid program** for liquid medium.
+- On the 5075 ELVC, the liquid cycles are:
+  - **Program 9: Liquid A = 121°C, 20 min**
+  - **Program 10: Liquid B = 121°C, 30 min**
+- Use **covered, not sealed** bottles.
+- Use **Pyrex / borosilicate** bottles.
+- Do not fill bottles above **2/3** of bottle volume.
+- After the cycle, verify there is no pressure, open carefully, and wait before removing liquid loads.  [oai_citation:1‡5075ELVC-Manual_023210990.pdf](sediment://file_000000001cd072309f408e10abf8c8af)
+
+## Capacity note for the 5075
+According to the 5075 ELV/ELVC loading-capacity table:
+- **250 mL Erlenmeyers**: **3 × 21**
+- **500 mL Erlenmeyers**: **3 × 14**
+- **1000 mL Erlenmeyers**: **3 × 8**  [oai_citation:2‡5075ELVC-Manual_023210990.pdf](sediment://file_000000001cd072309f408e10abf8c8af)
 
 ## Mermaid workflow
 
 ```mermaid
 flowchart TD
     A[Start with current ~100 mL F/2 culture] --> B[Label original flask as backup]
-    B --> C[Prepare fresh sterile F/2]
-    C --> D[Label new scale-up flask]
-    D --> E[Resuspend source culture gently]
-    E --> F{Choose inoculum mode}
-    F -->|standard| G[Use standard inoculum ratio]
-    F -->|safer| H[Use safer inoculum ratio]
-    G --> I[Calculate inoculum from final volume]
-    H --> I
-    I --> J[Transfer inoculum to new flask]
-    J --> K[Add fresh F/2 to target final volume]
-    K --> L[Refill original backup with same removed volume]
-    L --> M[Swirl both gently]
-    M --> N[Return both to incubator]
-    N --> O[Record strain, volumes, date, OD, color]
-    O --> P[Monitor Day 0, 3-4, 7, 10-14]
-    P --> Q{OD and color improve?}
-    Q -->|Yes| R[Consider next scale-up]
-    Q -->|No| S[Hold, monitor, troubleshoot]
+    B --> C[Prepare fresh sterile 1× F/2]
+    C --> D[Label new 500 mL Erlenmeyer as scale-up]
+    D --> E[Place materials inside BC-11B]
+    E --> F[Resuspend source culture gently]
+    F --> G{Choose inoculum mode}
+    G -->|standard| H[Use standard inoculum ratio]
+    G -->|safer| I[Use safer inoculum ratio]
+    H --> J[Calculate inoculum volume]
+    I --> J
+    J --> K[Transfer inoculum to new flask]
+    K --> L[Add fresh F/2 to target final volume]
+    L --> M[Refill original backup with same removed volume]
+    M --> N[Cover both with gauze]
+    N --> O[Swirl gently]
+    O --> P[Return both to incubator]
+    P --> Q[Record strain, volumes, date, OD, color]
+    Q --> R[Monitor Day 0, 3-4, 7, 10-14]
+    R --> S{OD and color improve?}
+    S -->|Yes| T[Consider next scale-up]
+    S -->|No| U[Hold, monitor, troubleshoot]
 ```

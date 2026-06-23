@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "642c3dd69dbbe2ae",
+        "id": "a21b163bfc28248c",
         "type": "tabs",
         "children": [
           {
-            "id": "7efa506e68bb5029",
+            "id": "2c90cbae78871bf2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dino F2 Medium Scale-Up Protocol.md",
-                "mode": "preview",
+                "file": "F2 Medium recipe.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Dino F2 Medium Scale-Up Protocol"
+              "title": "F2 Medium recipe"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "f2",
+                "query": "f2 recipe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,19 +185,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "7efa506e68bb5029",
+  "active": "2c90cbae78871bf2",
   "lastOpenFiles": [
-    "F2 Medium recipe.md",
-    "Dino F2 Medium Scale-Up Protocol.md",
-    "HarrisLab/Protocols/ASW recipe.md",
-    "Xiang 2013.md",
     "Concepts/F2 medium.md",
-    "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
+    "Dino F2 Medium Scale-Up Protocol.md",
+    "Coral Pro.md",
     "Cleaning Glassware.md",
+    "Untiteled.md",
     "HarrisLab/Protocols/Symbiodiniaceae Culturing Protocols – Parkinson Lab.md",
+    "F2 Medium recipe.md",
+    "HarrisLab/Protocols/ASW recipe.md",
+    "Concepts/ASW.md",
+    "Xiang 2013.md",
+    "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
     "MP1.md",
     "Symbiodiniaceae Culturing Protocols Parkinson - Lab.md",
-    "Concepts/ASW.md",
     "HarrisLab/Protocols/IMK liquid media recipe.md",
     "Concepts/Diago's IMK.md",
     "Daigo's IMK Medium recipe.md",
@@ -211,8 +213,6 @@
     "Sources/herut2024.md",
     "Homework6StrBio.md",
     "Homeworks/Homework3_StrBio.md",
-    "Homeworks/Homework5_StrBio.md",
-    "HarrisLab/Notebook HarrisLab.md",
     "Pasted Images/Pasted image 20260416151627.png",
     "Pasted Images/Pasted image 20260526144521.png",
     "Sources Figures/xiang2013 1/image-3-x46-y607.png",
