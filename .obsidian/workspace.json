@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F2 Medium recipe.md",
+                "file": "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "F2 Medium recipe"
+              "title": "Dino F2 Medium Scale-Up Protocol"
             }
           },
           {
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cleaning Glassware.md",
+                "file": "HarrisLab/Protocols/Cleaning Glassware.md",
                 "mode": "source",
                 "source": false
               },
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "recipe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,8 +88,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -201,32 +200,34 @@
   },
   "active": "2c90cbae78871bf2",
   "lastOpenFiles": [
-    "Cleaning Glassware.md",
-    "F2 Medium recipe.md",
-    "Autoclaving Protocol.md",
-    "HarrisLab/Protocols/ASW recipe.md",
-    "Dino F2 Medium Scale-Up Protocol.md",
-    "Concepts/F2 medium.md",
-    "Coral Pro.md",
-    "Untiteled.md",
-    "HarrisLab/Protocols/Symbiodiniaceae Culturing Protocols – Parkinson Lab.md",
-    "Concepts/ASW.md",
-    "Xiang 2013.md",
-    "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
-    "MP1.md",
-    "Symbiodiniaceae Culturing Protocols Parkinson - Lab.md",
+    "HarrisLab/Protocols/Recipes/10x Daigo's IMK stock recipe.md",
+    "HarrisLab/Protocols/Recipes/Daigo's IMK Medium recipe.md",
+    "HarrisLab/Protocols/Recipes/F2 Medium recipe.md",
+    "HarrisLab/Protocols/Recipes/ASW recipe.md",
+    "HarrisLab/Notebook HarrisLab.md",
     "HarrisLab/Protocols/IMK liquid media recipe.md",
+    "HarrisLab/Protocols/TingTing's Culturing Symbiodinium protocol notes.md",
+    "HarrisLab/Protocols/Symbiodiniaceae Culturing Protocols – Parkinson Lab.md",
+    "HarrisLab/Protocols/Local DH5α Transformation Workflow.md",
+    "HarrisLab/Protocols/Glycerol Stock Preparation and Flash Freezing Workflow.md",
+    "HarrisLab/Protocols/Symbiodiniaceae Culturing Protocols Parkinson - Lab.md",
+    "HarrisLab/Protocols/Autoclaving Protocol.md",
+    "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
+    "HarrisLab/Protocols/Cleaning Glassware.md",
+    "HarrisLab/Protocols/Recipes",
+    "Sources Figures/branden1999/Untitled",
+    "Xiang 2013.md",
+    "MP1.md",
+    "Concepts/50x Daigo's IMK Stock.md",
+    "Concepts/Coral Pro.md",
+    "Untiteled.md",
+    "Concepts/ASW.md",
+    "Concepts/F2 medium.md",
+    "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
     "Concepts/Diago's IMK.md",
-    "Daigo's IMK Medium recipe.md",
     "Daigo's IMK Medium.md",
-    "50x Daigo's IMK Stock.md",
-    "10x Daigo's IMK stock recipe.md",
     "Sources/jumper2021.md",
     "HarrisLab/Protocols/TingTing's Culturing Symbiodinium Protocol.md",
-    "Papers/Marine Paper/BPPaper v1.md",
-    "Papers/Marine Paper/Cruise 2 Section.md",
-    "Sources/herut2024.md",
-    "Homework6StrBio.md",
     "Pasted Images/Pasted image 20260416151627.png",
     "Pasted Images/Pasted image 20260526144521.png",
     "Sources Figures/xiang2013 1/image-3-x46-y607.png",
@@ -249,8 +250,6 @@
     "Untitled.canvas 17-01-44-734.canvas",
     "Untitled 1.canvas 23-48-01-382.canvas",
     "Untitled.canvas 20-36-54-901.canvas",
-    "Untitled.base 20-36-54-449.base",
-    "Untitled 1.base",
     "Untitled 1.canvas"
   ]
 }
