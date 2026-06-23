@@ -2,10 +2,8 @@
 
 ## Purpose
 To clean reusable laboratory glassware using DI water and LiquiNox detergent, removing visible residues, detergent traces, and contaminants that may interfere with laboratory work.
-
 ## Scope
 This procedure applies to routine reusable glassware used in the lab, unless a specific experiment, sterile workflow, chemical contamination, or analytical method requires a separate cleaning procedure.
-
 ## Materials
 - DI water
 - LiquiNox detergent
@@ -13,14 +11,12 @@ This procedure applies to routine reusable glassware used in the lab, unless a s
 - Appropriate glassware brushes
 - Drying rack
 - Gloves and lab coat
-
 ## Procedure
 
 1. **Pre-rinse**
    - Rinse glassware with DI water to remove loose material.
    - If heavy residue is present, soak before scrubbing.
-
-2. **Prepare detergent solution**
+1. **Prepare detergent solution**
    - Prepare a dilute LiquiNox solution in DI water.
    - Use approximately **1% LiquiNox**, unless the lab has a different approved dilution.
    - Mix gently.

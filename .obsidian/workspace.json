@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HarrisLab/Protocols/ASW recipe.md",
+                "file": "Cleaning Glassware.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ASW recipe"
+              "title": "Cleaning Glassware"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "f2 recipe",
+                "query": "clea",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -202,13 +202,13 @@
   },
   "active": "b2adb3110dd3fb7d",
   "lastOpenFiles": [
+    "Autoclaving Protocol.md",
+    "HarrisLab/Protocols/ASW recipe.md",
     "F2 Medium recipe.md",
     "Dino F2 Medium Scale-Up Protocol.md",
     "Concepts/F2 medium.md",
     "Coral Pro.md",
-    "Autoclaving Protocol.md",
     "Cleaning Glassware.md",
-    "HarrisLab/Protocols/ASW recipe.md",
     "Untiteled.md",
     "HarrisLab/Protocols/Symbiodiniaceae Culturing Protocols – Parkinson Lab.md",
     "Concepts/ASW.md",
