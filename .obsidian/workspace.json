@@ -35,8 +35,7 @@
               "title": "Cleaning Glassware"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "clea",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,15 +199,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "b2adb3110dd3fb7d",
+  "active": "2c90cbae78871bf2",
   "lastOpenFiles": [
+    "Cleaning Glassware.md",
+    "F2 Medium recipe.md",
     "Autoclaving Protocol.md",
     "HarrisLab/Protocols/ASW recipe.md",
-    "F2 Medium recipe.md",
     "Dino F2 Medium Scale-Up Protocol.md",
     "Concepts/F2 medium.md",
     "Coral Pro.md",
-    "Cleaning Glassware.md",
     "Untiteled.md",
     "HarrisLab/Protocols/Symbiodiniaceae Culturing Protocols – Parkinson Lab.md",
     "Concepts/ASW.md",
