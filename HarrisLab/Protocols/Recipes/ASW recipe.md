@@ -1,5 +1,5 @@
 ---
-asw_final_volume_ml: 1347.5
+asw_final_volume_ml: 1850
 coral_pro_ratio_g_per_l: 37.1
 coral_pro_manual_reference_g_per_l: 39.5
 target_salinity_ppt: 32
