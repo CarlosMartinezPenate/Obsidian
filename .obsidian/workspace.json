@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
+                "file": "HarrisLab/Protocols/Autoclaving Protocol.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Dino F2 Medium Scale-Up Protocol"
+              "title": "Autoclaving Protocol"
             }
           },
           {
@@ -200,6 +200,7 @@
   },
   "active": "2c90cbae78871bf2",
   "lastOpenFiles": [
+    "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
     "publish-protocols.yml",
     "HarrisLab/Protocols/Recipes/10x Daigo's IMK stock recipe.md",
     "HarrisLab/Protocols/Recipes/Daigo's IMK Medium recipe.md",
@@ -213,7 +214,6 @@
     "HarrisLab/Protocols/Glycerol Stock Preparation and Flash Freezing Workflow.md",
     "HarrisLab/Protocols/Symbiodiniaceae Culturing Protocols Parkinson - Lab.md",
     "HarrisLab/Protocols/Autoclaving Protocol.md",
-    "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
     "HarrisLab/Protocols/Cleaning Glassware.md",
     "HarrisLab/Protocols/Recipes",
     "Sources Figures/branden1999/Untitled",
@@ -246,7 +246,6 @@
     "Untitled.base",
     "Untitled.canvas",
     "Sources Figures/hu2020/image-3-x386-y434.png",
-    "Homeworks",
     "Untitled.canvas 17-01-44-734.canvas",
     "Untitled 1.canvas 23-48-01-382.canvas",
     "Untitled.canvas 20-36-54-901.canvas",
