@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -117,7 +117,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -227,12 +228,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "38161bbb96042099",
+  "active": "b2adb3110dd3fb7d",
   "lastOpenFiles": [
+    "HarrisLab/Protocols/Dino Daigo's IMK Recovery Protocol.md",
     "HarrisLab/Protocols/Daigo's IMK+Glucose recipe.md",
     "HarrisLab/Protocols/Recipes/Daigos' IMK+Caseine recipe.md",
     "HarrisLab/Protocols/Recipes/Daigo's IMK+Glucose recipe.md",
-    "HarrisLab/Protocols/Dino Daigo's IMK Recovery Protocol.md",
     "HarrisLab/Protocols/Daigos' IMK+Caseine recipe.md",
     "HarrisLab/Protocols/Recipes/ASW recipe.md",
     "Concepts/F2 medium.md",
