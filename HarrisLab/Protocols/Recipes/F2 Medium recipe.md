@@ -1,8 +1,8 @@
 ---
-final_media_volume_ml: 1375
+final_media_volume_ml: 1000
 f2_stock_x: 50
 f2_stock_contains_vitamins: true
-asw_filtration_um: 0.2
+asw_filtration_um: 0.22
 ---
 
 # F/2 Medium Preparation

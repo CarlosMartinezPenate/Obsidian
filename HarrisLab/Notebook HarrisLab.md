@@ -592,3 +592,36 @@ Inspect the refilled **F/2** cultures and the **Daigo recovery cultures**, and r
 	- **cell counts**
 	- visual inspection
 - Consider refreshing or re-feeding the **Daigo recovery cultures** if volume loss continues
+----
+## **Dino project — F/2 scale-up initiation**
+
+Today I performed a microscopic evaluation of the **F/2 cultures** and verified the presence of **living cells**. Based on that check, I initiated an **F/2 scale-up** following [[Dino F2 Medium Scale-Up Protocol]].
+
+### **Purpose**
+
+Start the first F/2 scale-up step while preserving the current ~100 mL cultures as backup / maintenance lines.
+
+### **Starting point**
+
+- All five strains were in **F/2**
+- Current cultures were at approximately **100 mL**
+- Scale-up target: **250 mL final volume**
+- Scale-up vessel: **500 mL Erlenmeyer**
+- Backup strategy: keep original cultures and refill them with the removed volume of fresh F/2
+
+### **Work performed**
+
+- Verified living cells by microscopy before transfer
+- Prepared fresh sterile **1× F/2 medium**
+- Set up work inside the **BC-11B** using a no-flame sterile workflow
+- Labeled original cultures as **backup** and new flasks as **scale-up**
+- Gently resuspended each source culture before transfer
+- Initiated scale-up according to the protocol parameters in [[Dino F2 Medium Scale-Up Protocol]]
+- Covered flasks with **gauze**
+- Returned cultures to incubator at **26°C**, **12:12 light:dark**
+
+### **Notes**
+
+- This marks the start of the first F/2 scale-up round
+- The backup line for each strain was preserved
+- Next follow-up should include visual inspection, OD tracking, and notes on color / clumping / recovery after transfer
