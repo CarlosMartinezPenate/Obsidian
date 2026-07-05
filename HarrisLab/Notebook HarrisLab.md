@@ -625,3 +625,101 @@ Start the first F/2 scale-up step while preserving the current ~100 mL cultures 
 - This marks the start of the first F/2 scale-up round
 - The backup line for each strain was preserved
 - Next follow-up should include visual inspection, OD tracking, and notes on color / clumping / recovery after transfer
+----
+## **Dino project update — F/2 parent, refilled, and scale-up cultures**
+
+### **Date**
+
+2026-07-05
+
+### **Context**
+
+OD750 measurements were reviewed for the F/2 branch, including:
+
+- **P1** = original parent cultures before refill
+- **R1** = refilled parent cultures
+- **S1** = scale-up cultures started on 2026-06-25
+
+### **Summary**
+
+The **refilled parent cultures (R1)** appear to have already passed their post-refill recovery peak and are now functioning mainly as maintenance / backup lines.  
+The **scale-up cultures (S1)** have established successfully, but strain performance is uneven.
+
+### **Current interpretation by strain**
+
+#### **Strongest F/2 performer**
+
+- **SSB01**
+    
+    - strongest OD in both R1 and S1
+    - best recovery after refill
+    - best early scale-up growth
+    
+
+#### **Good / promising in F/2**
+
+- **SSA02**
+    
+    - good refill recovery
+    - scale-up established well
+    - slight drop from 2026-07-02 to 2026-07-05, so should be followed closely
+    
+
+#### **Moderate in F/2**
+
+- **SSA03**
+    
+    - moderate refill recovery
+    - scale-up established
+    - also dipped slightly between 2026-07-02 and 2026-07-05
+    
+
+#### **Weak / stressed in F/2**
+
+- **SSA01**
+    
+    - weak OD throughout
+    - poor response after refill
+    - scale-up remains nearly flat
+    - visually appears to have difficulty recovering pigmentation
+    
+- **SSE01**
+    - weak OD throughout
+    - poor refill recovery
+    - scale-up remains weak
+    - visually appears to have difficulty recovering pigmentation
+
+### **OD notes**
+
+#### **Refilled parent cultures (R1) on 2026-07-05**
+
+- SSA01_F2_R1 = 0.118
+- SSA02_F2_R1 = 0.410
+- SSA03_F2_R1 = 0.328
+- SSB01_F2_R1 = 0.627
+- SSE01_F2_R1 = 0.176
+
+#### **Scale-up cultures (S1) on 2026-07-05**
+
+- SSA01_F2_S1 = 0.019
+- SSA02_F2_S1 = 0.086
+- SSA03_F2_S1 = 0.072
+- SSB01_F2_S1 = 0.176
+- SSE01_F2_S1 = 0.024
+
+### **Current working interpretation**
+
+- **R1** should now mainly be treated as **backup / maintenance**
+- **S1** is the active **biomass-production branch**
+- most promising F/2 biomass candidates at this point:
+    1. **SSB01**
+    2. **SSA02**
+    3. **SSA03**
+
+### **Next step**
+
+Continue monitoring **S1** closely over the next timepoints before deciding:
+
+- next scale-up step
+- harvest window
+- whether SSA01 and SSE01 should remain secondary in the F/2 branch

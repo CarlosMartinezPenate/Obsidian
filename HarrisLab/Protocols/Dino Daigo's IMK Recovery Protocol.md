@@ -7,7 +7,7 @@ scale_vessel: 250 mL Erlenmeyer
 backup_refill: false
 strain_mode:
   SSA01: standard
-  SSA02: safer
+  SSA02: standard
   SSA03: standard
   SSB01: standard
   SSE01: standard
@@ -121,38 +121,50 @@ Use fresh **Daigo's IMK** as the default recovery medium for:
 - SSB01
 - SSE01
 
+Starting with [[50x Daigo's IMK Stock]] provided by Ting Ting, or with [[10x Daigo's IMK stock recipe]] if prepared locally:
+
+#### If using [[10x Daigo's IMK stock recipe]]
+1. In a sterile hood.
+2. Transfer **90 mL filtered sterilized [[ASW]]** into a **250 mL PYREX Glass Erlenmeyer Flask**, and cover with **aluminum foil**.
+3. Add **10 mL Daigo's 10× IMK Medium stock solution** to the flask; this makes **100 mL IMK**.
+
+#### If using [[50x Daigo's IMK Stock]] provided by Ting Ting
+1. In a sterile hood.
+2. Transfer **98 mL filtered sterilized [[ASW]]** into a **250 mL PYREX Glass Erlenmeyer Flask**, and cover with **aluminum foil**.
+3. Add **2 mL Daigo's 50× IMK Medium stock solution** to the flask; this makes **100 mL IMK**.
+
 ### IMK + casein hydrolysate
 Use as an optional rescue condition when a casein branch is wanted.
 
 Using [[TingTing's Culturing Symbiodinium Protocol]]
 
-1. Dissolve **0.4 g casein hydrolysate** into **90 mL ASW**, transfer to a clean **250 mL PYREX Glass Erlenmeyer Flask**, and cover with **aluminum foil**.
+1. Dissolve **0.4 g casein hydrolysate** into **98 mL ASW**, transfer to a clean **250 mL PYREX Glass Erlenmeyer Flask**, and cover with **aluminum foil**.
 2. Autoclave at **121 ºC for 30 minutes**.
 3. Let it cool to room temperature.
-4. Bring the flask and **10× Daigo's IMK Medium stock solution** to the sterile hood.
-5. Add **10 mL 10× Daigo's IMK stock**; this makes **100 mL IMK+cas medium**.
+4. Bring the flask and **50× Daigo's IMK Medium stock solution** to the sterile hood.
+5. Add **2 mL 50× Daigo's IMK stock**; this makes **100 mL IMK+cas medium**.
 
 ### IMK + glucose
 Use as an optional rescue condition when a glucose branch is wanted.
 
 Using [[TingTing's Culturing Symbiodinium Protocol]]
 
-1. Dissolve **0.5 g glucose** into **90 mL ASW**, and cover with **aluminum foil**.
+1. Dissolve **0.5 g glucose** into **98 mL ASW**, and cover with **aluminum foil**.
 2. Autoclave at **121 ºC for 30 minutes**.
 3. Let it cool to room temperature.
-4. Bring the flask and **10× Daigo's IMK Medium stock solution** to the sterile hood.
-5. Add **10 mL 10× Daigo's IMK stock**; this makes **100 mL IMK+glc medium**.
+4. Bring the flask and **50× Daigo's IMK Medium stock solution** to the sterile hood.
+5. Add **2 mL 50× Daigo's IMK stock**; this makes **100 mL IMK+glc medium**.
 
 ### IMK + casein + glucose
 Use this as a targeted rescue condition for:
 - SSA02
 
 **Working inferred recipe** based on the separate IMK+cas and IMK+glc recipes:
-1. Dissolve **0.4 g casein hydrolysate** and **0.5 g glucose** into **90 mL ASW**, transfer to a clean **250 mL PYREX Glass Erlenmeyer Flask**, and cover with **aluminum foil**.
+1. Dissolve **0.4 g casein hydrolysate** and **0.5 g glucose** into **98 mL ASW**, transfer to a clean **250 mL PYREX Glass Erlenmeyer Flask**, and cover with **aluminum foil**.
 2. Autoclave at **121 ºC for 30 minutes**.
 3. Let it cool to room temperature.
-4. Bring the flask and **10× Daigo's IMK Medium stock solution** to the sterile hood.
-5. Add **10 mL 10× Daigo's IMK stock**; this makes **100 mL IMK+cas+glc medium**.
+4. Bring the flask and **50× Daigo's IMK Medium stock solution** to the sterile hood.
+5. Add **2 mL 50× Daigo's IMK stock**; this makes **100 mL IMK+cas+glc medium**.
 
 ## Dynamic recovery medium preparation summary
 
@@ -165,10 +177,10 @@ const recoveryModes = p.recovery_mode ?? {};
 const factor = finalVol / 100;
 
 const recipeMap = {
-  "IMK":        {asw: 90 * factor, daigo10x: 10 * factor, casein_g: 0,            glucose_g: 0},
-  "IMK+cas":    {asw: 90 * factor, daigo10x: 10 * factor, casein_g: 0.4 * factor,  glucose_g: 0},
-  "IMK+glc":    {asw: 90 * factor, daigo10x: 10 * factor, casein_g: 0,            glucose_g: 0.5 * factor},
-  "IMK+cas+glc":{asw: 90 * factor, daigo10x: 10 * factor, casein_g: 0.4 * factor,  glucose_g: 0.5 * factor}
+  "IMK":         {asw: 98 * factor, daigo50x: 2 * factor, casein_g: 0,            glucose_g: 0},
+  "IMK+cas":     {asw: 98 * factor, daigo50x: 2 * factor, casein_g: 0.4 * factor, glucose_g: 0},
+  "IMK+glc":     {asw: 98 * factor, daigo50x: 2 * factor, casein_g: 0,            glucose_g: 0.5 * factor},
+  "IMK+cas+glc": {asw: 98 * factor, daigo50x: 2 * factor, casein_g: 0.4 * factor, glucose_g: 0.5 * factor}
 };
 
 dv.header(2, "Per-strain medium recipe");
@@ -182,7 +194,7 @@ let totalGlucose = 0;
 for (const [strain, medium] of Object.entries(recoveryModes)) {
   const r = recipeMap[medium] ?? recipeMap["IMK"];
   totalASW += r.asw;
-  totalDaigo += r.daigo10x;
+  totalDaigo += r.daigo50x;
   totalCasein += r.casein_g;
   totalGlucose += r.glucose_g;
 
@@ -190,14 +202,14 @@ for (const [strain, medium] of Object.entries(recoveryModes)) {
     strain,
     medium,
     `${r.asw.toFixed(1)} mL`,
-    `${r.daigo10x.toFixed(1)} mL`,
+    `${r.daigo50x.toFixed(1)} mL`,
     `${r.casein_g.toFixed(2)} g`,
     `${r.glucose_g.toFixed(2)} g`
   ]);
 }
 
 dv.table(
-  ["Strain", "Recovery medium", "ASW", "Daigo 10×", "Casein hydrolysate", "Glucose"],
+  ["Strain", "Recovery medium", "ASW", "Daigo 50×", "Casein hydrolysate", "Glucose"],
   rows
 );
 
@@ -207,7 +219,7 @@ dv.table(
   ["Reagent", "Total needed"],
   [
     ["ASW (10% safety)", `${(totalASW * 1.1).toFixed(1)} mL`],
-    ["Daigo 10× stock", `${totalDaigo.toFixed(1)} mL`],
+    ["Daigo 50× stock", `${totalDaigo.toFixed(1)} mL`],
     ["Casein hydrolysate", `${totalCasein.toFixed(2)} g`],
     ["Glucose", `${totalGlucose.toFixed(2)} g`]
   ]
