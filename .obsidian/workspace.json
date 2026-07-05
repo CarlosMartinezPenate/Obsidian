@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protocols.md",
+                "file": "HarrisLab/Notebook HarrisLab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Protocols"
+              "title": "Notebook HarrisLab"
             }
           },
           {
@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hood",
+                "query": "harris",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,7 +131,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -243,9 +244,10 @@
   },
   "active": "c907322ddd13b4ab",
   "lastOpenFiles": [
-    "HarrisLab/Notebook HarrisLab.md",
-    "Protocols.md",
+    "HarrisLab/Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
     "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
+    "Protocols.md",
+    "HarrisLab/Notebook HarrisLab.md",
     "HarrisLab/Protocols/Dino Daigo's IMK Recovery Protocol.md",
     "HarrisLab/Protocols/Recipes/ASW recipe.md",
     "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
@@ -271,7 +273,6 @@
     "HarrisLab/Protocols/Recipes",
     "Sources Figures/branden1999/Untitled",
     "Xiang 2013.md",
-    "MP1.md",
     "Pasted Images/Pasted image 20260416151627.png",
     "Pasted Images/Pasted image 20260526144521.png",
     "Sources Figures/xiang2013 1/image-3-x46-y607.png",
