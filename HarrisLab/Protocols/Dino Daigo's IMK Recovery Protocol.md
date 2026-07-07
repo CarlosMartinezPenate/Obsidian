@@ -209,7 +209,7 @@ for (const [strain, medium] of Object.entries(recoveryModes)) {
 }
 
 dv.table(
-  ["Strain", "Recovery medium", "ASW", "Daigo 50×", "Casein hydrolysate", "Glucose"],
+  ["Strain", "Medium", "ASW", "Daigo 50×", "Casein hydrolysate", "Glucose"],
   rows
 );
 

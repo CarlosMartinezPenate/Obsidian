@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HarrisLab/Protocols/Dino Daigo's IMK Recovery Protocol.md",
+                "file": "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Dino Daigo's IMK Recovery Protocol"
+              "title": "Dino Project — Receiving and Recovery Plan"
             }
           },
           {
@@ -124,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "daigo",
+                "query": "SSA01",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -258,9 +258,9 @@
   },
   "active": "99ba746661c7f823",
   "lastOpenFiles": [
-    "Concepts/Diago's IMK.md",
     "HarrisLab/Protocols/Dino Daigo's IMK Recovery Protocol.md",
     "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
+    "Concepts/Diago's IMK.md",
     "Concepts/IMK2.md",
     "HarrisLab/Protocols/Recipes/Daigo's IMK Medium recipe.md",
     "Concepts/50x Daigo's IMK Stock.md",
