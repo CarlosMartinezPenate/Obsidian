@@ -1,6 +1,6 @@
 ## Purpose
 
-Receive the incoming axenic dinoflagellate strains safely, minimize stress and contamination, and run a simple **IMK vs F/2** comparison over the first **1–2 weeks**. [[Xiang]] et al. maintained source cultures in **liquid IMK at 24–26°C and ~15 µmol photons m^-2 s^-1**. **F/2** was part of the clonal/axenic plating workflow.
+Receive the incoming axenic dinoflagellate strains safely, minimize stress and contamination, and run a simple **IMK vs F/2** comparison over the first **1–2 weeks**. [[Xiang's 2013 Dino Procedure]] et al. maintained source cultures in **liquid IMK at 24–26°C and ~15 µmol photons m^-2 s^-1**. **F/2** was part of the clonal/axenic plating workflow.
 
 ---
 ## Incoming shipment

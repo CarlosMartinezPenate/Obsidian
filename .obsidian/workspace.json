@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HarrisLab/Protocols/Recipes/F2 Medium recipe.md",
+                "file": "Xiang's 2013 Dino Procedure.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "F2 Medium recipe"
+              "title": "Xiang's 2013 Dino Procedure"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SSA01",
+                "query": "mermaid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -256,9 +256,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "99ba746661c7f823",
+  "active": "44dc565461d5a989",
   "lastOpenFiles": [
     "HarrisLab/Protocols/Dino Daigo's IMK Recovery Protocol.md",
+    "Xiang's 2013 Dino Procedure.md",
+    "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
+    "Sources/xiang2013.md",
+    "Xiang 2013.md",
+    "Papers/Marine Paper/BPPaper v1.md",
+    "HarrisLab/Protocols/Recipes/F2 Medium recipe.md",
+    "Dinocurves.md",
+    "Pasted image 20260707125836.png",
     "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
     "Concepts/Diago's IMK.md",
     "Concepts/IMK2.md",
@@ -270,20 +278,13 @@
     "HarrisLab/Protocols/IMK liquid media recipe.md",
     "HarrisLab/Protocols/Recipes/10x Daigo's IMK stock recipe.md",
     "HarrisLab/Protocols/TingTing's Culturing Symbiodinium protocol notes.md",
-    "Xiang.md",
     "HarrisLab/Protocols/Recipes/ASW recipe.md",
     "Concepts/ASW.md",
-    "Sources/xiang2013.md",
     "HarrisLab/Protocols/Symbiodiniaceae Culturing Protocols – Parkinson Lab.md",
     "Homeworks/Scientific Writing Task 4.md",
     "HarrisLab/Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
     "HarrisLab/Notebook HarrisLab.md",
-    "Papers/Marine Paper/BPPaper v1.md",
     "Protocols.md",
-    "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
-    "HarrisLab/Protocols/Recipes/F2 Medium recipe.md",
-    "Exercise 7 AlphaFold3 and Self-Evaluation Metrics.md",
-    "Concepts/F2 medium.md",
     "publish-protocols.yml",
     "HarrisLab/Protocols/Recipes",
     "Sources Figures/branden1999/Untitled",
@@ -304,7 +305,6 @@
     "HarrisLab",
     "Untitled.base",
     "Untitled.canvas",
-    "Sources Figures/hu2020/image-3-x386-y434.png",
     "Untitled.canvas 17-01-44-734.canvas",
     "Untitled 1.canvas 23-48-01-382.canvas",
     "Untitled.canvas 20-36-54-901.canvas",
