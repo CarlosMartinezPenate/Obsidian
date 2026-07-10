@@ -8,91 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c90cbae78871bf2",
+            "id": "3d4eeab2ae6453f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HarrisLab/Protocols/Recipes/Daigos' IMK+Caseine recipe - from 50x Daigo's IMK stock.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Daigos' IMK+Caseine recipe - from 50x Daigo's IMK stock"
-            }
-          },
-          {
-            "id": "99ba746661c7f823",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Dino Project — Receiving and Recovery Plan"
-            }
-          },
-          {
-            "id": "44dc565461d5a989",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Xiang's 2013 Dino Procedure.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Xiang's 2013 Dino Procedure"
-            }
-          },
-          {
-            "id": "38161bbb96042099",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Dino Project — Receiving and Recovery Plan"
-            }
-          },
-          {
-            "id": "c907322ddd13b4ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HarrisLab/Protocols/Recipes/Daigos' IMK+Caseine recipe - from 50x Daigo's IMK stock.md",
+                "file": "Exercise 7 AlphaFold3 and Self-Evaluation Metrics.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Daigos' IMK+Caseine recipe - from 50x Daigo's IMK stock"
+              "title": "Exercise 7 AlphaFold3 and Self-Evaluation Metrics"
             }
           },
           {
-            "id": "f3cf5ac01e118ad4",
+            "id": "b43812cae7d96674",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
+                "file": "Exercise 8 - Protein Complexes, Protein-Protein Interfaces and Binding Partners.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Dino Project — Receiving and Recovery Plan"
+              "title": "Exercise 8 - Protein Complexes, Protein-Protein Interfaces and Binding Partners"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -256,10 +199,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "44dc565461d5a989",
+  "active": "b43812cae7d96674",
   "lastOpenFiles": [
-    "HarrisLab/Protocols/Dino Daigo's IMK Recovery Protocol.md",
+    "Exercise 8 - Protein Complexes, Protein-Protein Interfaces and Binding Partners.md",
+    "Exercise 7 AlphaFold3 and Self-Evaluation Metrics.md",
     "Xiang's 2013 Dino Procedure.md",
+    "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
+    "HarrisLab/Protocols/Recipes/Daigos' IMK+Caseine recipe - from 50x Daigo's IMK stock.md",
+    "Hu et al. 2020 — NblA and NblB purification conditions.md",
+    "HarrisLab/Protocols/Dino Daigo's IMK Recovery Protocol.md",
     "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
     "Sources/xiang2013.md",
     "Xiang 2013.md",
@@ -267,14 +215,12 @@
     "HarrisLab/Protocols/Recipes/F2 Medium recipe.md",
     "Dinocurves.md",
     "Pasted image 20260707125836.png",
-    "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
     "Concepts/Diago's IMK.md",
     "Concepts/IMK2.md",
     "HarrisLab/Protocols/Recipes/Daigo's IMK Medium recipe.md",
     "Concepts/50x Daigo's IMK Stock.md",
     "HarrisLab/Protocols/Recipes/Daigo's IMK+Glucose recipe - from 50x Daigo's IMK stock.md",
     "Daigos' IMK + cas + glu - from 50x Daigos' IMK stock.md",
-    "HarrisLab/Protocols/Recipes/Daigos' IMK+Caseine recipe - from 50x Daigo's IMK stock.md",
     "HarrisLab/Protocols/IMK liquid media recipe.md",
     "HarrisLab/Protocols/Recipes/10x Daigo's IMK stock recipe.md",
     "HarrisLab/Protocols/TingTing's Culturing Symbiodinium protocol notes.md",
@@ -282,9 +228,6 @@
     "Concepts/ASW.md",
     "HarrisLab/Protocols/Symbiodiniaceae Culturing Protocols – Parkinson Lab.md",
     "Homeworks/Scientific Writing Task 4.md",
-    "HarrisLab/Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
-    "HarrisLab/Notebook HarrisLab.md",
-    "Protocols.md",
     "publish-protocols.yml",
     "HarrisLab/Protocols/Recipes",
     "Sources Figures/branden1999/Untitled",
