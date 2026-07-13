@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exercise 8 - Protein Complexes, Protein-Protein Interfaces and Binding Partners.md",
-                "mode": "preview",
+                "file": "HarrisLab/Notebook HarrisLab.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise 8 - Protein Complexes, Protein-Protein Interfaces and Binding Partners"
+              "title": "Notebook HarrisLab"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mermaid",
+                "query": "notebo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",

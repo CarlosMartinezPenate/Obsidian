@@ -723,3 +723,199 @@ Continue monitoring **S1** closely over the next timepoints before deciding:
 - next scale-up step
 - harvest window
 - whether SSA01 and SSE01 should remain secondary in the F/2 branch
+----
+# Dino culture update — 12.07.2026
+
+## Cultures
+F/2 cultures, comparing:
+
+- **R1** = refilled parent cultures
+- **S1** = scale-up cultures
+
+OD measured at **750 nm**.
+
+## OD results
+
+| Strain | R1 OD750 | S1 OD750 |
+|---|---:|---:|
+| SSA01 | 0.149 | 0.023 |
+| SSA02 | 0.506 | 0.133 |
+| SSA03 | 0.373 | 0.125 |
+| SSB01 | 0.710 | 0.302 |
+| SSE01 | 0.193 | 0.043 |
+
+All cultures increased compared with the previous measurement on 09.07.2026.
+
+The strongest S1 cultures by OD were:
+
+1. **SSB01**
+2. **SSA02**
+3. **SSA03**
+
+SSA01 and SSE01 remained lower, but both increased.
+
+## Macroscopic phenotype
+
+### General S1 pattern
+
+Most S1 cultures were:
+
+- strongly clumped
+- difficult to resuspend
+- rapidly settling after light agitation
+- characterized by clear supernatant and a concentrated precipitated cell layer
+
+This means OD may underestimate biomass if sampling is not fully standardized.
+
+### Most amber-colored
+
+- SSA02_F2_S1
+- SSA03_F2_S1
+- SSB01_F2_S1
+
+### Most strongly clumped
+
+- SSA02_F2_S1
+- SSA03_F2_S1
+- SSB01_F2_S1
+
+### Clearest supernatant
+
+- SSA01_F2_S1
+- SSA03_F2_S1
+
+### Most turbid supernatant
+
+- SSA01_F2_R1
+- SSA03_F2_R1
+
+## Individual culture observations
+
+### SSA01_F2_R1
+
+- turbid supernatant
+- cloudy miniature “foggy” aggregates
+
+### SSA01_F2_S1
+
+- clear supernatant
+- well-defined small flocs
+- visually looked better than the low OD suggested
+
+### SSA02_F2_R1
+
+- milky supernatant
+- light foggy clumps
+
+### SSA02_F2_S1
+
+- clear supernatant
+- strong precipitation
+- deep amber color
+- difficult to resuspend
+
+### SSA03_F2_R1
+
+- relatively clear supernatant
+- light foggy clumps
+- amber color
+
+### SSA03_F2_S1
+
+- clear supernatant
+- strong precipitation
+- large clumps
+- deep amber color
+- difficult to resuspend
+
+### SSB01_F2_R1
+
+- clear supernatant
+- clumped precipitate
+- amber color
+
+### SSB01_F2_S1
+
+- clear supernatant
+- large precipitated clumps
+- amber color
+- strongest S1 OD
+
+### SSE01_F2_R1
+
+- moderately cloudy supernatant
+- very small, pale, foggy clumps
+- little visible pigmentation
+
+### SSE01_F2_S1
+
+- clear supernatant
+- small clumped precipitate layer
+- slight amber tint
+- visually appeared to be establishing despite previously low OD
+
+## Microscopy
+
+Microscopy was performed with Huichi using:
+
+- oil immersion
+- spinning-disc microscopy
+- Cy5 / far-red filter
+- brightfield imaging
+
+The Cy5-channel signal was interpreted as **chlorophyll autofluorescence**, since no Cy5-labelled stain was added.
+
+### SSE01_F2_S1
+
+- cells were relatively easy to find
+- strong far-red chlorophyll fluorescence
+- organized, patchy or lobed fluorescence within the cells
+- fluorescence consistent with chloroplast-associated chlorophyll
+- cells appeared relatively large
+- cells looked intact and strongly pigmented
+
+### SSE01_F2_R1
+
+- cells with detectable Cy5 fluorescence were difficult to find
+- many fields showed little or no far-red signal
+- the visible material was mainly pale or foggy
+- apparent cells looked smaller than those in S1
+
+## Interpretation
+
+The SSE01 comparison suggests that bulk OD alone does not reflect culture quality.
+
+Although SSE01_R1 had a higher OD than SSE01_S1, R1 contained mostly pale, weakly fluorescent material. In contrast, S1 contained more clearly defined, strongly chlorophyll-positive cells.
+
+A possible interpretation is:
+
+- **R1** contains more suspended fine material, weakly pigmented cells, debris, or extracellular aggregates
+- **S1** contains fewer total suspended particles, but a higher proportion of intact and pigmented SSE01 cells
+
+The apparent larger size of S1 cells may indicate a difference in physiological state, cell-cycle stage, or culture condition, but this should be quantified before drawing a firm conclusion.
+
+## Main conclusion
+
+The S1 scale-up cultures are becoming established.
+
+The strongest S1 cultures are:
+
+- **SSB01**
+- **SSA02**
+- **SSA03**
+
+SSA01 and SSE01 remain weaker by OD, but visual and microscopic observations indicate that they are not failing.
+
+For SSE01 specifically, S1 appears healthier than R1 at the cellular level because the cells are easier to find, larger in appearance, and show much stronger chlorophyll autofluorescence.
+
+## Methodological note
+
+Future OD measurements should use a more standardized resuspension procedure because the S1 cultures settle rapidly and are difficult to homogenize.
+
+OD should be interpreted together with:
+
+- pigmentation
+- visible precipitated biomass
+- microscopy
+- cell abundance
+- chlorophyll fluorescence
