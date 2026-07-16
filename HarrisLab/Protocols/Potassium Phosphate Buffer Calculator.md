@@ -8,21 +8,26 @@ tags:
   - calculator
 stock_concentration_M: 1
 ---
-# **Potassium Phosphate Buffer Calculator**
 
-This calculator prepares potassium phosphate buffer from either:
+# Potassium Phosphate Buffer Calculator
+
+This calculator prepares potassium phosphate buffer using either:
 
 1. **1 M phosphate stocks**
-    
-    - 1 M KH₂PO₄
-    - 1 M K₂HPO₄
-    
-2. **Dry powders**
-    - KH₂PO₄
-    - anhydrous K₂HPO₄
+   - 1 M KH₂PO₄
+   - 1 M K₂HPO₄
 
-[!warning]  
-The calculated ratio is a starting formulation. Measure the final pH after all components are dissolved and before bringing the solution to its final volume.
+2. **Dry phosphate salts**
+   - KH₂PO₄
+   - anhydrous K₂HPO₄
+
+Optional components:
+
+- NaCl, from powder or stock solution
+- Imidazole, from powder or stock solution
+
+> [!warning]
+> The calculated phosphate ratio is a starting formulation. Temperature, phosphate concentration, NaCl, and especially imidazole can alter the measured pH. Measure the pH after all components have been added, then bring the solution to its final volume.
 
 ```dataviewjs
 const container = dv.el("div", "");
@@ -30,7 +35,7 @@ const container = dv.el("div", "");
 container.innerHTML = `
 <style>
 .kphos-calculator {
-    max-width: 700px;
+    max-width: 760px;
     padding: 18px;
     border: 1px solid var(--background-modifier-border);
     border-radius: 10px;
@@ -41,9 +46,15 @@ container.innerHTML = `
     margin-top: 0;
 }
 
+.kphos-section {
+    margin-top: 18px;
+    padding-top: 14px;
+    border-top: 1px solid var(--background-modifier-border);
+}
+
 .kphos-grid {
     display: grid;
-    grid-template-columns: minmax(220px, 1fr) minmax(150px, 190px);
+    grid-template-columns: minmax(240px, 1fr) minmax(160px, 210px);
     gap: 12px;
     align-items: center;
 }
@@ -55,7 +66,7 @@ container.innerHTML = `
 }
 
 .kphos-button {
-    margin-top: 16px;
+    margin-top: 18px;
     padding: 8px 18px;
     cursor: pointer;
 }
@@ -88,24 +99,26 @@ container.innerHTML = `
     background: var(--background-modifier-error);
     color: var(--text-error);
 }
+
+.kphos-note {
+    margin-top: 12px;
+    padding: 10px;
+    border-left: 4px solid var(--interactive-accent);
+    background: var(--background-primary);
+}
 </style>
 
 <div class="kphos-calculator">
-    <h3>Buffer settings</h3>
+
+    <h3>Final buffer</h3>
 
     <div class="kphos-grid">
-
-        <label for="kphos-mode">Preparation method</label>
-        <select id="kphos-mode">
-            <option value="stocks" selected>From 1 M stocks</option>
-            <option value="powder">From powders</option>
-        </select>
 
         <label for="kphos-volume">Final buffer volume</label>
         <input
             id="kphos-volume"
             type="number"
-            min="0.1"
+            min="0.001"
             step="any"
             value="1000"
         >
@@ -116,35 +129,157 @@ container.innerHTML = `
             <option value="L">L</option>
         </select>
 
-        <label for="kphos-concentration">
-            Final phosphate concentration
-        </label>
-        <input
-            id="kphos-concentration"
-            type="number"
-            min="0.1"
-            step="any"
-            value="100"
-        >
+    </div>
 
-        <label for="kphos-concentration-unit">
-            Concentration unit
-        </label>
-        <select id="kphos-concentration-unit">
-            <option value="mM" selected>mM</option>
-            <option value="M">M</option>
-        </select>
+    <div class="kphos-section">
+        <h3>Potassium phosphate</h3>
 
-        <label for="kphos-ph">Target pH</label>
-        <input
-            id="kphos-ph"
-            type="number"
-            min="6.6"
-            max="7.6"
-            step="0.01"
-            value="7.20"
-        >
+        <div class="kphos-grid">
 
+            <label for="kphos-mode">Phosphate preparation method</label>
+            <select id="kphos-mode">
+                <option value="stocks" selected>From 1 M stocks</option>
+                <option value="powder">From powders</option>
+            </select>
+
+            <label for="kphos-concentration">
+                Final phosphate concentration
+            </label>
+            <input
+                id="kphos-concentration"
+                type="number"
+                min="0.001"
+                step="any"
+                value="100"
+            >
+
+            <label for="kphos-concentration-unit">
+                Phosphate concentration unit
+            </label>
+            <select id="kphos-concentration-unit">
+                <option value="mM" selected>mM</option>
+                <option value="M">M</option>
+            </select>
+
+            <label for="kphos-ph">Target pH</label>
+            <input
+                id="kphos-ph"
+                type="number"
+                min="6.6"
+                max="7.6"
+                step="0.01"
+                value="7.20"
+            >
+
+        </div>
+    </div>
+
+    <div class="kphos-section">
+        <h3>NaCl</h3>
+
+        <div class="kphos-grid">
+
+            <label for="nacl-mode">NaCl preparation method</label>
+            <select id="nacl-mode">
+                <option value="none">Do not add NaCl</option>
+                <option value="powder" selected>From powder</option>
+                <option value="stock">From stock solution</option>
+            </select>
+
+            <label for="nacl-concentration">
+                Final NaCl concentration
+            </label>
+            <input
+                id="nacl-concentration"
+                type="number"
+                min="0"
+                step="any"
+                value="100"
+            >
+
+            <label for="nacl-concentration-unit">
+                NaCl concentration unit
+            </label>
+            <select id="nacl-concentration-unit">
+                <option value="mM" selected>mM</option>
+                <option value="M">M</option>
+            </select>
+
+            <label for="nacl-stock-concentration">
+                NaCl stock concentration
+            </label>
+            <input
+                id="nacl-stock-concentration"
+                type="number"
+                min="0.001"
+                step="any"
+                value="5"
+            >
+
+            <label for="nacl-stock-unit">
+                NaCl stock unit
+            </label>
+            <select id="nacl-stock-unit">
+                <option value="M" selected>M</option>
+                <option value="mM">mM</option>
+            </select>
+
+        </div>
+    </div>
+
+    <div class="kphos-section">
+        <h3>Imidazole</h3>
+
+        <div class="kphos-grid">
+
+            <label for="imidazole-mode">
+                Imidazole preparation method
+            </label>
+            <select id="imidazole-mode">
+                <option value="none" selected>Do not add imidazole</option>
+                <option value="powder">From powder</option>
+                <option value="stock">From stock solution</option>
+            </select>
+
+            <label for="imidazole-concentration">
+                Final imidazole concentration
+            </label>
+            <input
+                id="imidazole-concentration"
+                type="number"
+                min="0"
+                step="any"
+                value="500"
+            >
+
+            <label for="imidazole-concentration-unit">
+                Imidazole concentration unit
+            </label>
+            <select id="imidazole-concentration-unit">
+                <option value="mM" selected>mM</option>
+                <option value="M">M</option>
+            </select>
+
+            <label for="imidazole-stock-concentration">
+                Imidazole stock concentration
+            </label>
+            <input
+                id="imidazole-stock-concentration"
+                type="number"
+                min="0.001"
+                step="any"
+                value="5"
+            >
+
+            <label for="imidazole-stock-unit">
+                Imidazole stock unit
+            </label>
+            <select id="imidazole-stock-unit">
+                <option value="M" selected>M</option>
+                <option value="mM">mM</option>
+            </select>
+
+        </div>
     </div>
 
     <button id="kphos-calculate" class="kphos-button">
@@ -171,8 +306,32 @@ const ratioTable = [
 
 const molecularWeights = {
     kh2po4: 136.09,
-    k2hpo4: 174.18
+    k2hpo4: 174.18,
+    nacl: 58.44,
+    imidazole: 68.08
 };
+
+function getNumber(selector, label, allowZero = false) {
+    const value = Number(
+        container.querySelector(selector).value
+    );
+
+    if (!Number.isFinite(value)) {
+        throw new Error(`${label} must be a valid number.`);
+    }
+
+    if (allowZero ? value < 0 : value <= 0) {
+        throw new Error(
+            `${label} must be ${allowZero ? "zero or greater" : "greater than zero"}.`
+        );
+    }
+
+    return value;
+}
+
+function toMolar(value, unit) {
+    return unit === "M" ? value : value / 1000;
+}
 
 function interpolateRatios(targetPH) {
     const minimumPH = ratioTable[0].pH;
@@ -254,54 +413,149 @@ function formatMass(massG) {
     return `${(massG * 1000000).toFixed(1)} µg`;
 }
 
+function formatConcentration(concentrationM) {
+    if (concentrationM >= 1) {
+        return `${concentrationM.toFixed(3)} M`;
+    }
+
+    return `${(concentrationM * 1000).toFixed(2)} mM`;
+}
+
+function calculateAdditive({
+    name,
+    mode,
+    finalConcentrationM,
+    finalVolumeL,
+    stockConcentrationM,
+    molecularWeight
+}) {
+    if (mode === "none") {
+        return {
+            name,
+            mode,
+            finalConcentrationM: 0,
+            moles: 0,
+            massG: 0,
+            stockVolumeML: 0,
+            row: "",
+            instruction: ""
+        };
+    }
+
+    if (finalConcentrationM <= 0) {
+        throw new Error(
+            `${name} concentration must be greater than zero when ${name} is enabled.`
+        );
+    }
+
+    const moles =
+        finalConcentrationM * finalVolumeL;
+
+    if (mode === "powder") {
+        const massG =
+            moles * molecularWeight;
+
+        return {
+            name,
+            mode,
+            finalConcentrationM,
+            moles,
+            massG,
+            stockVolumeML: 0,
+
+            row: `
+                <tr>
+                    <td>
+                        ${name} powder<br>
+                        <small>MW ${molecularWeight} g/mol</small>
+                    </td>
+                    <td>
+                        <strong>${formatMass(massG)}</strong>
+                    </td>
+                </tr>
+            `,
+
+            instruction: `
+                <li>
+                    Add
+                    <strong>${formatMass(massG)}</strong>
+                    of ${name}.
+                </li>
+            `
+        };
+    }
+
+    if (mode === "stock") {
+        if (
+            !Number.isFinite(stockConcentrationM) ||
+            stockConcentrationM <= 0
+        ) {
+            throw new Error(
+                `${name} stock concentration must be greater than zero.`
+            );
+        }
+
+        if (finalConcentrationM > stockConcentrationM) {
+            throw new Error(
+                `The final ${name} concentration cannot exceed its stock concentration.`
+            );
+        }
+
+        const stockVolumeL =
+            moles / stockConcentrationM;
+
+        const stockVolumeML =
+            stockVolumeL * 1000;
+
+        return {
+            name,
+            mode,
+            finalConcentrationM,
+            moles,
+            massG: 0,
+            stockVolumeML,
+
+            row: `
+                <tr>
+                    <td>
+                        ${formatConcentration(stockConcentrationM)}
+                        ${name} stock
+                    </td>
+                    <td>
+                        <strong>${formatVolume(stockVolumeML)}</strong>
+                    </td>
+                </tr>
+            `,
+
+            instruction: `
+                <li>
+                    Add
+                    <strong>${formatVolume(stockVolumeML)}</strong>
+                    of ${formatConcentration(stockConcentrationM)}
+                    ${name} stock.
+                </li>
+            `
+        };
+    }
+
+    throw new Error(`Unknown preparation method for ${name}.`);
+}
+
 function calculate() {
-    const output = container.querySelector("#kphos-output");
+    const output =
+        container.querySelector("#kphos-output");
 
     try {
-        const mode =
-            container.querySelector("#kphos-mode").value;
-
-        const enteredVolume = Number(
-            container.querySelector("#kphos-volume").value
-        );
+        const enteredVolume =
+            getNumber(
+                "#kphos-volume",
+                "Final volume"
+            );
 
         const volumeUnit =
-            container.querySelector("#kphos-volume-unit").value;
-
-        const enteredConcentration = Number(
-            container.querySelector("#kphos-concentration").value
-        );
-
-        const concentrationUnit =
             container.querySelector(
-                "#kphos-concentration-unit"
+                "#kphos-volume-unit"
             ).value;
-
-        const targetPH = Number(
-            container.querySelector("#kphos-ph").value
-        );
-
-        if (
-            !Number.isFinite(enteredVolume) ||
-            enteredVolume <= 0
-        ) {
-            throw new Error(
-                "Enter a final volume greater than zero."
-            );
-        }
-
-        if (
-            !Number.isFinite(enteredConcentration) ||
-            enteredConcentration <= 0
-        ) {
-            throw new Error(
-                "Enter a phosphate concentration greater than zero."
-            );
-        }
-
-        if (!Number.isFinite(targetPH)) {
-            throw new Error("Enter a valid target pH.");
-        }
 
         const finalVolumeML =
             volumeUnit === "L"
@@ -311,24 +565,43 @@ function calculate() {
         const finalVolumeL =
             finalVolumeML / 1000;
 
-        const finalConcentrationM =
-            concentrationUnit === "M"
-                ? enteredConcentration
-                : enteredConcentration / 1000;
+        const phosphateMode =
+            container.querySelector("#kphos-mode").value;
+
+        const phosphateEntered =
+            getNumber(
+                "#kphos-concentration",
+                "Phosphate concentration"
+            );
+
+        const phosphateUnit =
+            container.querySelector(
+                "#kphos-concentration-unit"
+            ).value;
+
+        const finalPhosphateM =
+            toMolar(phosphateEntered, phosphateUnit);
+
+        const targetPH =
+            getNumber(
+                "#kphos-ph",
+                "Target pH"
+            );
 
         if (
-            mode === "stocks" &&
-            finalConcentrationM > 1
+            phosphateMode === "stocks" &&
+            finalPhosphateM > 1
         ) {
             throw new Error(
-                "A final concentration above 1 M cannot be prepared from 1 M stocks."
+                "A final phosphate concentration above 1 M cannot be prepared from 1 M phosphate stocks."
             );
         }
 
-        const ratios = interpolateRatios(targetPH);
+        const ratios =
+            interpolateRatios(targetPH);
 
         const totalPhosphateMoles =
-            finalConcentrationM * finalVolumeL;
+            finalPhosphateM * finalVolumeL;
 
         const acidMoles =
             totalPhosphateMoles * ratios.acid;
@@ -336,219 +609,288 @@ function calculate() {
         const baseMoles =
             totalPhosphateMoles * ratios.base;
 
-        const concentrationDisplay =
-            finalConcentrationM >= 1
-                ? `${finalConcentrationM.toFixed(3)} M`
-                : `${(finalConcentrationM * 1000).toFixed(2)} mM`;
+        const naclMode =
+            container.querySelector("#nacl-mode").value;
 
-        let methodResults = "";
+        const naclEntered =
+            getNumber(
+                "#nacl-concentration",
+                "NaCl concentration",
+                true
+            );
 
-        if (mode === "stocks") {
+        const naclUnit =
+            container.querySelector(
+                "#nacl-concentration-unit"
+            ).value;
+
+        const finalNaClM =
+            naclMode === "none"
+                ? 0
+                : toMolar(naclEntered, naclUnit);
+
+        const naclStockEntered =
+            getNumber(
+                "#nacl-stock-concentration",
+                "NaCl stock concentration"
+            );
+
+        const naclStockUnit =
+            container.querySelector(
+                "#nacl-stock-unit"
+            ).value;
+
+        const naclStockM =
+            toMolar(
+                naclStockEntered,
+                naclStockUnit
+            );
+
+        const imidazoleMode =
+            container.querySelector(
+                "#imidazole-mode"
+            ).value;
+
+        const imidazoleEntered =
+            getNumber(
+                "#imidazole-concentration",
+                "Imidazole concentration",
+                true
+            );
+
+        const imidazoleUnit =
+            container.querySelector(
+                "#imidazole-concentration-unit"
+            ).value;
+
+        const finalImidazoleM =
+            imidazoleMode === "none"
+                ? 0
+                : toMolar(
+                    imidazoleEntered,
+                    imidazoleUnit
+                );
+
+        const imidazoleStockEntered =
+            getNumber(
+                "#imidazole-stock-concentration",
+                "Imidazole stock concentration"
+            );
+
+        const imidazoleStockUnit =
+            container.querySelector(
+                "#imidazole-stock-unit"
+            ).value;
+
+        const imidazoleStockM =
+            toMolar(
+                imidazoleStockEntered,
+                imidazoleStockUnit
+            );
+
+        const naclResult =
+            calculateAdditive({
+                name: "NaCl",
+                mode: naclMode,
+                finalConcentrationM: finalNaClM,
+                finalVolumeL,
+                stockConcentrationM: naclStockM,
+                molecularWeight: molecularWeights.nacl
+            });
+
+        const imidazoleResult =
+            calculateAdditive({
+                name: "imidazole",
+                mode: imidazoleMode,
+                finalConcentrationM: finalImidazoleM,
+                finalVolumeL,
+                stockConcentrationM: imidazoleStockM,
+                molecularWeight: molecularWeights.imidazole
+            });
+
+        let phosphateRows = "";
+        let phosphateInstructions = "";
+        let phosphateLiquidVolumeML = 0;
+
+        if (phosphateMode === "stocks") {
             const acidStockML =
                 acidMoles * 1000;
 
             const baseStockML =
                 baseMoles * 1000;
 
-            const totalStockML =
+            phosphateLiquidVolumeML =
                 acidStockML + baseStockML;
 
-            const maximumWaterML =
-                finalVolumeML - totalStockML;
+            phosphateRows = `
+                <tr>
+                    <td>
+                        1 M KH₂PO₄<br>
+                        <small>Monobasic stock</small>
+                    </td>
+                    <td>
+                        <strong>${formatVolume(acidStockML)}</strong>
+                    </td>
+                </tr>
 
-            methodResults = `
+                <tr>
+                    <td>
+                        1 M K₂HPO₄<br>
+                        <small>Dibasic stock</small>
+                    </td>
+                    <td>
+                        <strong>${formatVolume(baseStockML)}</strong>
+                    </td>
+                </tr>
+            `;
+
+            phosphateInstructions = `
+                <li>
+                    Add
+                    <strong>${formatVolume(acidStockML)}</strong>
+                    of 1 M KH₂PO₄.
+                </li>
+
+                <li>
+                    Add
+                    <strong>${formatVolume(baseStockML)}</strong>
+                    of 1 M K₂HPO₄.
+                </li>
+            `;
+        }
+
+        if (phosphateMode === "powder") {
+            const acidMassG =
+                acidMoles *
+                molecularWeights.kh2po4;
+
+            const baseMassG =
+                baseMoles *
+                molecularWeights.k2hpo4;
+
+            phosphateRows = `
+                <tr>
+                    <td>
+                        KH₂PO₄ powder<br>
+                        <small>
+                            MW ${molecularWeights.kh2po4} g/mol
+                        </small>
+                    </td>
+                    <td>
+                        <strong>${formatMass(acidMassG)}</strong>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        K₂HPO₄ powder<br>
+                        <small>
+                            Anhydrous; MW
+                            ${molecularWeights.k2hpo4} g/mol
+                        </small>
+                    </td>
+                    <td>
+                        <strong>${formatMass(baseMassG)}</strong>
+                    </td>
+                </tr>
+            `;
+
+            phosphateInstructions = `
+                <li>
+                    Add
+                    <strong>${formatMass(acidMassG)}</strong>
+                    of KH₂PO₄.
+                </li>
+
+                <li>
+                    Add
+                    <strong>${formatMass(baseMassG)}</strong>
+                    of anhydrous K₂HPO₄.
+                </li>
+            `;
+        }
+
+        const totalLiquidStockML =
+            phosphateLiquidVolumeML +
+            naclResult.stockVolumeML +
+            imidazoleResult.stockVolumeML;
+
+        if (totalLiquidStockML > finalVolumeML) {
+            throw new Error(
+                `The required liquid stocks total ${formatVolume(totalLiquidStockML)}, which exceeds the final volume of ${formatVolume(finalVolumeML)}. Use more concentrated stocks or prepare one or more components from powder.`
+            );
+        }
+
+        const approximateWaterCapacityML =
+            finalVolumeML - totalLiquidStockML;
+
+        const targetParts = [
+            `${formatConcentration(finalPhosphateM)} potassium phosphate`,
+            `pH ${targetPH.toFixed(2)}`
+        ];
+
+        if (naclMode !== "none") {
+            targetParts.push(
+                `${formatConcentration(finalNaClM)} NaCl`
+            );
+        }
+
+        if (imidazoleMode !== "none") {
+            targetParts.push(
+                `${formatConcentration(finalImidazoleM)} imidazole`
+            );
+        }
+
+        const imidazoleWarning =
+            imidazoleMode !== "none"
+                ? `
+                    <div class="kphos-note">
+                        <strong>Imidazole and pH:</strong>
+                        imidazole can substantially change the measured
+                        pH. Add it before the final pH measurement and
+                        before bringing the buffer to final volume.
+                    </div>
+                `
+                : "";
+
+        output.innerHTML = `
+            <div class="kphos-result">
+
+                <h3>Preparation result</h3>
+
+                <p>
+                    <strong>Target buffer:</strong><br>
+                    ${targetParts.join("<br>")}<br>
+                    Final volume:
+                    ${formatVolume(finalVolumeML)}
+                </p>
+
                 <table>
                     <tr>
                         <th>Component</th>
                         <th>Required amount</th>
                     </tr>
 
+                    ${phosphateRows}
+                    ${naclResult.row}
+                    ${imidazoleResult.row}
+
                     <tr>
+                        <td>Total liquid stock volume</td>
                         <td>
-                            1 M KH₂PO₄<br>
-                            <small>Monobasic stock</small>
-                        </td>
-                        <td>
-                            <strong>
-                                ${formatVolume(acidStockML)}
-                            </strong>
+                            ${formatVolume(totalLiquidStockML)}
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            1 M K₂HPO₄<br>
-                            <small>Dibasic stock</small>
+                            Approximate remaining volume for water
                         </td>
                         <td>
-                            <strong>
-                                ${formatVolume(baseStockML)}
-                            </strong>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>Total stock volume</td>
-                        <td>${formatVolume(totalStockML)}</td>
-                    </tr>
-                </table>
-
-                <h4>Preparation</h4>
-
-                <ol>
-                    <li>
-                        Add approximately 70–80% of the final
-                        water volume to a clean vessel.
-                    </li>
-
-                    <li>
-                        Add
-                        <strong>${formatVolume(acidStockML)}</strong>
-                        of 1 M KH₂PO₄.
-                    </li>
-
-                    <li>
-                        Add
-                        <strong>${formatVolume(baseStockML)}</strong>
-                        of 1 M K₂HPO₄.
-                    </li>
-
-                    <li>
-                        Add any additional buffer components.
-                    </li>
-
-                    <li>
-                        Mix completely and measure the pH.
-                    </li>
-
-                    <li>
-                        Fine-adjust with small amounts of the
-                        phosphate stocks if required.
-                    </li>
-
-                    <li>
-                        Bring to a final volume of
-                        <strong>${formatVolume(finalVolumeML)}</strong>.
-                    </li>
-                </ol>
-
-                <p>
-                    The theoretical maximum amount of water is
-                    ${formatVolume(maximumWaterML)}, but do not add
-                    this entire amount at the beginning.
-                </p>
-            `;
-        }
-
-        if (mode === "powder") {
-            const acidMassG =
-                acidMoles * molecularWeights.kh2po4;
-
-            const baseMassG =
-                baseMoles * molecularWeights.k2hpo4;
-
-            methodResults = `
-                <table>
-                    <tr>
-                        <th>Compound</th>
-                        <th>Required mass</th>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            KH₂PO₄<br>
-                            <small>
-                                MW ${molecularWeights.kh2po4} g/mol
-                            </small>
-                        </td>
-                        <td>
-                            <strong>
-                                ${formatMass(acidMassG)}
-                            </strong>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            K₂HPO₄<br>
-                            <small>
-                                Anhydrous; MW
-                                ${molecularWeights.k2hpo4} g/mol
-                            </small>
-                        </td>
-                        <td>
-                            <strong>
-                                ${formatMass(baseMassG)}
-                            </strong>
+                            ${formatVolume(approximateWaterCapacityML)}
                         </td>
                     </tr>
                 </table>
-
-                <h4>Preparation</h4>
-
-                <ol>
-                    <li>
-                        Add approximately 70–80% of the final
-                        water volume to a clean vessel.
-                    </li>
-
-                    <li>
-                        Weigh
-                        <strong>${formatMass(acidMassG)}</strong>
-                        of KH₂PO₄.
-                    </li>
-
-                    <li>
-                        Weigh
-                        <strong>${formatMass(baseMassG)}</strong>
-                        of anhydrous K₂HPO₄.
-                    </li>
-
-                    <li>
-                        Add both powders to the water.
-                    </li>
-
-                    <li>
-                        Mix until completely dissolved.
-                    </li>
-
-                    <li>
-                        Add any additional buffer components.
-                    </li>
-
-                    <li>
-                        Measure the pH and adjust if required.
-                    </li>
-
-                    <li>
-                        Bring to a final volume of
-                        <strong>${formatVolume(finalVolumeML)}</strong>.
-                    </li>
-                </ol>
-
-                <p>
-                    <strong>Important:</strong>
-                    this calculation assumes anhydrous K₂HPO₄.
-                    Check the reagent bottle. A hydrated form has a
-                    different molecular weight and requires a
-                    different mass.
-                </p>
-            `;
-        }
-
-        output.innerHTML = `
-            <div class="kphos-result">
-                <h3>Preparation result</h3>
-
-                <p>
-                    <strong>Target buffer:</strong><br>
-                    ${concentrationDisplay} potassium phosphate,
-                    pH ${targetPH.toFixed(2)}<br>
-                    Final volume:
-                    ${formatVolume(finalVolumeML)}
-                </p>
-
-                ${methodResults}
 
                 <h4>Phosphate proportions</h4>
 
@@ -568,15 +910,76 @@ function calculate() {
                 ${
                     ratios.interpolated
                         ? `
-                        <p>
-                            <em>
-                                The ratio was linearly interpolated
-                                between adjacent reference pH values.
-                            </em>
-                        </p>
+                            <p>
+                                <em>
+                                    The phosphate ratio was linearly
+                                    interpolated between adjacent
+                                    reference pH values.
+                                </em>
+                            </p>
                         `
                         : ""
                 }
+
+                <h4>Preparation procedure</h4>
+
+                <ol>
+                    <li>
+                        Add approximately 60–70% of the final
+                        volume as ultrapure water.
+                    </li>
+
+                    ${phosphateInstructions}
+                    ${naclResult.instruction}
+                    ${imidazoleResult.instruction}
+
+                    <li>
+                        Mix until all components are completely
+                        dissolved.
+                    </li>
+
+                    <li>
+                        Measure the pH at the intended working
+                        temperature.
+                    </li>
+
+                    <li>
+                        Adjust the pH carefully if required.
+                    </li>
+
+                    <li>
+                        Bring the solution to a final volume of
+                        <strong>${formatVolume(finalVolumeML)}</strong>.
+                    </li>
+
+                    <li>
+                        Mix again and confirm the final pH.
+                    </li>
+
+                    <li>
+                        Filter-sterilize or store as required by
+                        the experimental protocol.
+                    </li>
+                </ol>
+
+                <p>
+                    Do not add
+                    ${formatVolume(approximateWaterCapacityML)}
+                    of water directly. This is only the approximate
+                    volume remaining after liquid stocks. Begin below
+                    the final volume and bring to volume only after
+                    pH adjustment.
+                </p>
+
+                ${imidazoleWarning}
+
+                <div class="kphos-note">
+                    <strong>Salt forms:</strong>
+                    phosphate powder calculations assume anhydrous
+                    KH₂PO₄ and anhydrous K₂HPO₄. Check the reagent
+                    labels before weighing.
+                </div>
+
             </div>
         `;
     } catch (error) {
@@ -598,23 +1001,25 @@ calculate();
 
 ## Calculation basis
 
+### Total phosphate
+
 The required total amount of phosphate is:
 
 $$
 n_{\mathrm{phosphate}}
 =
-C_{\mathrm{final}}
+C_{\mathrm{phosphate}}
 \times
 V_{\mathrm{final}}
 $$
 
 where:
 
-- $n_{\mathrm{phosphate}}$ is the total number of moles of phosphate
-- $C_{\mathrm{final}}$ is the final phosphate concentration
+- $n_{\mathrm{phosphate}}$ is the total amount of phosphate in moles
+- $C_{\mathrm{phosphate}}$ is the final phosphate concentration
 - $V_{\mathrm{final}}$ is the final buffer volume
 
-The calculator divides the total phosphate between monobasic and dibasic phosphate:
+The total phosphate is divided between monobasic and dibasic phosphate:
 
 $$
 n_{\mathrm{KH_2PO_4}}
@@ -642,9 +1047,29 @@ f_{\mathrm{base}}
 1
 $$
 
-### Preparation from 1 M stocks
+### Phosphate from 1 M stocks
 
-For a stock concentration of 1 M:
+For each phosphate stock:
+
+$$
+V_{\mathrm{stock}}
+=
+\frac{
+n_{\mathrm{component}}
+}{
+C_{\mathrm{stock}}
+}
+$$
+
+For this calculator:
+
+$$
+C_{\mathrm{stock}}
+=
+1\ \mathrm{mol\,L^{-1}}
+$$
+
+Therefore:
 
 $$
 V_{\mathrm{KH_2PO_4}}
@@ -666,19 +1091,19 @@ n_{\mathrm{K_2HPO_4}}
 }
 $$
 
-The total stock volume is:
+### Phosphate from powders
+
+The required mass is:
 
 $$
-V_{\mathrm{stocks}}
+m
 =
-V_{\mathrm{KH_2PO_4}}
-+
-V_{\mathrm{K_2HPO_4}}
+n
+\times
+M_{\mathrm{W}}
 $$
 
-### Preparation from powders
-
-For preparation directly from powder:
+Therefore:
 
 $$
 m_{\mathrm{KH_2PO_4}}
@@ -695,3 +1120,90 @@ n_{\mathrm{K_2HPO_4}}
 \times
 174.18\ \mathrm{g\,mol^{-1}}
 $$
+
+### NaCl
+
+The required amount of NaCl is:
+
+$$
+n_{\mathrm{NaCl}}
+=
+C_{\mathrm{NaCl}}
+\times
+V_{\mathrm{final}}
+$$
+
+When using powder:
+
+$$
+m_{\mathrm{NaCl}}
+=
+n_{\mathrm{NaCl}}
+\times
+58.44\ \mathrm{g\,mol^{-1}}
+$$
+
+When using a stock solution:
+
+$$
+V_{\mathrm{NaCl\ stock}}
+=
+\frac{
+C_{\mathrm{NaCl,final}}
+\times
+V_{\mathrm{final}}
+}{
+C_{\mathrm{NaCl,stock}}
+}
+$$
+
+### Imidazole
+
+The required amount of imidazole is:
+
+$$
+n_{\mathrm{imidazole}}
+=
+C_{\mathrm{imidazole}}
+\times
+V_{\mathrm{final}}
+$$
+
+When using powder:
+
+$$
+m_{\mathrm{imidazole}}
+=
+n_{\mathrm{imidazole}}
+\times
+68.08\ \mathrm{g\,mol^{-1}}
+$$
+
+When using a stock solution:
+
+$$
+V_{\mathrm{imidazole\ stock}}
+=
+\frac{
+C_{\mathrm{imidazole,final}}
+\times
+V_{\mathrm{final}}
+}{
+C_{\mathrm{imidazole,stock}}
+}
+$$
+
+## Molecular weights
+
+| Compound | Assumed form | Molecular weight |
+|---|---|---:|
+| KH₂PO₄ | anhydrous | 136.09 g/mol |
+| K₂HPO₄ | anhydrous | 174.18 g/mol |
+| NaCl | anhydrous | 58.44 g/mol |
+| Imidazole | free base | 68.08 g/mol |
+
+> [!important]
+> This calculator assumes imidazole free base, not imidazole hydrochloride. It also assumes anhydrous K₂HPO₄. Confirm the compound name, formula, hydration state, and molecular weight on each reagent bottle.
+
+> [!note]
+> Imidazole should be added before final pH adjustment. Do not prepare the phosphate solution at the target pH, add concentrated imidazole afterward, and assume that the pH remains unchanged.
