@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Potassium Phosphate Buffer Calculator.md",
+                "file": "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
                 "mode": "source",
                 "source": false
               },
@@ -117,8 +117,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -200,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Potassium Phosphate Buffer Calculator.md",
+                "file": "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -228,9 +227,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "cdd1bdbf8e3ef450",
+  "active": "52857c9a69c469fc",
   "lastOpenFiles": [
-    "Potassium Phosphate Buffer Calculator.md",
+    "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
     "Untitled.md",
     "Hu et al. 2020 — NblA and NblB purification conditions.md",
     "Sources/supasri2021.md",
