@@ -1207,3 +1207,8 @@ $$
 
 > [!note]
 > Imidazole should be added before final pH adjustment. Do not prepare the phosphate solution at the target pH, add concentrated imidazole afterward, and assume that the pH remains unchanged.
+
+For NblA/NblB:
+
+Isolation Buffer: 20mM KPhos + 0.5M NaCl
+Elution Buffer: 20mM KPhos + 0.5M NaCl+ 0.5M IMI

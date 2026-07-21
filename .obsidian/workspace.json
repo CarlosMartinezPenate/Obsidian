@@ -55,16 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
+                "file": "Concepts/pLDDT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Potassium Phosphate Buffer Calculator"
+              "title": "pLDDT"
+            }
+          },
+          {
+            "id": "5d08bb01c657ff83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cph1-rcp1 pres.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cph1-rcp1 pres"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -96,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pld",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +131,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,13 +214,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
+                "file": "cph1-rcp1 pres.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Potassium Phosphate Buffer Calculator"
+              "title": "Outline of cph1-rcp1 pres"
             }
           }
         ],
@@ -227,8 +242,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "cdd1bdbf8e3ef450",
+  "active": "5d08bb01c657ff83",
   "lastOpenFiles": [
+    "Concepts/pLDDT.md",
+    "cph1-rcp1 pres.md",
+    "Concepts/AlphaFold.md",
     "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
     "Untitled.md",
     "Hu et al. 2020 — NblA and NblB purification conditions.md",
@@ -253,9 +271,6 @@
     "Concepts/50x Daigo's IMK Stock.md",
     "HarrisLab/Protocols/Recipes/Daigo's IMK+Glucose recipe - from 50x Daigo's IMK stock.md",
     "Daigos' IMK + cas + glu - from 50x Daigos' IMK stock.md",
-    "HarrisLab/Protocols/IMK liquid media recipe.md",
-    "HarrisLab/Protocols/Recipes/10x Daigo's IMK stock recipe.md",
-    "HarrisLab/Protocols/TingTing's Culturing Symbiodinium protocol notes.md",
     "publish-protocols.yml",
     "HarrisLab/Protocols/Recipes",
     "Sources Figures/branden1999/Untitled",
