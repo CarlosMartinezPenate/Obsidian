@@ -110,8 +110,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pld",
-                "matchingCase": false,
+                "query": "phosp",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -242,7 +242,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "5d08bb01c657ff83",
+  "active": "bbf410ecda1cd0b6",
   "lastOpenFiles": [
     "Concepts/pLDDT.md",
     "cph1-rcp1 pres.md",

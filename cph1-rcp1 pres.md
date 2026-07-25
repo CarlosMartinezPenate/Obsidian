@@ -33,7 +33,7 @@ Because they rely on sunlight for photosynthesis, they must cope with constantly
 
 To adapt, cyanobacteria use large light-harvesting complexes called **phycobilisomes**, which function like solar antennae. These antennae continuously adjust to maximize photosynthesis while preventing damage caused by excess light.
 
-**Much of what we know about these adaptive mechanisms comes from the model cyanobacterium Synechocystis sp. PCC 6803, where the Cph1–Rcp1 signaling pathway has been extensively studied.**
+**One of the best-studied model cyanobacteria is Synechocystis sp. PCC 6803, in which the Cph1–Rcp1 light-sensing pathway has been extensively characterized.**
 
 ---
 
@@ -63,13 +63,27 @@ Our first objective was therefore to determine whether **AlphaFold** could accur
 
 # Slide 5 — Can AlphaFold recover the experimental structure?
 
-We generated a full-length AlphaFold model and compared its photosensory region with the experimentally determined crystal structure.
+Before comparing the model with the experimental structure, it’s useful to ask:
 
-The structural alignment produced an **RMSD of only 0.665 Å**, indicating excellent agreement between the predicted and experimental structures.
+**How confident is AlphaFold in this prediction?**
 
-It is important to note that the crystal structure contains only the **photosensory module**, so the histidine kinase domain was not included in this comparison.
+The protein is colored according to **pLDDT**, AlphaFold’s confidence score for individual residues.
 
-Nevertheless, this result demonstrates that AlphaFold accurately reproduces the experimentally resolved portion of Cph1 and provides a reliable model for subsequent analyses.
+- **Blue** indicates very high confidence.
+- **Light blue** indicates good confidence.
+- **Yellow** corresponds to lower confidence, which is mainly found in flexible loops and terminal regions.
+
+On the right is the **Predicted Aligned Error**, or **PAE**, which estimates how confidently AlphaFold predicts the relative positions of different parts of the protein.
+
+The dark green blocks along the diagonal indicate that each domain is predicted with high confidence, while the lighter regions between domains suggest greater uncertainty in their relative orientation.
+
+Overall, the model has a **pTM score of 0.81**, indicating that the overall fold is predicted with good confidence.
+
+To validate this prediction, we compared it with the experimentally determined structure.
+
+Our structural alignment produced an **RMSD of only 0.665 Å**, demonstrating excellent agreement between the AlphaFold model and the crystal structure.
+
+Although only the photosensory module is available experimentally, this gives us confidence to use the full-length model for the remaining analyses.
 
 ---
 
@@ -120,11 +134,21 @@ Together, the PAS, GAF, and PHY domains form the **photosensory module**, which 
 
 # Slide 10 — Predicted Cph1 dimer
 
-Because histidine kinases typically function as dimers, we also predicted the Cph1 homodimer using AlphaFold3.
+AlphaFold3 also predicts a plausible **Cph1 homodimer**, which is biologically reasonable because many bacterial histidine kinases function as dimers.
 
-The model suggests a plausible interaction between the two kinase domains, consistent with the architecture of many bacterial histidine kinases.
+Again, we can evaluate the prediction using AlphaFold confidence metrics.
 
-Although this prediction requires experimental validation, it provides a structural hypothesis for how kinase activation may occur.
+The individual monomers remain mostly blue, indicating that each protein is predicted with high confidence.
+
+The **PAE matrix** now contains four large blocks, representing the two individual proteins and their predicted relationship.
+
+The overall fold has a **pTM score of 0.60**, while the interface has an **ipTM score of 0.52**.
+
+Here, **pTM** reflects confidence in the structure of the complex as a whole, whereas **ipTM** specifically evaluates confidence in the interaction between the two proteins.
+
+An ipTM around **0.5** suggests that the proposed dimer is **plausible**, but should be considered a structural hypothesis rather than definitive evidence.
+
+This means the model is useful for generating biological hypotheses, but experimental validation would still be required.
 
 ---
 
