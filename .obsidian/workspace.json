@@ -69,16 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cph1-rcp1 pres.md",
+                "file": "HarrisLab/Notebook HarrisLab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cph1-rcp1 pres"
+              "title": "Notebook HarrisLab"
+            }
+          },
+          {
+            "id": "f131fea62a17ee46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fog Staining Pilot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fog Staining Pilot"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -110,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "phosp",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -214,13 +228,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cph1-rcp1 pres.md",
+                "file": "Fog Staining Pilot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cph1-rcp1 pres"
+              "title": "Outline of Fog Staining Pilot"
             }
           }
         ],
@@ -242,35 +256,35 @@
       "bases:Create new base": false
     }
   },
-  "active": "bbf410ecda1cd0b6",
+  "active": "f131fea62a17ee46",
   "lastOpenFiles": [
-    "Concepts/pLDDT.md",
+    "HarrisLab/Notebook HarrisLab.md",
+    "Fog Staining Pilot.md",
+    "HarrisLab/Protocols/Recipes/F2 Medium recipe.md",
+    "HarrisLab/Protocols/Dino Daigo's IMK Recovery Protocol.md",
+    "HarrisLab/Protocols/Recipes/ASW recipe.md",
+    "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
+    "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
+    "Protocols.md",
     "cph1-rcp1 pres.md",
+    "Concepts/pLDDT.md",
     "Concepts/AlphaFold.md",
     "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
     "Untitled.md",
     "Hu et al. 2020 — NblA and NblB purification conditions.md",
     "Sources/supasri2021.md",
-    "HarrisLab/Notebook HarrisLab.md",
     "Exercise 8 - Protein Complexes, Protein-Protein Interfaces and Binding Partners.md",
     "Exercise 7 AlphaFold3 and Self-Evaluation Metrics.md",
     "Xiang's 2013 Dino Procedure.md",
-    "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
     "HarrisLab/Protocols/Recipes/Daigos' IMK+Caseine recipe - from 50x Daigo's IMK stock.md",
-    "HarrisLab/Protocols/Dino Daigo's IMK Recovery Protocol.md",
-    "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
     "Sources/xiang2013.md",
     "Xiang 2013.md",
     "Papers/Marine Paper/BPPaper v1.md",
-    "HarrisLab/Protocols/Recipes/F2 Medium recipe.md",
     "Dinocurves.md",
     "Pasted image 20260707125836.png",
     "Concepts/Diago's IMK.md",
     "Concepts/IMK2.md",
     "HarrisLab/Protocols/Recipes/Daigo's IMK Medium recipe.md",
-    "Concepts/50x Daigo's IMK Stock.md",
-    "HarrisLab/Protocols/Recipes/Daigo's IMK+Glucose recipe - from 50x Daigo's IMK stock.md",
-    "Daigos' IMK + cas + glu - from 50x Daigos' IMK stock.md",
     "publish-protocols.yml",
     "HarrisLab/Protocols/Recipes",
     "Sources Figures/branden1999/Untitled",
