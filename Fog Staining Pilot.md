@@ -1,50 +1,25 @@
----
-title: SSB01 EPS / Fog Staining Pilot
-aliases:
-  - Alcian Blue EPS Test
-  - SSB01 Fog Test
-  - Dino EPS Staining
-tags:
-  - protocol
-  - microscopy
-  - dinoflagellates
-  - EPS
-  - staining
-status: draft
-
-strain: SSB01
-culture_stage:
-  - Compact clumps
-  - Maximum clumpiness
-  - Foggy stage
-
-sample_volume_ul: 500
-alcian_blue_stock: 1% Alcian Blue in 3% acetic acid (pH ≈2.5)
-incubation_min: 30
----
-
 # SSB01 EPS / Fog Staining Pilot
 
 ## Objective
 
-Determine whether the **foggy material** appearing after maximum clumpiness consists of:
+Determine whether the diffuse **foggy material** observed in mature **SSB01** cultures contains **acidic extracellular polysaccharides (EPS)**.
 
-- extracellular polymeric substances (EPS)
-- shed thecal material
-- cell debris
-- or another extracellular structure.
+Secondary objectives:
 
-This protocol is designed as a **live-cell staining experiment**.
+- Compare staining of compact clumps versus diffuse fog.
+- Determine whether the fog is associated with living chlorophyll-containing cells.
+
+This protocol uses **live-cell Alcian Blue staining**.
 
 ---
 
 # Principle
 
-Alcian Blue binds **acidic polysaccharides**.
+Alcian Blue binds **acidic polysaccharides** at approximately **pH 2.5**.
 
-If the fog consists of extracellular acidic polymers secreted by the cells, it should stain blue under brightfield microscopy.
+If the fog consists of extracellular acidic polymers secreted by the cells, the stained material should appear as **blue extracellular structures** when viewed in brightfield.
 
-Because the stain is applied **after initial imaging**, the same clump can be observed before and after staining.
+Chlorophyll autofluorescence can then be used to determine whether the stained material is associated with intact cells.
 
 ---
 
@@ -55,88 +30,80 @@ Because the stain is applied **after initial imaging**, the same clump can be ob
 - Microscope slides
 - Coverslips (#1.5)
 - Alcian Blue (1% in 3% acetic acid)
-- Sterile F/2 medium
-- Kimwipe or filter paper
-- Pipettes and sterile tips
+- Sterile F/2 medium (negative control)
+- Micropipettes and sterile tips
+- 1.5 mL microcentrifuge tubes
 
 ---
 
 # Sample preparation
 
+## Culture sample
+
 1. Gently resuspend the culture.
 
-Avoid vigorous vortexing.
+Avoid vigorous mixing to preserve natural aggregates.
 
-The goal is to preserve natural aggregates.
+2. Transfer approximately **100 µL** of culture into a microcentrifuge tube.
 
-2. Pipette:
+3. Add an equal volume (**100 µL**) of Alcian Blue solution.
 
-- 10–20 µL culture
+4. Mix gently by pipetting or slow inversion.
 
-onto a clean microscope slide.
-
-3. Carefully place a coverslip.
-
-Avoid trapping bubbles.
+5. Incubate for **30 minutes** at room temperature.
 
 ---
 
-# Initial imaging (unstained)
+## Negative control
 
-Locate a representative field containing:
+Prepare a second tube containing:
+
+- 100 µL sterile F/2 medium
+- 100 µL Alcian Blue
+
+Incubate under the same conditions.
+
+This control detects stain precipitation or medium artifacts.
+
+---
+
+# Slide preparation
+
+After incubation:
+
+1. Place **10–20 µL** of stained culture on a clean microscope slide.
+2. Carefully apply a coverslip.
+3. Avoid bubbles and excessive compression.
+
+Prepare the negative-control slide in the same way.
+
+---
+
+# Imaging
+
+For each sample, acquire:
+
+## Brightfield
+
+Inspect for:
 
 - intact cells
-- clumps
-- foggy material (if present)
+- compact aggregates
+- diffuse fog
+- extracellular material
+- blue staining
 
-Acquire:
+Whenever possible, also examine through the eyepieces to observe the true blue color of Alcian Blue staining.
 
-- Brightfield
-- Chlorophyll autofluorescence (Cy5 / far-red)
-- Optional DIC or phase contrast
+## Chlorophyll autofluorescence
 
-Save:
+Acquire the chlorophyll channel (Cy5/far-red).
 
-- stage coordinates (if available)
-- exposure settings
-- objective used
+Record whether blue-stained structures:
 
----
-
-# Live Alcian Blue staining
-
-## Capillary exchange method
-
-**Do not remove the coverslip.**
-
-1. Place a **5–10 µL** drop of Alcian Blue at one edge of the coverslip.
-
-2. Touch a Kimwipe or filter paper to the opposite edge.
-
-The paper slowly pulls the stain underneath the coverslip by capillary action.
-
-Allow the stain to flow naturally.
-
-Avoid pressing on the coverslip.
-
-3. Wait approximately
-
-30 minutes
-
-at room temperature.
-
-Do not allow the sample to dry.
-
----
-
-# Imaging after staining
-
-Without moving the stage if possible, reacquire:
-
-- Brightfield
-- Chlorophyll autofluorescence
-
-Compare with the original images.
+- contain chlorophyll-positive cells,
+- surround chlorophyll-positive cells,
+- or occur independently of fluorescent cells.
 
 ---
 
@@ -144,61 +111,46 @@ Compare with the original images.
 
 ## If extracellular acidic EPS is present
 
-Look for:
+Possible observations include:
 
-- blue halos around cells
-- blue strands connecting cells
+- blue halos surrounding cells
+- blue bridges between neighboring cells
 - diffuse blue matrix
-- blue staining surrounding clumps
-
-The chlorophyll-positive cells should remain visible.
-
----
-
-## If no extracellular EPS is present
-
-Possible observations:
-
-- cells remain brown
-- no blue halos
-- only weak background staining
+- blue staining surrounding aggregates
+- chlorophyll-positive cells embedded within the stained material
 
 ---
 
-## If the fog is mainly cell debris
+## If little or no acidic EPS is present
 
-Possible observations:
+Possible observations include:
+
+- cells remain brown by eye
+- little extracellular blue staining
+- only background staining comparable to the negative control
+
+---
+
+## If the fog represents cell debris
+
+Possible observations include:
 
 - irregular blue particles
-- fragmented material
-- little organization
-- weak or absent chlorophyll fluorescence
+- fragmented structures
+- weak or absent chlorophyll autofluorescence
+- poor spatial association with intact cells
 
 ---
 
-# Controls
+# Optional comparison
 
-## Negative control
+If cultures representing different developmental stages are available, compare:
 
-Prepare an identical slide containing only:
+- Compact-clump stage
+- Maximum-clumpiness stage
+- Foggy stage
 
-- sterile F/2 medium
-
-Apply Alcian Blue using the same procedure.
-
-This control detects dye precipitation or medium artifacts.
-
----
-
-## Biological control
-
-If available, compare:
-
-- Compact-clump culture
-- Maximum-clumpiness culture
-- Foggy-stage culture
-
-using identical imaging settings.
+Acquire all images using identical microscope settings.
 
 ---
 
@@ -208,9 +160,10 @@ Record:
 
 - Date
 - Culture age
+- Culture stage
 - OD750
 - Objective
-- Exposure
+- Exposure settings
 - Brightfield image
 - Chlorophyll image
 - Notes
@@ -219,28 +172,30 @@ Record:
 
 # Interpretation
 
-Evidence supporting extracellular acidic polysaccharides:
+Evidence consistent with extracellular acidic polysaccharides includes:
 
 ✓ Blue halos surrounding chlorophyll-positive cells
 
-✓ Blue bridges between neighboring cells
+✓ Blue strands connecting neighboring cells
 
-✓ Diffuse blue matrix where the fog was observed
+✓ Diffuse blue matrix associated with aggregates
 
-Evidence against extracellular acidic polysaccharides:
+✓ Stronger staining in foggy cultures than in compact cultures
 
-✗ No blue extracellular staining
+Evidence against extracellular acidic polysaccharides includes:
 
-✗ Only intracellular coloration
+✗ No extracellular blue staining
 
-✗ Blue signal identical to the sterile-medium control
+✗ Staining comparable to the F/2 negative control
+
+✗ Blue staining confined to non-cellular artifacts or precipitates
 
 ---
 
 # Notes
 
-- This is a **live staining protocol**.
-- Cells are not fixed.
-- The capillary-flow method minimizes disturbance and allows imaging of essentially the same field before and after staining.
-- Avoid excessive flow beneath the coverslip, as it can displace loosely attached aggregates.
-- If promising results are obtained, a second experiment using Calcofluor White can distinguish extracellular polysaccharides from cellulose-rich thecal remnants.
+- This is a **live-cell staining protocol**.
+- Cells are **not fixed**.
+- Images should be obtained soon after mounting.
+- The negative control is essential because Alcian Blue may occasionally produce background staining or precipitates in seawater-based media.
+- If extracellular staining is observed, a follow-up experiment using **Calcofluor White** can help distinguish acidic EPS from cellulose-containing thecal material.
