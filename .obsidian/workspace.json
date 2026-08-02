@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
-                "mode": "source",
+                "file": "Symbiodiniaceae S1 Branching — Quick Execution Plan.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Symbiodiniaceae_S1_Branching_Scale-Up_Plan"
+              "title": "Symbiodiniaceae S1 Branching — Quick Execution Plan"
             }
           }
         ],
@@ -286,8 +286,8 @@
   },
   "active": "47dc3120ad94ff9f",
   "lastOpenFiles": [
-    "Symbiodiniaceae S1 Branching — Quick Execution Plan.md",
     "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
+    "Symbiodiniaceae S1 Branching — Quick Execution Plan.md",
     "HarrisLab/Notebook HarrisLab.md",
     "Untitled.md",
     "HarrisLab/Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
