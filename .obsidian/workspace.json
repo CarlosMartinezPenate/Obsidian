@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Symbiodiniaceae S1 Branching — Quick Execution Plan.md",
-                "mode": "preview",
-                "source": false
+                "file": "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Symbiodiniaceae S1 Branching — Quick Execution Plan"
+              "title": "Symbiodiniaceae_S1_Branching_Scale-Up_Plan"
             }
           }
         ],
@@ -152,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Quic",
+                "query": "Symbio",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -286,10 +286,10 @@
   },
   "active": "47dc3120ad94ff9f",
   "lastOpenFiles": [
+    "Symbiodiniaceae S1 Branching — Quick Execution Plan.md",
     "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
     "HarrisLab/Notebook HarrisLab.md",
     "Untitled.md",
-    "Symbiodiniaceae S1 Branching — Quick Execution Plan.md",
     "HarrisLab/Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
     "Protocols.md",
     "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
