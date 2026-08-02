@@ -111,36 +111,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HarrisLab/Notebook HarrisLab.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Notebook HarrisLab"
-            }
-          },
-          {
-            "id": "e25795a0cf789b96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Symbiodiniaceae_S1_Branching_Scale-Up_Plan"
-            }
-          },
-          {
-            "id": "a0bf8ef4f0e9b989",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Symbiodiniaceae S1 Branching — Quick Execution Plan.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -148,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -180,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dino",
+                "query": "Quic",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -312,9 +284,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "a0bf8ef4f0e9b989",
+  "active": "47dc3120ad94ff9f",
   "lastOpenFiles": [
     "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
+    "HarrisLab/Notebook HarrisLab.md",
+    "Untitled.md",
     "Symbiodiniaceae S1 Branching — Quick Execution Plan.md",
     "HarrisLab/Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
     "Protocols.md",
@@ -322,7 +296,6 @@
     "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
     "HarrisLab/Protocols/Calcofluor White Staining Solution recipe.md",
     "Ethanol Dilution Calculator.md",
-    "HarrisLab/Notebook HarrisLab.md",
     "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
     "Homeworks/cph1-rcp1 pres.md",
     "Alcian Blue Staining Solution Recipe.md",
@@ -332,7 +305,6 @@
     "HarrisLab/Protocols/Recipes/ASW recipe.md",
     "Concepts/pLDDT.md",
     "Concepts/AlphaFold.md",
-    "Untitled.md",
     "Hu et al. 2020 — NblA and NblB purification conditions.md",
     "Sources/supasri2021.md",
     "Exercise 8 - Protein Complexes, Protein-Protein Interfaces and Binding Partners.md",

@@ -1,143 +1,90 @@
-# Symbiodiniaceae S1 Branching — Quick Execution Plan
+# Symbiodiniaceae S1 Branching — Bench Card
 
-## Goal
+## Workflow
 
-For each S1 culture:
-
-```
+```text
 S1
- ├──► M1 (100 mL maintenance)
- ├──► S2 (500 mL or 1 L biomass)
- ├──► F2P1 (2 agar plates)
- ├──► A1 (3 analytical pellets)
- └──► H1 (SSB01 only)
+├──► M1 (100 mL)
+├──► S2 (500 mL or 1 L)
+├──► F2P1 (2 plates)
+├──► A1 (3 pellets - cryopreserve)
+└──► H1 (Harvest)
 ```
 
 ---
 
-# Before starting
+## Prep
 
-- [ ] Clean glassware
-- [ ] Sterilize flasks
-- [ ] Prepare 4 L F/2
-- [ ] Pour 12 F/2 agar plates
+- [ ] 4 L F/2
+- [ ] 12 F/2 agar plates
+- [ ] Sterile flasks
 - [ ] Label everything
-- [ ] Prepare sterile pipettes and tips
 
 ---
 
-# Culture transfers
+## Transfers
 
-| Strain | M1 | S2 | Remaining S1 |
-|--------|----:|----:|----:|
-| SSA01 | 20 →100 mL |100 →500 mL | ~80 mL |
-| SSA02 |10 →100 mL |100 →1000 mL | ~90 mL |
-| SSA03 |10 →100 mL |100 →1000 mL | ~90 mL |
-| SSB01 |10 →100 mL |100 →1000 mL | ~90 mL |
-| SSE01 |20 →100 mL |100 →500 mL | ~80 mL |
+| Strain | M1 | S2 | S1 left |
+|:--|--:|--:|--:|
+| SSA01 | 20→100 | 100→500 | ~80 |
+| SSA02 | 10→100 | 100→1000 | ~90 |
+| SSA03 | 10→100 | 100→1000 | ~90 |
+| SSB01 | 10→100 | 100→1000 | ~90 |
+| SSE01 | 20→100 | 100→500 | ~80 |
 
 ---
 
-# For each strain
+## Per strain
 
 ```
-□ Mix S1 gently
-
+□ Mix S1
 □ Microscopy
-
-□ Make M1
-
-□ Make S2
-
-□ Plate on F2 agar
-
-□ Prepare A1 pellets
-
-□ Return S1 backup to incubator
+□ M1
+□ S2
+□ F2P1
+□ A1
+□ Return S1
 ```
 
-SSB01 only:
+SSB01:
 
 ```
-□ H1 pilot harvest
+□ H1
 ```
 
 ---
 
-# F2P1 plates
+## Inventory
 
-Two plates per strain
-
-| Plate | Dilution |
-|--------|----------|
-| L1 | 10⁻² |
-| L2 | 10⁻¹ |
-
-Total:
-
-- 10 strain plates
-- 2 negative controls
-
----
-
-# Inventory
-
-### Liquid media
-
-- 4.0 L F/2
-
-### Agar
-
-- 300 mL F/2 agar
-- 12 plates
-
-### Flasks
-
-- 5 × 250 mL (M1)
-- 5 × 2 L (S2)
-
-### Tubes
-
-- 15 cryovials
-- 15 × 15 mL tubes
-- 2–3 × 50 mL tubes
+| Item | Qty |
+|:--|--:|
+| F/2 | 4 L |
+| F/2 agar | 300 mL |
+| Plates | 12 |
+| 250 mL flasks | 5 |
+| 2 L flasks | 5 |
+| Cryovials | 15 |
+| 15 mL tubes | 15 |
+| 50 mL tubes | 2–3 |
 
 ---
 
-# Incubator
+## Incubation
 
-Liquid cultures
-
+**Liquid**
 - 26°C
 - 12:12
-- ~40 μmol photons m⁻² s⁻¹
+- ~40 µmol m⁻² s⁻¹
 
-F2 plates
-
+**Plates**
 - 24–26°C
-- lower light (~20–30 μmol photons m⁻² s⁻¹)
+- 12:12
+- ~20–30 µmol m⁻² s⁻¹
 
 ---
 
-# Week 1
+## Don't discard S1 until
 
-Day 0
-
-- [ ] OD750
-- [ ] Microscopy
-- [ ] Photos
-
-Day 7
-
-- [ ] OD750
-- [ ] Photos
-- [ ] Microscopy
-- [ ] Check F2 colonies
-
----
-
-# Don't discard S1 until
-
-- [ ] M1 growing
+- [ ] M1 healthy
 - [ ] S2 growing
-- [ ] F2 colonies visible (or experiment completed)
+- [ ] F2 colonies obtained (or experiment finished)
