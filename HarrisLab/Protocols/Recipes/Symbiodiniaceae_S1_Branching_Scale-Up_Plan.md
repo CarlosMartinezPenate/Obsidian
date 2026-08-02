@@ -70,11 +70,11 @@ SOURCE          MAINTENANCE             BIOMASS PRODUCTION                 OTHER
 
 ● SSA01-S1  ──► ● SSA01-M1        ──►  ● SSA01-S2                         ◇ MB1   ◇ A1
 
-● SSA02-S1  ──► ● SSA02-M1        ──►  ● SSA02-S2a   ● SSA02-S2b          ◇ MB1   ◇ A1
+● SSA02-S1  ──► ● SSA02-M1        ──►  ● SSA02-S2                         ◇ MB1   ◇ A1
 
-● SSA03-S1  ──► ● SSA03-M1        ──►  ● SSA03-S2a   ● SSA03-S2b          ◇ MB1   ◇ A1
+● SSA03-S1  ──► ● SSA03-M1        ──►  ● SSA03-S2                         ◇ MB1   ◇ A1
 
-● SSB01-S1  ──► ● SSB01-M1        ──►  ● SSB01-S2a   ● SSB01-S2b          ◇ MB1   ◇ A1   ◇ H1
+● SSB01-S1  ──► ● SSB01-M1        ──►  ● SSB01-S2                         ◇ MB1   ◇ A1   ◇ H1
 
 ● SSE01-S1  ──► ● SSE01-M1        ──►  ● SSE01-S2                         ◇ MB1   ◇ A1
 ```
@@ -90,8 +90,8 @@ Legend:
 
 - S1 source flasks already present: **5**
 - New M1 maintenance flasks: **5**
-- New S2 production flasks: **8**
-- Total new culture flasks required: **13**
+- New S2 production flasks: **5**
+- Total new culture flasks required: **10**
 
 ---
 
@@ -110,19 +110,16 @@ Legend:
 
 ## S2 biomass-production cultures
 
-Each 1 L production branch is divided between two 1 L flasks to preserve headspace.
+Each strain is maintained in **one 2 L Erlenmeyer flask**. The 1 L cultures retain approximately 1 L headspace, while the 500 mL cultures retain approximately 1.5 L headspace.
 
 | Strain | S2 flask | Final volume | S1 inoculum | Fresh F/2 | Vessel |
 |---|---|---:|---:|---:|---|
-| SSA01 | S2 | 500 mL | 100 mL | 400 mL | 1 L flask |
-| SSA02 | S2a | 500 mL | 50 mL | 450 mL | 1 L flask |
-| SSA02 | S2b | 500 mL | 50 mL | 450 mL | 1 L flask |
-| SSA03 | S2a | 500 mL | 50 mL | 450 mL | 1 L flask |
-| SSA03 | S2b | 500 mL | 50 mL | 450 mL | 1 L flask |
-| SSB01 | S2a | 500 mL | 50 mL | 450 mL | 1 L flask |
-| SSB01 | S2b | 500 mL | 50 mL | 450 mL | 1 L flask |
-| SSE01 | S2 | 500 mL | 100 mL | 400 mL | 1 L flask |
-| **Total** |  | **4,000 mL** | **500 mL** | **3,500 mL** | **8 flasks** |
+| SSA01 | S2 | 500 mL | 100 mL | 400 mL | 2 L flask |
+| SSA02 | S2 | 1,000 mL | 100 mL | 900 mL | 2 L flask |
+| SSA03 | S2 | 1,000 mL | 100 mL | 900 mL | 2 L flask |
+| SSB01 | S2 | 1,000 mL | 100 mL | 900 mL | 2 L flask |
+| SSE01 | S2 | 500 mL | 100 mL | 400 mL | 2 L flask |
+| **Total** |  | **4,000 mL** | **500 mL** | **3,500 mL** | **5 flasks** |
 
 ## Combined F/2 requirement
 
@@ -142,6 +139,30 @@ Using 50× F/2 stock:
 
 See [[F2 Medium recipe]].
 
+## S1 source-volume balance
+
+Assuming each S1 flask contains approximately **200 mL**:
+
+| Strain | Starting S1 | M1 inoculum | S2 inoculum | Estimated remaining S1 |
+|---|---:|---:|---:|---:|
+| SSA01 | 200 mL | 20 mL | 100 mL | 80 mL |
+| SSA02 | 200 mL | 10 mL | 100 mL | 90 mL |
+| SSA03 | 200 mL | 10 mL | 100 mL | 90 mL |
+| SSB01 | 200 mL | 10 mL | 100 mL | 90 mL |
+| SSE01 | 200 mL | 20 mL | 100 mL | 80 mL |
+| **Total** | **1,000 mL** | **70 mL** | **500 mL** | **430 mL** |
+
+The remaining volume is sufficient for MB1 plating, microscopy, and small analytical archives.
+
+For **SSB01**, approximately **90 mL** remains after M1 and S2 establishment. A practical allocation is:
+
+- 5 mL for microscopy, OD, and plate preparation;
+- 3 × 5 mL for A1 analytical pellets;
+- approximately 70 mL for H1 pilot harvest.
+
+> [!caution]
+> Measure the actual S1 volume before beginning. If any source culture contains less than approximately 150 mL, establish M1 first and reduce or postpone that strain’s S2 scale-up rather than consuming the entire source.
+
 ---
 
 # Materials and inventory
@@ -159,8 +180,8 @@ See [[F2 Medium recipe]].
 ### Glassware
 
 - [ ] **5 × 250 mL Erlenmeyer flasks** for M1
-- [ ] **8 × 1 L Erlenmeyer flasks** for S2
-- [ ] Sterile gauze closures or suitable sterile flask covers for 13 flasks
+- [ ] **5 × 2 L Erlenmeyer flasks** for S2
+- [ ] Sterile gauze closures or suitable sterile flask covers for 10 flasks
 - [ ] Aluminum foil
 - [ ] Autoclave tape
 
@@ -324,7 +345,7 @@ SSE01-A1-R1-2026-07-30
 9. Label all flasks, plates, dilution tubes, archive tubes, and harvest tubes before beginning culture transfers.
 10. Confirm incubator space for:
     - 5 M1 flasks;
-    - 8 S2 flasks;
+    - 5 S2 flasks;
     - 5 remaining S1 source flasks until work is completed.
 
 ---
@@ -378,7 +399,7 @@ Use a new sterile pipette for each strain and for each transfer type when cross-
 
 ### SSA01 and SSE01
 
-1. Add 400 mL fresh F/2 to one labeled 1 L flask.
+1. Add 400 mL fresh F/2 to one labeled 2 L flask.
 2. Add 100 mL of the corresponding S1 culture.
 3. Mix gently.
 
@@ -386,11 +407,9 @@ Use a new sterile pipette for each strain and for each transfer type when cross-
 
 For each strain:
 
-1. Add 450 mL fresh F/2 to S2a.
-2. Add 50 mL S1 inoculum.
-3. Add 450 mL fresh F/2 to S2b.
-4. Add 50 mL S1 inoculum.
-5. Mix each flask gently.
+1. Add 900 mL fresh F/2 to one labeled 2 L flask.
+2. Add 100 mL S1 inoculum.
+3. Mix gently.
 
 ## 5. Prepare MB1 plates
 
@@ -421,7 +440,7 @@ For each strain:
 
 ## 7. Pilot harvest of SSB01
 
-Only begin after SSB01-M1 and both SSB01-S2 flasks have been established.
+Only begin after SSB01-M1 and SSB01-S2 have been established.
 
 1. Measure the remaining SSB01-S1 volume.
 2. Record OD750, microscopy, pigmentation, clumping, and culture appearance.
@@ -477,7 +496,7 @@ Record the actual light range across flask positions with the chamber closed.
 - [ ] OD750
 - [ ] Microscopy
 - [ ] Photograph all cultures
-- [ ] Compare S2a and S2b consistency
+- [ ] Compare S2 growth with the corresponding M1 and source-culture records
 - [ ] Inspect and photograph MB plates
 
 ## Weekly thereafter
@@ -509,7 +528,7 @@ Do not discard the corresponding S1 source until M1 establishment has been confi
 
 An S2 branch is suitable for continued biomass production when:
 
-- both replicate flasks show comparable culture health;
+- the culture retains pigmentation and shows recovery after transfer;
 - pigmentation is retained;
 - microscopy supports active growth;
 - no obvious contamination is present;
@@ -539,8 +558,8 @@ Any growth on negative-control plates invalidates interpretation of that plate b
 | 50× F/2 stock | 80 mL |
 | Sterile ASW for F/2 | 3.92 L |
 | New 250 mL flasks | 5 |
-| New 1 L flasks | 8 |
-| Total new culture flasks | 13 |
+| New 2 L flasks | 5 |
+| Total new culture flasks | 10 |
 | Marine Broth agar | 600 mL |
 | Petri plates | 24 |
 | Dilution tubes | 10 |
@@ -557,8 +576,8 @@ Any growth on negative-control plates invalidates interpretation of that plate b
 | Casein hydrolysate | 0.60 g |
 | Glucose | 0.50 g |
 | 250 mL flasks | 14 total |
-| 1 L flasks | 8 |
-| Total new culture flasks | 22 |
+| 2 L flasks | 5 |
+| Total new culture flasks | 19 |
 
 ---
 
@@ -571,7 +590,7 @@ Any growth on negative-control plates invalidates interpretation of that plate b
 - [ ] 24 MB plates prepared
 - [ ] All vessels labeled
 - [ ] M1 established first
-- [ ] S2 established second
+- [ ] S2 established second in five 2 L flasks
 - [ ] MB1 plates inoculated
 - [ ] A1 analytical pellets archived
 - [ ] SSB01 pilot harvested only after backup establishment
