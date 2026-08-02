@@ -111,16 +111,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
+                "file": "HarrisLab/Notebook HarrisLab.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Potassium Phosphate Buffer Calculator"
+              "title": "Notebook HarrisLab"
+            }
+          },
+          {
+            "id": "e25795a0cf789b96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Symbiodiniaceae_S1_Branching_Scale-Up_Plan"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -152,12 +166,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kp",
+                "query": "dino",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -284,22 +298,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "47dc3120ad94ff9f",
+  "active": "e25795a0cf789b96",
   "lastOpenFiles": [
+    "HarrisLab/Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
+    "Protocols.md",
     "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
-    "HarrisLab/Notebook HarrisLab.md",
-    "Homeworks/cph1-rcp1 pres.md",
+    "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
     "HarrisLab/Protocols/Calcofluor White Staining Solution recipe.md",
+    "Ethanol Dilution Calculator.md",
+    "HarrisLab/Notebook HarrisLab.md",
+    "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
+    "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
+    "Homeworks/cph1-rcp1 pres.md",
     "Alcian Blue Staining Solution Recipe.md",
     "Fog Staining Pilot.md",
     "HarrisLab/Protocols/Recipes/F2 Medium recipe.md",
     "HarrisLab/Protocols/Dino Daigo's IMK Recovery Protocol.md",
     "HarrisLab/Protocols/Recipes/ASW recipe.md",
-    "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
-    "Protocols.md",
     "Concepts/pLDDT.md",
     "Concepts/AlphaFold.md",
-    "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
     "Untitled.md",
     "Hu et al. 2020 — NblA and NblB purification conditions.md",
     "Sources/supasri2021.md",
@@ -309,10 +326,7 @@
     "HarrisLab/Protocols/Recipes/Daigos' IMK+Caseine recipe - from 50x Daigo's IMK stock.md",
     "Sources/xiang2013.md",
     "Xiang 2013.md",
-    "Papers/Marine Paper/BPPaper v1.md",
-    "Dinocurves.md",
     "Pasted image 20260707125836.png",
-    "Concepts/Diago's IMK.md",
     "publish-protocols.yml",
     "HarrisLab/Protocols/Recipes",
     "Sources Figures/branden1999/Untitled",
