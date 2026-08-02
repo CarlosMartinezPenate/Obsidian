@@ -126,15 +126,29 @@
               "type": "markdown",
               "state": {
                 "file": "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Symbiodiniaceae_S1_Branching_Scale-Up_Plan"
             }
+          },
+          {
+            "id": "a0bf8ef4f0e9b989",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Symbiodiniaceae S1 Branching — Quick Execution Plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Symbiodiniaceae S1 Branching — Quick Execution Plan"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -298,8 +312,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "e25795a0cf789b96",
+  "active": "a0bf8ef4f0e9b989",
   "lastOpenFiles": [
+    "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
+    "Symbiodiniaceae S1 Branching — Quick Execution Plan.md",
     "HarrisLab/Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
     "Protocols.md",
     "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
@@ -307,7 +323,6 @@
     "HarrisLab/Protocols/Calcofluor White Staining Solution recipe.md",
     "Ethanol Dilution Calculator.md",
     "HarrisLab/Notebook HarrisLab.md",
-    "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
     "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
     "Homeworks/cph1-rcp1 pres.md",
     "Alcian Blue Staining Solution Recipe.md",
@@ -325,7 +340,6 @@
     "Xiang's 2013 Dino Procedure.md",
     "HarrisLab/Protocols/Recipes/Daigos' IMK+Caseine recipe - from 50x Daigo's IMK stock.md",
     "Sources/xiang2013.md",
-    "Xiang 2013.md",
     "Pasted image 20260707125836.png",
     "publish-protocols.yml",
     "HarrisLab/Protocols/Recipes",

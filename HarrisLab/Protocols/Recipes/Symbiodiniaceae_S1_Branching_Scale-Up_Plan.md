@@ -1,9 +1,9 @@
 ---
 title: Symbiodiniaceae S1 Branching, Scale-Up, Plating, and Archive Plan
 aliases:
-  - S1 to M1 S2 MB1 Plan
+  - S1 to M1 S2 F2P1 Plan
   - Symbiodiniaceae Scale-Up Plan
-date: 2026-07-30
+date: 2026-08-02
 status: planned
 tags:
   - protocol
@@ -12,7 +12,7 @@ tags:
   - scale-up
   - F2
   - IMK
-  - Marine-Broth
+  - colony-isolation
 ---
 
 # Symbiodiniaceae S1 Branching, Scale-Up, Plating, and Archive Plan
@@ -23,18 +23,19 @@ Branch each established **S1 F/2 culture** into:
 
 1. **M1** — a fresh maintenance backup;
 2. **S2** — a biomass-production culture;
-3. **MB1** — Marine Broth plating for colony/contamination assessment;
-4. **A1** — frozen archive pellets;
+3. **F2P1** — low-density F/2 agar plates for colony recovery and solid-phase backup;
+4. **A1** — frozen analytical archive pellets;
 5. **H1** — a first pilot harvest from **SSB01** only.
 
 The order of work is:
 
 ```text
-S1 → M1 → S2 → MB1 → A1 → H1
+S1 → M1 → S2 → F2P1 → A1 → H1
 ```
 
 > [!important]
-> Establish **M1 before harvesting or archiving the source culture**.  
+> Establish **M1 before harvesting or archiving the source culture**.
+> Keep the residual S1 cultures as temporary emergency backups until M1 and S2 are clearly established.
 > Do not use bacterial glycerol-stock conditions for these dinoflagellates. The A1 material in this protocol is a **non-viable analytical pellet archive**, not validated cryopreservation.
 
 ---
@@ -68,21 +69,21 @@ S1 → M1 → S2 → MB1 → A1 → H1
 ```text
 SOURCE          MAINTENANCE             BIOMASS PRODUCTION                 OTHER OUTPUTS
 
-● SSA01-S1  ──► ● SSA01-M1        ──►  ● SSA01-S2                         ◇ MB1   ◇ A1
+● SSA01-S1  ──► ● SSA01-M1        ──►  ● SSA01-S2                         ◇ F2P1   ◇ A1
 
-● SSA02-S1  ──► ● SSA02-M1        ──►  ● SSA02-S2                         ◇ MB1   ◇ A1
+● SSA02-S1  ──► ● SSA02-M1        ──►  ● SSA02-S2                         ◇ F2P1   ◇ A1
 
-● SSA03-S1  ──► ● SSA03-M1        ──►  ● SSA03-S2                         ◇ MB1   ◇ A1
+● SSA03-S1  ──► ● SSA03-M1        ──►  ● SSA03-S2                         ◇ F2P1   ◇ A1
 
-● SSB01-S1  ──► ● SSB01-M1        ──►  ● SSB01-S2                         ◇ MB1   ◇ A1   ◇ H1
+● SSB01-S1  ──► ● SSB01-M1        ──►  ● SSB01-S2                         ◇ F2P1   ◇ A1   ◇ H1
 
-● SSE01-S1  ──► ● SSE01-M1        ──►  ● SSE01-S2                         ◇ MB1   ◇ A1
+● SSE01-S1  ──► ● SSE01-M1        ──►  ● SSE01-S2                         ◇ F2P1   ◇ A1
 ```
 
 Legend:
 
 - `●` = one living culture flask
-- `◇ MB1` = Marine Broth plate set
+- `◇ F2P1` = low-density F/2 agar plate set
 - `◇ A1` = frozen analytical pellet archive
 - `◇ H1` = pilot harvest
 
@@ -121,7 +122,7 @@ Each strain is maintained in **one 2 L Erlenmeyer flask**. The 1 L cultures reta
 | SSE01 | S2 | 500 mL | 100 mL | 400 mL | 2 L flask |
 | **Total** |  | **4,000 mL** | **500 mL** | **3,500 mL** | **5 flasks** |
 
-## Combined F/2 requirement
+## Combined liquid F/2 requirement
 
 | Use | Final culture volume | S1 inoculum | Fresh F/2 required |
 |---|---:|---:|---:|
@@ -152,9 +153,9 @@ Assuming each S1 flask contains approximately **200 mL**:
 | SSE01 | 200 mL | 20 mL | 100 mL | 80 mL |
 | **Total** | **1,000 mL** | **70 mL** | **500 mL** | **430 mL** |
 
-The remaining volume is sufficient for MB1 plating, microscopy, and small analytical archives.
+Keep the residual S1 cultures as temporary backups for **2–4 weeks**, or until M1 and S2 clearly recover.
 
-For **SSB01**, approximately **90 mL** remains after M1 and S2 establishment. A practical allocation is:
+For **SSB01**, the remaining S1 material may later be allocated approximately as follows:
 
 - 5 mL for microscopy, OD, and plate preparation;
 - 3 × 5 mL for A1 analytical pellets;
@@ -172,9 +173,9 @@ For **SSB01**, approximately **90 mL** remains after M1 and S2 establishment. A 
 ### Media
 
 - [ ] **4.0 L fresh 1× F/2**
-- [ ] **3.92 L sterile ASW** for the F/2 preparation
-- [ ] **80 mL 50× F/2 stock**
-- [ ] **600 mL Marine Broth agar**, sufficient for 24 plates at approximately 25 mL per plate
+	- [ ] **3.92 L sterile ASW** for the liquid F/2 preparation
+	- [ ] **80 mL 50× F/2 stock**
+- [ ] **300 mL F/2 agar**, sufficient for 12 plates at approximately 25 mL per plate
 - [ ] Sterile ASW or sterile F/2 for dilution blanks
 
 ### Glassware
@@ -190,9 +191,9 @@ Clean and sterilize according to:
 - [[Cleaning Glassware]]
 - [[Autoclaving Protocol]]
 
-### Marine Broth plating
+### Low-density F/2 plating
 
-- [ ] **24 sterile Petri plates**
+- [ ] **12 sterile Petri plates**
 - [ ] **10 sterile dilution tubes**: two per strain for 10⁻¹ and 10⁻² dilutions
 - [ ] Sterile spreaders or sterile beads
 - [ ] Sterile pipette tips
@@ -202,8 +203,8 @@ Clean and sterilize according to:
 
 - [ ] **15 labeled cryovials** for A1 analytical pellet archives: three per strain
 - [ ] **At least 15 × 15 mL tubes** for sampling and archive preparation
-- [ ] **At least 3 × 50 mL tubes** for the SSB01 pilot harvest
-- [ ] Additional 50 mL tubes if the remaining SSB01 source volume exceeds 150 mL
+- [ ] **At least 2 × 50 mL tubes** for the SSB01 pilot harvest
+- [ ] Additional 50 mL tubes if the harvest volume is larger than expected
 - [ ] Liquid nitrogen-compatible tools only if flash-freezing pellets
 - [ ] Cryobox and −80°C storage position
 
@@ -258,26 +259,51 @@ Recipes:
 
 ---
 
-# Marine Broth plate layout
+# Low-density F/2 agar plating
 
-Prepare four plates per strain:
+The purpose of F2P1 is to establish a **solid-phase colony-recovery backup**, not to prove axenicity.
+
+## Plate layout
+
+Prepare two plates per strain:
 
 | Plate code | Inoculum |
 |---|---|
-| MB-U | Undiluted culture |
-| MB-1 | 10⁻¹ dilution |
-| MB-2 | 10⁻² dilution |
-| MB-D | Multi-drop or replicate droplet plate |
+| F2P1-L1 | 100 µL of 10⁻² dilution |
+| F2P1-L2 | 100 µL of 10⁻¹ dilution |
 
 For five strains:
 
-- 5 strains × 4 plates = **20 inoculated plates**
-- 2 uninoculated medium controls = **2 plates**
-- 2 reserve plates = **2 plates**
-- **Total = 24 plates**
+- 5 strains × 2 plates = **10 inoculated plates**
+- 2 uninoculated F/2 agar controls = **2 plates**
+- **Total = 12 plates**
 
-> [!caution]
-> Marine Broth growth does not prove that a dinoflagellate culture is axenic. It mainly reveals organisms capable of growing under the selected Marine Broth conditions.
+> [!note]
+> Because these cultures are strongly clumped, some colonies may originate from small aggregates rather than single cells.
+
+## Incubation conditions
+
+- Temperature: **24–26°C**
+- Photoperiod: **12 h light : 12 h dark**
+- Light: approximately **20–30 µmol photons m⁻² s⁻¹**
+- Protect plates from drying
+- Inspect weekly
+- Expected colony-development period: approximately **2–4 weeks**, possibly longer
+
+## Follow-up after colony formation
+
+1. Identify discrete pigmented colonies.
+2. Pick one colony into a small fresh liquid F/2 culture.
+3. Transfer part of the same colony to a fresh F/2 agar plate.
+4. Keep the original plate until both daughter cultures establish.
+
+The resulting lineage is:
+
+```text
+F2P1 colony
+   ├── liquid colony-derived backup
+   └── fresh solid F/2 backup
+```
 
 ---
 
@@ -292,23 +318,22 @@ STRAIN-GENERATION-BRANCH-DATE
 Examples:
 
 ```text
-SSA01-M1-2026-07-30
-SSA02-S2a-2026-07-30
-SSB01-S2b-2026-07-30
+SSA01-M1-2026-08-02
+SSA02-S2-2026-08-02
+SSB01-S2-2026-08-02
 ```
 
 ## Plates
 
 ```text
-STRAIN-MB1-DILUTION-DATE
+STRAIN-F2P1-DENSITY-DATE
 ```
 
 Examples:
 
 ```text
-SSA03-MB1-U-2026-07-30
-SSA03-MB1-10-1-2026-07-30
-SSA03-MB1-10-2-2026-07-30
+SSA03-F2P1-L1-2026-08-02
+SSA03-F2P1-L2-2026-08-02
 ```
 
 ## Archive pellets
@@ -320,7 +345,19 @@ STRAIN-A1-REPLICATE-DATE
 Example:
 
 ```text
-SSE01-A1-R1-2026-07-30
+SSE01-A1-R1-2026-08-02
+```
+
+## Residual S1 backup
+
+```text
+STRAIN-S1-BACKUP-DATE
+```
+
+Example:
+
+```text
+SSA02-S1-BACKUP-2026-08-02
 ```
 
 ---
@@ -341,12 +378,13 @@ SSE01-A1-R1-2026-07-30
 5. Sterilize dry flasks and closures according to [[Autoclaving Protocol]].
 6. Prepare sterile ASW according to [[ASW recipe]].
 7. Prepare 4.0 L fresh F/2 according to [[F2 Medium recipe]].
-8. Prepare and pour 24 Marine Broth agar plates.
+8. Prepare and pour 12 low-density F/2 agar plates.
 9. Label all flasks, plates, dilution tubes, archive tubes, and harvest tubes before beginning culture transfers.
 10. Confirm incubator space for:
     - 5 M1 flasks;
     - 5 S2 flasks;
-    - 5 remaining S1 source flasks until work is completed.
+    - 5 remaining S1 source flasks;
+    - 12 F/2 agar plates.
 
 ---
 
@@ -363,7 +401,7 @@ SSA01 → SSA02 → SSA03 → SSB01 → SSE01
 For each strain, complete transfers in this order:
 
 ```text
-M1 → S2 → MB1 → A1 → H1 when applicable
+M1 → S2 → F2P1 → A1 → H1 when applicable
 ```
 
 Use a new sterile pipette for each strain and for each transfer type when cross-contamination is possible.
@@ -411,17 +449,15 @@ For each strain:
 2. Add 100 mL S1 inoculum.
 3. Mix gently.
 
-## 5. Prepare MB1 plates
+## 5. Prepare F2P1 plates
 
-1. Prepare 10⁻¹ and 10⁻² dilutions for each strain using sterile dilution medium.
-2. Inoculate:
-   - one undiluted plate;
-   - one 10⁻¹ plate;
-   - one 10⁻² plate;
-   - one droplet/replicate plate.
-3. Inoculate two negative-control plates with sterile dilution medium only.
-4. Incubate under the selected plate conditions.
-5. Record the exact inoculation volume, incubation temperature, illumination, and inspection dates.
+1. Prepare 10⁻¹ and 10⁻² dilutions for each strain using sterile F/2 or sterile ASW.
+2. Spread 100 µL of the 10⁻² dilution onto F2P1-L1.
+3. Spread 100 µL of the 10⁻¹ dilution onto F2P1-L2.
+4. Inoculate two negative-control plates with sterile dilution medium only.
+5. Allow the liquid to absorb into the agar surface.
+6. Protect plates from drying and incubate under the selected conditions.
+7. Record the exact inoculation volume, incubation temperature, illumination, and inspection dates.
 
 ## 6. Prepare A1 analytical pellet archives
 
@@ -438,30 +474,44 @@ For each strain:
 > [!warning]
 > These pellets are intended for later DNA, pigment, or protein analysis. They are not validated viable cryostocks.
 
-## 7. Pilot harvest of SSB01
+## 7. Retain residual S1 cultures
+
+1. Keep each residual S1 culture in its original vessel unless evaporation, vessel condition, or incubator space makes transfer necessary.
+2. Do not routinely refill the residual S1 culture.
+3. If transfer is necessary, move it to a sterile 250 mL flask and label it as `S1-BACKUP`.
+4. Keep S1 for approximately 2–4 weeks.
+5. Retire S1 only after:
+   - M1 remains healthy;
+   - S2 shows recovery;
+   - F2P1 plates show viable colony formation, when available.
+
+## 8. Pilot harvest of SSB01
 
 Only begin after SSB01-M1 and SSB01-S2 have been established.
 
 1. Measure the remaining SSB01-S1 volume.
-2. Record OD750, microscopy, pigmentation, clumping, and culture appearance.
-3. Divide the remaining culture among 50 mL tubes.
-4. Centrifuge using the validated harvest condition.
-5. Record:
+2. Preserve a small residual SSB01-S1 backup if practical.
+3. Record OD750, microscopy, pigmentation, clumping, and culture appearance.
+4. Divide the harvest volume among 50 mL tubes.
+5. Centrifuge using the validated harvest condition.
+6. Record:
    - total culture volume harvested;
    - number of tubes;
    - pellet appearance;
    - wet pellet mass, when possible.
-6. Allocate pellets according to the downstream plan:
+7. Allocate pellets according to the downstream plan:
    - fresh extraction;
    - flash-frozen protein/pigment pellet;
    - DNA archive.
-7. Store or process immediately as required.
+8. Store or process immediately as required.
 
 ---
 
 # Incubation
 
-Maintain the new cultures under the current validated conditions unless a deliberate variable is being tested:
+## Liquid cultures
+
+Maintain the new liquid cultures under the current validated conditions unless a deliberate variable is being tested:
 
 - Temperature: **26°C**
 - Photoperiod: **12 h light : 12 h dark**
@@ -470,6 +520,14 @@ Maintain the new cultures under the current validated conditions unless a delibe
 - Flasks: position with adequate spacing and headspace
 
 Record the actual light range across flask positions with the chamber closed.
+
+## F2P1 plates
+
+- Temperature: **24–26°C**
+- Photoperiod: **12 h light : 12 h dark**
+- Light: approximately **20–30 µmol photons m⁻² s⁻¹**
+- Protect from drying
+- Inspect without repeated opening
 
 ---
 
@@ -483,28 +541,29 @@ Record the actual light range across flask positions with the chamber closed.
 - [ ] Perform microscopy
 - [ ] Confirm labels
 - [ ] Confirm incubator positions
+- [ ] Photograph F2P1 plates after inoculation
 
 ## Days 2–3
 
-- [ ] Check contamination
+- [ ] Check liquid cultures for contamination
 - [ ] Check sedimentation and clumping
 - [ ] Check whether M1 cells remain pigmented and intact
-- [ ] Inspect MB plates
+- [ ] Inspect F2P1 plates for drying or obvious contamination
 
 ## Day 7
 
 - [ ] OD750
 - [ ] Microscopy
 - [ ] Photograph all cultures
-- [ ] Compare S2 growth with the corresponding M1 and source-culture records
-- [ ] Inspect and photograph MB plates
+- [ ] Compare S2 growth with the corresponding M1 and S1 records
+- [ ] Inspect and photograph F2P1 plates
 
 ## Weekly thereafter
 
 - [ ] OD750
 - [ ] Culture appearance
 - [ ] Microscopy
-- [ ] Plate observations
+- [ ] F2P1 colony observations
 - [ ] Incubator light and temperature check
 - [ ] Record evaporation or volume loss
 
@@ -529,22 +588,31 @@ Do not discard the corresponding S1 source until M1 establishment has been confi
 An S2 branch is suitable for continued biomass production when:
 
 - the culture retains pigmentation and shows recovery after transfer;
-- pigmentation is retained;
 - microscopy supports active growth;
 - no obvious contamination is present;
-- culture density increases over time.
+- culture density or visible biomass increases over time.
 
-## Plate interpretation
+## F2P1 colony recovery
 
-Record:
+Successful plating is indicated by:
 
-- time to first visible colony;
-- colony number;
-- colony morphology;
-- color;
-- whether growth occurs on negative controls.
+- appearance of discrete pigmented colonies;
+- absence of fungal overgrowth;
+- absence of extensive bacterial lawns;
+- colonies that can be picked into fresh liquid F/2.
 
-Any growth on negative-control plates invalidates interpretation of that plate batch.
+Growth on uninoculated control plates invalidates interpretation of that plate batch.
+
+If no colonies appear after several weeks, reassess:
+
+- agar formulation;
+- inoculum density;
+- plate drying;
+- light intensity;
+- temperature;
+- presence of intact pigmented cells at plating.
+
+Marine Broth contamination screening should be considered only after the F/2 colony-recovery attempt has been evaluated.
 
 ---
 
@@ -554,30 +622,31 @@ Any growth on negative-control plates invalidates interpretation of that plate b
 
 | Item | Required |
 |---|---:|
-| Fresh 1× F/2 prepared | 4.0 L |
-| 50× F/2 stock | 80 mL |
-| Sterile ASW for F/2 | 3.92 L |
+| Fresh liquid 1× F/2 prepared | 4.0 L |
+| 50× F/2 stock for liquid medium | 80 mL |
+| Sterile ASW for liquid F/2 | 3.92 L |
+| F/2 agar | 300 mL |
 | New 250 mL flasks | 5 |
 | New 2 L flasks | 5 |
-| Total new culture flasks | 10 |
-| Marine Broth agar | 600 mL |
-| Petri plates | 24 |
+| Total new liquid-culture flasks | 10 |
+| Petri plates | 12 |
 | Dilution tubes | 10 |
 | Archive cryovials | 15 |
-| Minimum 50 mL harvest tubes | 3 |
+| Minimum 50 mL harvest tubes | 2 |
 
 ## Core experiment plus optional IMK module
 
 | Item | Required |
 |---|---:|
-| Sterile ASW to prepare | at least 4.5 L |
-| 50× F/2 stock | 80 mL |
+| Sterile ASW to prepare | at least 4.5 L, plus ASW required for F/2 agar |
+| 50× F/2 stock for liquid medium | 80 mL |
 | 50× IMK stock | 9 mL |
 | Casein hydrolysate | 0.60 g |
 | Glucose | 0.50 g |
 | 250 mL flasks | 14 total |
 | 2 L flasks | 5 |
-| Total new culture flasks | 19 |
+| Total new liquid-culture flasks | 19 |
+| F/2 agar plates | 12 |
 
 ---
 
@@ -586,13 +655,14 @@ Any growth on negative-control plates invalidates interpretation of that plate b
 - [ ] S1 cultures inspected and recorded
 - [ ] Glassware cleaned
 - [ ] Flasks and gauze sterilized
-- [ ] 4.0 L F/2 prepared
-- [ ] 24 MB plates prepared
+- [ ] 4.0 L liquid F/2 prepared
+- [ ] 12 F/2 agar plates prepared
 - [ ] All vessels labeled
 - [ ] M1 established first
 - [ ] S2 established second in five 2 L flasks
-- [ ] MB1 plates inoculated
+- [ ] F2P1 plates inoculated
 - [ ] A1 analytical pellets archived
+- [ ] Residual S1 cultures retained as temporary backups
 - [ ] SSB01 pilot harvested only after backup establishment
 - [ ] Incubator positions recorded
 - [ ] Day 0 observations entered
