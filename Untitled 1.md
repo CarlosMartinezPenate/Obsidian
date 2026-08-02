@@ -27,7 +27,7 @@ Branch each established **S1 F/2 culture** into:
 4. **A1** — frozen analytical archive pellets;
 5. **H1** — a first pilot harvest from **SSB01** only.
 
-Each branch is derived directly from the original S1 culture:
+Each branch is derived directly from the original S1 culture::
 
 ```text
 S1
@@ -184,6 +184,18 @@ Assuming each S1 flask contains approximately **200 mL**:
 | **Total** | **1,000 mL** | **100 mL** | **500 mL** | **400 mL** |
 
 Keep the residual S1 cultures as temporary backups for **2–4 weeks**, or until M1 and S2 clearly recover.
+
+For **SSB01**, the approximately 80 mL remaining after M1 and S2 establishment may be allocated as follows:
+
+- 5 mL for microscopy, OD, and plate preparation;
+- 3 × 5 mL for A1 analytical pellets;
+- approximately 50 mL for H1 pilot harvest;
+- approximately 10 mL retained temporarily as an S1 backup.
+
+> [!caution]
+> Measure the actual S1 volume before beginning.
+>
+> If any source culture contains less than approximately 150 mL, establish M1 first and reduce or postpone that strain’s S2 scale-up rather than consuming the entire source.
 
 ---
 
@@ -432,10 +444,10 @@ Process one strain at a time in this order:
 SSA01 → SSA02 → SSA03 → SSB01 → SSE01
 ```
 
-For each strain, perform the handling steps in this order:
+For each strain, complete transfers in this order:
 
 ```text
-M1 → S2 → F2P1 → A1 → retain S1
+M1 → S2 → F2P1 → A1 → H1 (SSB01 only)
 ```
 
 Use a new sterile pipette for each strain and for each transfer type when cross-contamination is possible.
@@ -499,18 +511,16 @@ For each strain:
 
 For each strain:
 
-1. Divide **15 mL total culture** into three labeled 15 mL centrifuge tubes:
-   - 5 mL per replicate;
-   - three replicates per strain.
+1. Aliquot a defined culture volume into three labeled tubes.
 2. Centrifuge using a validated setting that pellets the cells without unnecessary damage.
 3. Remove the supernatant carefully.
-4. Either:
-   - freeze the pellet directly in the centrifuge tube, if the tube is approved for −80°C storage; or
-   - transfer the pellet into a labeled cryovial using the laboratory-approved method.
-5. Record the culture volume represented by each pellet.
-6. Flash-freeze if this is the laboratory-approved practice.
-7. Store at −80°C.
-8. Record the freezer, rack, box, and position.
+4. Record the culture volume represented by each pellet.
+5. Flash-freeze the closed pellet tubes if that is the laboratory-approved practice.
+6. Store at −80°C.
+7. Record the freezer, rack, box, and position.
+
+> [!warning]
+> These pellets are intended for later DNA, pigment, or protein analysis. They are **not** validated viable cryostocks.
 
 ---
 
@@ -523,9 +533,9 @@ The residual S1 cultures serve as emergency backups.
 3. Label the flask as **S1-BACKUP** if it must be transferred.
 4. Retain for approximately **2–4 weeks**.
 5. Retire, archive, or harvest S1 after:
-	   - M1 is established;
-	   - S2 is actively growing;
-	   - no major contamination or transfer failure is evident.
+   - M1 is established;
+   - S2 is actively growing;
+   - no major contamination or transfer failure is evident.
 6. F2P1 colony recovery may continue independently after S1 retirement.
 
 For **SSB01**, the approximately **80 mL** remaining after M1 and S2 establishment may be allocated as follows:
@@ -543,12 +553,6 @@ For **SSB01**, the approximately **80 mL** remaining after M1 and S2 establishme
 ## 8. Pilot harvest of SSB01
 
 Only begin after **SSB01-M1** and **SSB01-S2** have been established.
-
-Assuming approximately **80 mL SSB01-S1** remains:
-- 5 mL for microscopy, OD750, and plate preparation;
-- 3 × 5 mL for A1 analytical pellets;
-- approximately 50 mL for H1;
-- approximately 10 mL retained temporarily as S1 backup.
 
 1. Measure the remaining SSB01-S1 volume.
 2. Preserve a small residual SSB01-S1 backup if practical.
@@ -672,9 +676,9 @@ If no colonies develop after several weeks, reassess:
 - agar preparation;
 - plate moisture;
 - illumination;
-- incubation temperature.
+- incubation temperature;
 
-Only then consider Marine Broth contamination screening.
+before considering Marine Broth contamination screening.
 
 ---
 
@@ -761,7 +765,7 @@ At completion of the protocol, the collection should consist of:
 | S1 backup cultures | 5 |
 | M1 maintenance cultures | 5 |
 | S2 biomass cultures | 5 |
-| F2P1 inoculated plates | 12 |
+| F2P1 plates | 12 |
 | A1 archive pellets | 15 |
 | H1 pilot harvest | 1 (SSB01 only) |
 
@@ -771,6 +775,6 @@ At completion of the protocol, the collection should consist of:
 
 - M1 is the priority branch and should always be established first.
 - S1 cultures should be retained until M1 and S2 have clearly recovered.
-- F2P1 is intended to generate colony-derived backups independent of the liquid cultures; it should not be considered a successful backup until colonies have formed and been transferred.
+- F2P1 provides a colony-derived backup independent of the liquid cultures.
 - A1 is intended solely as a frozen analytical archive and is **not** a cryopreservation protocol.
 - H1 is reserved for the initial SSB01 biomass harvest and downstream extraction tests.

@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Symbiodiniaceae S1 Branching — Quick Execution Plan.md",
+                "file": "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Symbiodiniaceae S1 Branching — Quick Execution Plan"
+              "title": "Symbiodiniaceae_S1_Branching_Scale-Up_Plan"
             }
           }
         ],
@@ -286,7 +286,10 @@
   },
   "active": "47dc3120ad94ff9f",
   "lastOpenFiles": [
+    "Symbiodiniaceae S1 Branching, Scale-Up, Plating, and Archive Plan.md",
+    "Symbiodiniaceae M1 Maintenance Culture Protocol.md",
     "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
+    "Untitled 1.md",
     "Symbiodiniaceae S1 Branching — Quick Execution Plan.md",
     "HarrisLab/Notebook HarrisLab.md",
     "Untitled.md",
@@ -309,9 +312,6 @@
     "Sources/supasri2021.md",
     "Exercise 8 - Protein Complexes, Protein-Protein Interfaces and Binding Partners.md",
     "Exercise 7 AlphaFold3 and Self-Evaluation Metrics.md",
-    "Xiang's 2013 Dino Procedure.md",
-    "HarrisLab/Protocols/Recipes/Daigos' IMK+Caseine recipe - from 50x Daigo's IMK stock.md",
-    "Sources/xiang2013.md",
     "Pasted image 20260707125836.png",
     "publish-protocols.yml",
     "HarrisLab/Protocols/Recipes",
