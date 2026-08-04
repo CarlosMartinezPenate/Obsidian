@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
+                "file": "HarrisLab/Protocols/Recipes/ASW recipe.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Symbiodiniaceae_S1_Branching_Scale-Up_Plan"
+              "title": "ASW recipe"
             }
           }
         ],
@@ -152,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Symbio",
+                "query": "Calculat",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -286,11 +286,16 @@
   },
   "active": "47dc3120ad94ff9f",
   "lastOpenFiles": [
-    "Symbiodiniaceae S1 Branching, Scale-Up, Plating, and Archive Plan.md",
-    "Symbiodiniaceae M1 Maintenance Culture Protocol.md",
+    "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
+    "HarrisLab/Protocols/Recipes/ASW recipe.md",
     "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
+    "M1 Maintenance — Bench Card.md",
+    "Symbiodiniaceae S1 Branching, Scale-Up, Plating, and Archive Plan.md",
+    "S2 Biomass Scale-Up — Bench Card.md",
+    "HarrisLab/Protocols/Cleaning Glassware.md",
+    "HarrisLab/Protocols/Autoclaving Protocol.md",
+    "Symbiodiniaceae M1 Maintenance Culture Protocol.md",
     "Untitled 1.md",
-    "Symbiodiniaceae S1 Branching — Quick Execution Plan.md",
     "HarrisLab/Notebook HarrisLab.md",
     "Untitled.md",
     "HarrisLab/Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
@@ -299,19 +304,14 @@
     "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
     "HarrisLab/Protocols/Calcofluor White Staining Solution recipe.md",
     "Ethanol Dilution Calculator.md",
-    "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
     "Homeworks/cph1-rcp1 pres.md",
     "Alcian Blue Staining Solution Recipe.md",
     "Fog Staining Pilot.md",
     "HarrisLab/Protocols/Recipes/F2 Medium recipe.md",
     "HarrisLab/Protocols/Dino Daigo's IMK Recovery Protocol.md",
-    "HarrisLab/Protocols/Recipes/ASW recipe.md",
     "Concepts/pLDDT.md",
     "Concepts/AlphaFold.md",
     "Hu et al. 2020 — NblA and NblB purification conditions.md",
-    "Sources/supasri2021.md",
-    "Exercise 8 - Protein Complexes, Protein-Protein Interfaces and Binding Partners.md",
-    "Exercise 7 AlphaFold3 and Self-Evaluation Metrics.md",
     "Pasted image 20260707125836.png",
     "publish-protocols.yml",
     "HarrisLab/Protocols/Recipes",

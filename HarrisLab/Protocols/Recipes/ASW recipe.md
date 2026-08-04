@@ -1,5 +1,5 @@
 ---
-asw_final_volume_ml: 500
+asw_final_volume_ml: 5000
 coral_pro_ratio_g_per_l: 37.1
 coral_pro_manual_reference_g_per_l: 39.5
 target_salinity_ppt: 32
@@ -64,7 +64,7 @@ const rows = examples.map(v => {
   ];
 });
 dv.table(
-  ["Final ASW volume", `Coral Pro at ${ratio} g/L`, `Coral Pro at ${manualRef} g/L`],
+  ["Final ASW volume", `Coral Pro at ${ratio} g/L (tingting13)`, `Coral Pro at ${manualRef} g/L`],
   rows 
 );  
 

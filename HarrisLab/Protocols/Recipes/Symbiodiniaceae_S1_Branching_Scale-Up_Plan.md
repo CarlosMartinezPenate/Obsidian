@@ -94,8 +94,8 @@ Legend:
 ## Flask count represented above
 
 - S1 source flasks already present: **5**
-- New M1 maintenance flasks: **5**
-- New S2 production flasks: **5**
+- New M1 (500 mL) maintenance flasks: **5**
+- New S2 (2 L) production flasks: **5**
 - Total new culture flasks required: **10**
 
 ---
