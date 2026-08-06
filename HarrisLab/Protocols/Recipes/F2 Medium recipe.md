@@ -1,5 +1,5 @@
 ---
-final_media_volume_ml: 1000
+final_media_volume_ml: 5000
 f2_stock_x: 50
 f2_stock_contains_vitamins: true
 asw_filtration_um: 0.22
@@ -125,6 +125,8 @@ dv.table(
   rows
 );
 ```
+
+see [[ASW recipe]]
 
 ## Exact interpretation
 
