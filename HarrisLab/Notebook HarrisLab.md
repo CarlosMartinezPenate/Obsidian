@@ -919,3 +919,213 @@ OD should be interpreted together with:
 - microscopy
 - cell abundance
 - chlorophyll fluorescence
+---
+# Dino Project — M1 and S2 Establishment
+
+**Date:** 07/08/2026
+
+## Purpose
+
+Establish the next generation of cultures from the successful **S1 F/2 scale-up cultures**, separating the project into:
+
+- **M1** — long-term maintenance cultures
+- **S2** — second-generation biomass production cultures
+
+while retaining the remaining **S1** biomass for the first protein extraction and purification experiments.
+
+---
+
+# Background
+
+Following approximately six weeks of growth after the initial F/2 scale-up, all five S1 cultures remained viable.
+
+The strongest cultures were:
+
+- SSB01
+- SSA02
+- SSA03
+- SSE01
+
+SSA01 continued to lag behind the other strains but remained viable and pigmented.
+
+At this point the S1 cultures represented the highest biomass obtained so far and were suitable for establishing new lineages.
+
+---
+
+# Work performed
+
+## Maintenance cultures (M1)
+
+One maintenance culture was established for each strain:
+
+- SSA01
+- SSA02
+- SSA03
+- SSB01
+- SSE01
+
+Total:
+
+- **5 M1 cultures**
+
+These cultures will serve as the long-term maintenance stock for future propagation.
+
+---
+
+## Biomass-production cultures (S2)
+
+Second-generation production cultures were established from the S1 cultures.
+
+Successfully established:
+
+- SSA01
+- SSA02
+- SSA03
+- SSE01
+
+During the transfer, the **SSB01 S2 flask broke**, preventing completion of that culture.
+
+Current status:
+
+- **4 S2 cultures established**
+- **SSB01 S2 pending** and scheduled to be prepared at the next opportunity.
+
+---
+
+## S1 cultures
+
+The remaining S1 biomass was **not discarded**.
+
+Instead, it was retained for the first harvesting experiments, including:
+
+- protein extraction
+- pigment extraction
+- spectroscopy
+- purification method development
+
+---
+
+# Incubator conditions
+
+Current incubation conditions:
+
+- Medium: **F/2**
+- Temperature: **27°C**
+- Irradiance: **~25 µmol photons m⁻² s⁻¹** (approximately **40 µmol photons m⁻² s⁻¹** average inside the closed incubator)
+- Photoperiod: **continuous light (24:0)**
+
+---
+
+# Notes
+
+- The missing **SSB01 S2** culture should be established as soon as possible.
+- Future OD measurements will track:
+  - M1 maintenance cultures
+  - S2 production cultures
+- The retained S1 cultures will be used for the first pilot harvesting experiments, beginning with **SSB01**.
+
+---
+
+# Next steps
+
+- [ ] Establish the missing **SSB01 S2** culture.
+- [ ] Continue monitoring M1 and S2 growth.
+- [ ] Perform the first pilot harvest from S1.
+- [ ] Optimize cell disruption using the EmulsiFlex-C3.
+- [ ] Evaluate crude extracts by UV–Vis spectroscopy.
+- [ ] Develop the salting-out and SEC purification workflow.
+---
+# Dino Project — Culture Update
+
+**Date:** 10/08/2026
+
+## Purpose
+
+Record the first post-transfer OD measurements for the newly established **M1** and **S2** cultures and compare them with the remaining **S1** production cultures.
+
+---
+
+# Culture status
+
+## S1 (production cultures)
+
+The original S1 cultures continue to accumulate biomass.
+
+| Strain | OD750 (07/08) | OD750 (10/08) | Trend |
+|---------|--------------:|--------------:|-------|
+| SSA01 | 0.097 | Harvested | Weakest strain but improving |
+| SSA02 | 0.353 | Harvested | Continued increase |
+| SSA03 | 0.307 | Harvested | Continued increase |
+| SSB01 | 0.505 | Harvested | Highest biomass |
+| SSE01 | 0.390 | Harvested | Strong increase; now among the best performers |
+
+**General observations**
+
+- SSB01 remains the highest-density culture.
+- SSE01 continues its remarkable recovery and now has OD values approaching SSA03.
+- SSA01 remains the slowest-growing strain but is no longer completely stagnant.
+
+---
+
+# M1 cultures
+
+First monitoring after establishment on **07/08/2026**.
+
+| Strain | 07/08 | 10/08 | ΔOD |
+|---------|------:|------:|----:|
+| SSA01 | 0.019 | 0.022 | +0.003 |
+| SSA02 | 0.057 | 0.079 | +0.022 |
+| SSA03 | 0.051 | 0.061 | +0.010 |
+| SSB01 | 0.100 | 0.103 | +0.003 |
+| SSE01 | 0.067 | 0.111 | +0.044 |
+
+### Interpretation
+
+- All M1 cultures remained viable after transfer.
+- **SSE01_M1** exhibited the largest increase during the first three days.
+- SSA02 also showed a clear positive trend.
+- SSB01 already started from the highest OD and remained relatively stable over this short interval.
+
+---
+
+# S2 cultures
+
+| Strain | 07/08 | 10/08 | ΔOD |
+|---------|------:|------:|----:|
+| SSA01 | 0.009 | 0.011 | +0.002 |
+| SSA02 | 0.037 | 0.043 | +0.006 |
+| SSA03 | 0.030 | 0.041 | +0.011 |
+| SSE01 | 0.027 | 0.056 | +0.029 |
+
+**SSB01_S2** was not established on 07/08 due to accidental flask breakage and will be initiated separately.
+
+### Interpretation
+
+- All S2 cultures survived the transfer.
+- SSE01 again showed the strongest early increase.
+- SSA03 also recovered well.
+- SSA01 remains the slowest-growing culture.
+
+---
+
+# Overall interpretation
+
+The culture collection has now entered a new phase.
+
+- **S1** successfully served as the biomass-production line and was retained for the first harvest.
+- **M1** has become the maintenance lineage.
+- **S2** represents the next production generation.
+
+A notable trend emerging over the last two weeks is the continued improvement of **SSE01**. Initially one of the weakest strains by OD and pigmentation, it is now among the strongest cultures, suggesting that the increase in irradiance has substantially improved its physiological state.
+
+By contrast, **SSA01** continues to lag behind all other strains despite gradual improvement and remains the principal candidate for future optimization.
+
+---
+
+# Next steps
+
+- [ ] Complete establishment of **SSB01_S2**.
+- [ ] Process the harvested S1 cultures.
+- [ ] Record wet biomass yield for each strain.
+- [ ] Begin pilot PCP extraction and protein purification workflow.
+- [ ] Continue monitoring M1 and S2 every 3–4 days.
