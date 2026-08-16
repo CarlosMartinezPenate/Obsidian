@@ -1,25 +1,23 @@
-# S1 HARVEST BENCH CARD
+# S1 HARVEST BENCH CARD (Performed)
 
-**Goal:** Harvest S1 cultures and store concentrated cell pellets at **−80°C** for later PCP extraction.
+**Date:** 13/Aug/2026
+
+**Objective:** Harvest S1 cultures and preserve cell pellets for future PCP extraction.
 
 ---
 
-## Before Starting
+## Equipment
 
-☐ Chill RC6 Plus centrifuge to **4°C**
-
-☐ Install **Fiberlite F14-6×250y** rotor
-
-☐ Label harvest bottles and Falcon tubes
-
-☐ Weigh and label **empty Falcon tubes**
-
-☐ Prepare:
-
+- Thermo Scientific Heraeus Multifuge X1R
+- Fiberlite **F15-8×50cy** rotor
+- 50 mL Falcon tubes
 - Ice bucket
-- Cold sterile filtered ASW
+- Liquid nitrogen
+- −80°C freezer
 - Dedicated paintbrush for each strain
+
 ---
+
 ## Harvest Record
 
 | Strain | Flask + Culture (g) | Empty Flask (g) | Culture Recovered (g) | Empty Falcon (g) | Falcon + Pellet (g) | Wet Pellet (g) |
@@ -32,62 +30,69 @@
 
 **Calculations**
 
-- **Culture recovered = Flask + Culture − Empty Flask**
-- **Wet pellet = Falcon + Pellet − Empty Falcon**
+- Culture recovered = Flask + Culture − Empty Flask
+- Wet pellet = Falcon + Pellet − Empty Falcon
+---
+## Workflow
+### □ 1. Recover culture
+	- Weigh culture flask.
+	- Gently swirl to resuspend settled cells.
+	- Use a dedicated paintbrush to dislodge cells attached to the glass.
+	- Transfer the entire recoverable culture directly into a 50 mL Falcon tube.
+	- Reweigh the empty culture flask.
+---
+### □ 2. Harvest cells
+	- Thermo Scientific Heraeus Multifuge X1R:
+	- Rotor: Fiberlite F15-8×50cy
+	- RCF: 8,000 × g
+	- Time: 10 min
+	- Temperature: 4°C
+---
+## □ 3. Remove culture medium
+	- Decant the supernatant directly into the biohazard waste container.
+	- Leave the pellet undisturbed.
+---
+## □ 4. Freeze pellets
+	- Immediately plunge-freeze the Falcon tubes in **liquid nitrogen**.
+	- Transfer tubes to **−80°C** for long-term storage.
 
 ---
-# Workflow
-#### ☐ 1. Recover culture
-- Weigh culture flask
-- Swirl gently
-- Brush attached cells with the dedicated paintbrush
-- Transfer culture to centrifuge bottle
-- Reweigh empty flask
----
-#### ☐ 2. Centrifuge
- 8,000 g; 10 min; 4°C
+## Observations
 
-________________________________________________
-### ☐ 3. Remove medium
-- Carefully aspirate supernatant
----
-#### ☐ 4. Transfer pellet
-	- Add **2–5 mL cold sterile filtered ASW**
-	- Resuspend gently
-	- Transfer to labelled Falcon tube
----
-#### ☐ 5. Re-pellet
+_________________________________________________________
 
-	8,000 × g; 10 min; 4°C
+_________________________________________________________
 
----
-#### ☐ 7. Store
-	- Carefully aspirate ASW
-	- Weigh Falcon + pellet
-	- Freeze immediately at **−80°C**
+_________________________________________________________
 
 ---
 ## Storage
 
-| Strain | Tube ID | Freezer Location |
-|:-------|:--------|:-----------------|
-| SSA01 | | |
-| SSA02 | | |
-| SSA03 | | |
-| SSB01 | | |
-| SSE01 | | |
+| Strain | Tube ID | Freezer Location | Notes |
+| :----- | :------ | :--------------- | :---- |
+| SSA01  |         |                  |       |
+| SSA02  |         |                  |       |
+| SSA03  |         |                  |       |
+| SSB01  |         |                  |       |
+| SSE01  |         |                  |       |
 
 ---
-
 ## Next Workflow
 
 Frozen pellet
+
 ↓
-**50 mM Tricine + 20 mM KCl, pH 7.5**
+
+50 mM Tricine + 20 mM KCl, pH 7.5
+
 ↓
-**EmulsiFlex C3** 
-(3 passes, ~12,000 psi)
+
+EmulsiFlex C3 (3 passes)
+
 ↓
+
 20,000 × g clarification
+
 ↓
+
 Ammonium sulfate fractionation

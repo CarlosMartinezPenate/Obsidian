@@ -183,14 +183,14 @@
               "state": {
                 "file": "S1 HARVEST BENCH CARD Workflow.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "S1 HARVEST BENCH CARD Workflow"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -354,11 +354,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "ea1ae6b2f6567da1",
+  "active": "54fde328b4cb15f2",
   "lastOpenFiles": [
+    "S1 HARVEST BENCH CARD Workflow.md",
     "S1 HARVEST BENCH CARD.md",
     "Bioinformatics Chapter.md",
-    "S1 HARVEST BENCH CARD Workflow.md",
     "S1 Harvest and Storage Protocol.md",
     "Tricine–KCl Extraction Buffer Calculator.md",
     "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",

@@ -1,58 +1,21 @@
-
-
-### Workflow
-
-#### ☐ 1. Recover culture
-
-```
-- Weigh culture flask
-- Swirl gently
-- Brush attached cells with the dedicated paintbrush
-- Transfer culture to centrifuge bottle
-- Reweigh empty flask
-```
-
+### □ 1. Recover culture
+	- Weigh culture flask.
+	- Gently swirl to resuspend settled cells.
+	- Use a dedicated paintbrush to dislodge cells attached to the glass.
+	- Transfer the entire recoverable culture directly into a 50 mL Falcon tube.
+	- Reweigh the empty culture flask.
 ---
-
-#### ☐ 2. Centrifuge
-
-```
- 8,000 g; 10 min; 4°C
-```
-
+### □ 2. Harvest cells
+	- Thermo Scientific Heraeus Multifuge X1R:
+	- Rotor: Fiberlite F15-8×50cy
+	- RCF: 8,000 × g
+	- Time: 10 min
+	- Temperature: 4°C
 ---
-
-#### ☐ 3. Remove medium
-
-```
-- Carefully aspirate supernatant
-```
-
+## □ 3. Remove culture medium
+	- Decant the supernatant directly into the biohazard waste container.
+	- Leave the pellet undisturbed.
 ---
-
-#### ☐ 4. Transfer pellet
-
-```
-- Add **2–5 mL cold sterile filtered ASW**
-- Resuspend gently
-- Transfer to labelled Falcon tube
-```
-
----
-
-#### ☐ 5. Re-pellet
-
-```
-8,000 × g; 10 min; 4°C
-```
-
----
-#### ☐ 7. Store
-
-```
-- Carefully aspirate ASW
-- Weigh Falcon + pellet
-- Freeze immediately at **−80°C**
-```
-
----
+## □ 4. Freeze pellets
+	- Immediately plunge-freeze the Falcon tubes in **liquid nitrogen**.
+	- Transfer tubes to **−80°C** for long-term storage.
