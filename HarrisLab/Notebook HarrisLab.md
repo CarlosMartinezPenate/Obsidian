@@ -1129,3 +1129,140 @@ By contrast, **SSA01** continues to lag behind all other strains despite gradual
 - [ ] Record wet biomass yield for each strain.
 - [ ] Begin pilot PCP extraction and protein purification workflow.
 - [ ] Continue monitoring M1 and S2 every 3–4 days.
+
+# 🧪 Laboratory Notebook
+
+**Date:** 13 Aug 2026
+
+**Project:** Symbiodiniaceae PCP Purification
+
+**Experiment:** Harvest and Cryopreservation of S1 Cultures
+
+---
+
+## Objective
+
+Harvest the remaining S1 cultures from all five Symbiodiniaceae strains and preserve the resulting cell pellets at −80°C for subsequent protein extraction and PCP purification.
+
+---
+
+## Strains
+
+- SSA01 (*Symbiodinium linucheae*)
+- SSA02 (*Symbiodinium necroappetens*)
+- SSA03 (*Symbiodinium pilosum*)
+- SSB01 (*Breviolum minutum*)
+- SSE01 (*Effrenium voratum*)
+
+---
+
+## Equipment
+
+- Thermo Scientific Heraeus Multifuge X1R
+- Fiberlite F15-8×50cy rotor
+- 50 mL Falcon tubes
+- Liquid nitrogen
+- −80°C freezer
+
+---
+
+## Procedure
+
+Each culture flask was weighed before harvesting.
+
+Cultures were gently homogenized by swirling, and cells adhering to the glass were detached using a dedicated paintbrush for each strain.
+
+The complete recoverable culture was transferred directly into 50 mL Falcon tubes.
+
+The empty culture flasks were reweighed to estimate the recovered culture mass.
+
+Cultures were harvested by centrifugation at:
+
+- **8,000 × g**
+- **10 min**
+- **4°C**
+
+Following centrifugation, the culture medium was removed by carefully decanting the supernatant into a biohazard waste container. The pellet becomes fairly "flimsy" quickly, so decantation should be performed immediately and quickly after centrifugation.
+
+The pellets were left in the original Falcon tubes.
+
+No ASW wash or transfer to a second tube was performed.
+
+Pellets were immediately plunge-frozen in liquid nitrogen and transferred to a −80°C freezer for storage.
+
+---
+
+## Deviations from Planned Protocol
+
+The original workflow included:
+
+- resuspension of the pellet in cold sterile ASW,
+- transfer to a clean Falcon tube,
+- second centrifugation,
+- removal of ASW before freezing.
+
+These steps were omitted.
+
+Instead, pellets were frozen immediately after the initial harvest centrifugation.
+
+The supernatant was removed by decanting rather than aspiration.
+
+---
+
+# Harvest Recovery
+
+| Flask | Culture before (g) | Empty flask (g) | Culture recovered (g) |
+|------:|-------------------:|----------------:|----------------------:|
+| 1 | 290.11 | 216.04 | **74.07** |
+| 2 | 287.40 | 210.66 | **76.74** |
+| 3 | 288.79 | 215.56 | **73.23** |
+| 4 | 285.74 | 211.09 | **74.65** |
+| 5 | 324.28 | 250.31 | **73.97** |
+
+The recovered culture volume was consistent among strains (~74–77 g, approximately 74–77 mL).
+
+---
+
+# Pellet Measurements
+
+| Falcon | Strain | Wet pellet (g) | Observation |
+|-------:|:------:|---------------:|-------------|
+| 1 | SSA01 | 0.22 | Pretty dry |
+| 2 | SSA01 | 0.20 | Pretty dry |
+| 3 | SSA02 | 0.53 | Wet pellet |
+| 4 | SSA02 | 4.29 | Wet pellet; substantial residual liquid |
+| 5 | SSA03 | 0.67 | Not-so-dry pellet |
+| 6 | SSA03 | 5.71 | Not-so-dry pellet; substantial residual liquid |
+| 7 | SSB01 | 0.46 | Kind of dry |
+| 8 | SSB01 | 0.80 | Kind of dry |
+| 9 | SSE01 | 0.35 | Pretty dry |
+| 10 | SSE01 | 0.35 | Pretty dry |
+
+---
+
+## Observations
+
+Harvesting proceeded without major technical issues.
+
+The recovered culture mass was highly consistent across all five strains, suggesting minimal losses during transfer.
+
+SSA01 and SSE01 produced relatively compact, dry pellets after decanting.
+
+SSB01 pellets were slightly wetter but remained compact.
+
+SSA02 and SSA03 showed greater variability between replicate tubes. One replicate from each strain retained a considerable amount of residual liquid after decanting, resulting in substantially higher measured pellet masses due to waiting to decant one of the tubes. These measurements should therefore not be interpreted as true wet biomass and primarily reflect incomplete removal of supernatant.
+
+No obvious pellet loss was observed during decanting.
+
+All pellets were successfully cryopreserved by plunge freezing in liquid nitrogen immediately after harvest and transferred to −80°C storage.
+
+---
+
+## Next Steps
+
+1. Retrieve frozen pellets.
+2. Resuspend in **50 mM Tricine + 20 mM KCl (pH 7.5)**.
+3. Disrupt cells using the EmulsiFlex C3 (target: three passes at approximately 12,000 psi).
+4. Clarify lysates by centrifugation.
+5. Perform ammonium sulfate fractionation.
+6. Compare soluble protein fractions among the five Symbiodiniaceae strains.

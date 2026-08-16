@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S1 HARVEST BENCH CARD.md",
+                "file": "HarrisLab/Notebook HarrisLab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "S1 HARVEST BENCH CARD"
+              "title": "Notebook HarrisLab"
             }
           },
           {
@@ -222,7 +222,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Calcul",
+                "query": "Harris",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -356,8 +356,8 @@
   },
   "active": "54fde328b4cb15f2",
   "lastOpenFiles": [
-    "S1 HARVEST BENCH CARD Workflow.md",
     "S1 HARVEST BENCH CARD.md",
+    "S1 HARVEST BENCH CARD Workflow.md",
     "Bioinformatics Chapter.md",
     "S1 Harvest and Storage Protocol.md",
     "Tricine–KCl Extraction Buffer Calculator.md",
