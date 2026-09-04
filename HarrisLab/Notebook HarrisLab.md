@@ -1266,3 +1266,14 @@ All pellets were successfully cryopreserved by plunge freezing in liquid nitroge
 4. Clarify lysates by centrifugation.
 5. Perform ammonium sulfate fractionation.
 6. Compare soluble protein fractions among the five Symbiodiniaceae strains.
+
+----
+## Incubator photoperiod history for dinos
+
+- **01/04/2026 – 17/08/2026:** continuous illumination (**24L:0D**)
+
+- **18/08/2026 00:00 – 25/08/2026:** **20L:4D**
+
+- **From 25/08/2026:** **16L:8D**
+
+Current irradiance during the light phase: approximately **25 µmol photons m⁻² s⁻¹ with the door open**, corresponding to approximately **40 µmol photons m⁻² s⁻¹ average with the chamber closed**.

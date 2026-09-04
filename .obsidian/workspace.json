@@ -162,6 +162,34 @@
             }
           },
           {
+            "id": "a1e54ea224af6a39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "codigo.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "codigo"
+            }
+          },
+          {
+            "id": "ebe9d68762df3550",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HarrisLab/Notebook HarrisLab.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notebook HarrisLab"
+            }
+          },
+          {
             "id": "ea1ae6b2f6567da1",
             "type": "leaf",
             "state": {
@@ -190,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -354,15 +382,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "54fde328b4cb15f2",
+  "active": "ebe9d68762df3550",
   "lastOpenFiles": [
+    "Cell disruption methods for dinoflag.md",
+    "codigo.md",
+    "HarrisLab/Notebook HarrisLab.md",
     "S1 HARVEST BENCH CARD.md",
     "S1 HARVEST BENCH CARD Workflow.md",
     "Bioinformatics Chapter.md",
     "S1 Harvest and Storage Protocol.md",
     "Tricine–KCl Extraction Buffer Calculator.md",
     "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
-    "HarrisLab/Notebook HarrisLab.md",
     "HarrisLab/Protocols/Recipes/ASW recipe.md",
     "HarrisLab/Protocols/Recipes/F2 Medium recipe.md",
     "M1 Maintenance — Bench Card.md",
@@ -380,8 +410,6 @@
     "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
     "HarrisLab/Protocols/Calcofluor White Staining Solution recipe.md",
     "Ethanol Dilution Calculator.md",
-    "Homeworks/cph1-rcp1 pres.md",
-    "Alcian Blue Staining Solution Recipe.md",
     "Pasted image 20260707125836.png",
     "publish-protocols.yml",
     "HarrisLab/Protocols/Recipes",
