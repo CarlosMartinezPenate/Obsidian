@@ -4,67 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a21b163bfc28248c",
+        "id": "8317b9d7e245f4f4",
         "type": "tabs",
         "children": [
           {
-            "id": "3d4eeab2ae6453f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Exercise 7 AlphaFold3 and Self-Evaluation Metrics.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Exercise 7 AlphaFold3 and Self-Evaluation Metrics"
-            }
-          },
-          {
-            "id": "b43812cae7d96674",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hu et al. 2020 — NblA and NblB purification conditions.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Hu et al. 2020 — NblA and NblB purification conditions"
-            }
-          },
-          {
-            "id": "0429dcb5ddb6951b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "cdd1bdbf8e3ef450",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Concepts/pLDDT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pLDDT"
-            }
-          },
-          {
-            "id": "5d08bb01c657ff83",
+            "id": "5f397988e8f17a8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -75,164 +19,9 @@
               },
               "icon": "lucide-file",
               "title": "Notebook HarrisLab"
-            }
-          },
-          {
-            "id": "f131fea62a17ee46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fog Staining Pilot.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Fog Staining Pilot"
-            }
-          },
-          {
-            "id": "624ea06623f145b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Alcian Blue Staining Solution Recipe.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Alcian Blue Staining Solution Recipe"
-            }
-          },
-          {
-            "id": "47dc3120ad94ff9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Potassium Phosphate Buffer Calculator"
-            }
-          },
-          {
-            "id": "764aca200a78d3c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tricine–KCl Extraction Buffer Calculator.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Tricine–KCl Extraction Buffer Calculator"
-            }
-          },
-          {
-            "id": "f4f14b7a4e7e00b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "S1 Harvest and Storage Protocol.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "S1 Harvest and Storage Protocol"
-            }
-          },
-          {
-            "id": "54fde328b4cb15f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HarrisLab/Notebook HarrisLab.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Notebook HarrisLab"
-            }
-          },
-          {
-            "id": "a1e54ea224af6a39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "codigo.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "codigo"
-            }
-          },
-          {
-            "id": "ebe9d68762df3550",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HarrisLab/Notebook HarrisLab.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Notebook HarrisLab"
-            }
-          },
-          {
-            "id": "f65c889b25c077dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research Proposal v 0.1.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Research Proposal v 0.1"
-            }
-          },
-          {
-            "id": "ea1ae6b2f6567da1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bioinformatics Chapter.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bioinformatics Chapter"
-            }
-          },
-          {
-            "id": "8a41ec2c6b9da4a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "S1 HARVEST BENCH CARD Workflow.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "S1 HARVEST BENCH CARD Workflow"
             }
           }
-        ],
-        "currentTab": 13
+        ]
       }
     ],
     "direction": "vertical"
@@ -266,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Harris",
+                "query": "linuchea",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -287,7 +76,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -397,35 +187,35 @@
       "bases:Create new base": false
     }
   },
-  "active": "f65c889b25c077dd",
+  "active": "5f397988e8f17a8f",
   "lastOpenFiles": [
+    "HarrisLab/Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
+    "S1 Harvest and Storage Protocol.md",
+    "HarrisLab/Protocols/Recipes/F2 Medium Preparation.md",
+    "HarrisLab/Protocols/Recipes/ASW recipe.md",
+    "Dino S3 Biomass Scale-Up Plan.md",
+    "Concepts/F2 medium.md",
+    "Tuttnauer 5075 ELVC Manual.md",
+    "HarrisLab/Protocols/Autoclaving Protocol.md",
+    "Symbiodiniaceae S1 Branching, Scale-Up, Plating, and Archive Plan 2.md",
     "HarrisLab/Notebook HarrisLab.md",
-    "Research Proposal v 0.1.md",
-    "Research Proposal",
-    "Cell disruption methods for dinoflag.md",
-    "codigo.md",
-    "S1 HARVEST BENCH CARD.md",
     "S1 HARVEST BENCH CARD Workflow.md",
     "Bioinformatics Chapter.md",
-    "S1 Harvest and Storage Protocol.md",
+    "codigo.md",
     "Tricine–KCl Extraction Buffer Calculator.md",
     "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
-    "HarrisLab/Protocols/Recipes/ASW recipe.md",
-    "HarrisLab/Protocols/Recipes/F2 Medium recipe.md",
-    "M1 Maintenance — Bench Card.md",
-    "HarrisLab/Protocols/Recipes/Symbiodiniaceae_S1_Branching_Scale-Up_Plan.md",
+    "Alcian Blue Staining Solution Recipe.md",
+    "Fog Staining Pilot.md",
+    "Concepts/pLDDT.md",
+    "Untitled.md",
+    "Hu et al. 2020 — NblA and NblB purification conditions.md",
+    "Exercise 7 AlphaFold3 and Self-Evaluation Metrics.md",
+    "Symbiodiniaceae M1 Maintenance Culture Protocol.md",
     "Symbiodiniaceae S1 Branching, Scale-Up, Plating, and Archive Plan.md",
     "S2 Biomass Scale-Up — Bench Card.md",
-    "HarrisLab/Protocols/Cleaning Glassware.md",
-    "HarrisLab/Protocols/Autoclaving Protocol.md",
-    "Symbiodiniaceae M1 Maintenance Culture Protocol.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "HarrisLab/Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
-    "Protocols.md",
-    "HarrisLab/Dino_Project/Dino Project — Receiving and Recovery Plan.md",
-    "HarrisLab/Protocols/Dino F2 Medium Scale-Up Protocol.md",
-    "HarrisLab/Protocols/Calcofluor White Staining Solution recipe.md",
+    "S1 HARVEST BENCH CARD.md",
+    "M1 Maintenance — Bench Card.md",
+    "Research Proposal",
     "Pasted image 20260707125836.png",
     "publish-protocols.yml",
     "HarrisLab/Protocols/Recipes",

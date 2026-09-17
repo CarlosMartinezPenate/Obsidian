@@ -110,7 +110,7 @@ Legend:
 ## F/2 and ASW
 
 - [[ASW recipe]]
-- [[F2 Medium recipe]]
+- [[F2 Medium Preparation]]
 
 ## IMK
 
@@ -168,7 +168,7 @@ Using 50× F/2 stock:
 - **3,920 mL sterile ASW**
 - **4,000 mL final 1× F/2**
 
-See [[F2 Medium recipe]].
+See [[F2 Medium Preparation]].
 
 ## S1 source-volume balance
 
@@ -213,7 +213,7 @@ The plate calculation below assumes **300 mL F/2 agar**, which is exactly 25 mL 
 - [ ] **300 mL 1× F/2 agar**
 - [ ] **4.214 L sterile ASW total**
 - [ ] **86 mL 50× F/2 stock total**
-- [ ] Agar according to [[F2 Medium recipe]]
+- [ ] Agar according to [[F2 Medium Preparation]]
 - [ ] Sterile ASW or sterile F/2 for dilution blanks
 
 Breakdown:
@@ -423,7 +423,7 @@ SSA02-S1-BACKUP-2026-08-02
 4. Prepare gauze closures.
 5. Sterilize dry flasks and closures according to [[Autoclaving Protocol]].
 6. Prepare sterile ASW according to [[ASW recipe]].
-7. Prepare 4.0 L fresh F/2 according to [[F2 Medium recipe]].
+7. Prepare 4.0 L fresh F/2 according to [[F2 Medium Preparation]].
 8. Prepare and pour 12 low-density F/2 agar plates.
 9. Label all flasks, plates, dilution tubes, archive tubes, and harvest tubes before beginning culture transfers.
 10. Confirm incubator space for:

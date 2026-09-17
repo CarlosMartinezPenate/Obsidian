@@ -40,7 +40,7 @@ Related modules:
 - [[Cleaning Glassware]]
 - [[Autoclaving Protocol]]
 - [[ASW recipe]]
-- [[F2 Medium recipe]]
+- [[F2 Medium Preparation]]
 
 ---
 
@@ -110,7 +110,7 @@ Using 50× F/2 stock, 400 mL of 1× F/2 requires:
 - **8 mL 50× F/2 stock**
 - **392 mL sterile ASW**
 
-See [[F2 Medium recipe]].
+See [[F2 Medium Preparation]].
 
 ## Glassware
 
@@ -160,7 +160,7 @@ SSE01-M1-2026-08-02
    - pigmentation;
    - clumping or sedimentation;
    - microscopy observations.
-3. Prepare fresh 1× F/2 according to [[F2 Medium recipe]].
+3. Prepare fresh 1× F/2 according to [[F2 Medium Preparation]].
 4. Clean the flasks according to [[Cleaning Glassware]].
 5. Sterilize the flasks and closures according to [[Autoclaving Protocol]].
 6. Label all five M1 flasks before opening the S1 cultures.
