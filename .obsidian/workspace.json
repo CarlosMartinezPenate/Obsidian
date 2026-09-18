@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "**Molecular Organization and Remodeling of Photosynthetic AntennaSystems**"
             }
+          },
+          {
+            "id": "93485b9edb68cce5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Molecular Organization and Remodeling of Photosynthetic AntennaSystems 2.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Molecular Organization and Remodeling of Photosynthetic AntennaSystems 2"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -202,10 +216,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "091b74f0cc494939",
+  "active": "93485b9edb68cce5",
   "lastOpenFiles": [
-    "HarrisLab/Notebook HarrisLab.md",
     "**Molecular Organization and Remodeling of Photosynthetic AntennaSystems**.md",
+    "Molecular Organization and Remodeling of Photosynthetic AntennaSystems 2.md",
+    "HarrisLab/Notebook HarrisLab.md",
     "HarrisLab/Dino_Project/Receiving Plan for Incoming Axenic Strains V.1.md",
     "S1 Harvest and Storage Protocol.md",
     "HarrisLab/Protocols/Recipes/F2 Medium Preparation.md",
@@ -229,7 +244,6 @@
     "Symbiodiniaceae M1 Maintenance Culture Protocol.md",
     "Symbiodiniaceae S1 Branching, Scale-Up, Plating, and Archive Plan.md",
     "S2 Biomass Scale-Up — Bench Card.md",
-    "S1 HARVEST BENCH CARD.md",
     "Research Proposal",
     "Pasted image 20260707125836.png",
     "publish-protocols.yml",
