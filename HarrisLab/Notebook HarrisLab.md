@@ -1277,3 +1277,339 @@ All pellets were successfully cryopreserved by plunge freezing in liquid nitroge
 - **From 25/08/2026:** **16L:8D**
 
 Current irradiance during the light phase: approximately **25 µmol photons m⁻² s⁻¹ with the door open**, corresponding to approximately **40 µmol photons m⁻² s⁻¹ average with the chamber closed**.
+
+---
+date: 2026-10-18
+type: lab-notebook
+project: Symbiodiniaceae
+laboratory: HarrisLab
+experiment: ARALAB lighting configuration and calibration
+equipment: ARALAB FITOCLIMA D1200
+status: Preliminary characterization
+tags:
+  - HarrisLab
+  - Symbiodiniaceae
+  - ARALAB
+  - Light-Acclimation
+  - PPFD
+  - Spectral-Illumination
+---
+
+# ARALAB FITOCLIMA D1200 — Lighting Configuration and PPFD Measurements
+
+**Date:** 18 October 2026  
+**Laboratory:** HarrisLab  
+**Equipment:** ARALAB FITOCLIMA D1200  
+**Controller:** ClimaPlus9000
+
+---
+
+## 1. Objective
+
+Characterize the lighting configuration of the ARALAB FITOCLIMA D1200, identify the correspondence between physical lighting racks and controller light banks, and measure illumination intensity under the current Symbiodiniaceae cultivation conditions.
+
+Additionally, establish independent control of the multichannel LED fixture for future spectral-acclimation experiments.
+
+---
+
+## 2. Equipment and Configuration
+
+### 2.1 Lighting system
+
+The chamber contains six conventional LED lighting racks, connected through cables labeled C1–C6.
+
+An additional multichannel LED fixture is connected through a cable labeled LB1.
+
+The LB1 cable uses a Wieland RST16 electrical connector.
+
+**Connector identification:**
+
+- Manufacturer: Wieland Electric
+- Series: RST16
+- Rated current: 16 A
+- Protection rating: IP66/IP68
+- Locking mechanism: TWISTLOCK
+
+The ClimaPlus9000 controller provides three independently programmable light banks.
+
+### 2.2 Confirmed light-bank mapping
+
+The lighting racks were connected and tested to identify their corresponding controller outputs.
+
+| Controller bank | Controlled fixtures | Position |
+|---|---|---|
+| Light Bank 1 | Two conventional LED racks | Upper shelves |
+| Light Bank 2 | Two conventional LED racks | Middle shelves |
+| Light Bank 3 | Two conventional LED racks | Lower shelves |
+
+An additional independently wavelength-addressable LED fixture was also connected to Light Bank 1.
+
+The controller therefore regulates groups of lighting fixtures rather than individual racks.
+
+### 2.3 Final configuration
+
+Following the initial mapping, the conventional LED racks associated with Light Bank 1 were disconnected.
+
+The multichannel LED fixture was retained on the right-door side of Light Bank 1.
+
+No conventional LED fixture remains connected on the left-door side of Light Bank 1.
+
+| Bank | Final configuration | Current status |
+|---|---|---|
+| LB1 | Multichannel LED, right side only | OFF |
+| LB2 | Two conventional LED racks | OFF |
+| LB3 | Two conventional LED racks | ON, 23% |
+
+**Important:** The multichannel LED supports independently adjustable wavelength channels.
+
+The precise wavelength specifications and output characteristics remain to be documented.
+
+---
+
+## 3. Current Cultivation Conditions
+
+The existing Symbiodiniaceae cultures are maintained under a 12:12 light/dark photoperiod.
+
+| Parameter | Setting |
+|---|---|
+| Photoperiod | 12 h light / 12 h dark |
+| Active light bank | LB3 |
+| Controller intensity | 23% |
+| LB1 | OFF |
+| LB2 | OFF |
+| Temperature setpoint | N/A — not verified during this measurement |
+| Culture medium | N/A |
+| Light sensor model | N/A |
+| Sensor calibration date | N/A |
+
+The existing illumination program was maintained during the characterization.
+
+---
+
+## 4. PPFD Measurements
+
+### 4.1 Measurement conditions
+
+Light intensity was measured inside the chamber with the doors closed.
+
+Measurements were collected over 30 seconds at the reported position near the bottom of the middle rack.
+
+The measurements represent the average photosynthetic photon flux density (PPFD) recorded during each interval.
+
+### 4.2 Results
+
+| Parameter | Left compartment | Right compartment |
+|---|---:|---:|
+| Culture groups | S2 | M2, S3 |
+| Active bank | LB3 | LB3 |
+| Controller power | 23% | 23% |
+| Measurement duration | 30 s | 30 s |
+| Door condition | Closed | Closed |
+| Average PPFD | 63 | 52 |
+
+**PPFD units:** µmol photons m⁻² s⁻¹
+
+### 4.3 Comparison
+
+Absolute difference:
+
+\[
+\Delta PPFD = 63 - 52
+\]
+
+\[
+\Delta PPFD = 11\ \mu mol\ photons\ m^{-2}s^{-1}
+\]
+
+Relative difference, using the right compartment as reference:
+
+\[
+\frac{63-52}{52}\times100 = 21.2\%
+\]
+
+The left compartment exhibited approximately 21% higher measured PPFD than the right compartment.
+
+### 4.4 Daily Light Integral
+
+For a 12-hour photoperiod:
+
+\[
+DLI = PPFD \times 43200 \times 10^{-6}
+\]
+
+| Compartment | PPFD | Estimated DLI |
+|---|---:|---:|
+| Left | 63 | 2.72 mol photons m⁻² d⁻¹ |
+| Right | 52 | 2.25 mol photons m⁻² d⁻¹ |
+
+These calculations assume that the measured PPFD is representative of the complete light period.
+
+---
+
+## 5. Observations
+
+### 5.1 Differences between compartments
+
+The right compartment currently contains M2 and S3 cultures.
+
+These cultures are larger and more numerous than those belonging to S2 in the left compartment.
+
+It was hypothesized that the greater number and size of culture vessels could contribute to the lower measured PPFD through shading or obstruction.
+
+However, this explanation has not been experimentally verified.
+
+Other possible contributors include:
+
+- Differences in LED fixture output.
+- Sensor positioning.
+- Unequal distances between sensor and light sources.
+- Shading by culture vessels.
+- Spatial differences in chamber illumination.
+
+Additional measurements are required to distinguish these possibilities.
+
+### 5.2 Multichannel LED configuration
+
+The multichannel LED fixture was successfully isolated from the conventional lighting racks.
+
+It is now connected exclusively to the right side of Light Bank 1.
+
+This configuration should permit independent operation of the multichannel fixture relative to LB2 and LB3.
+
+Independent wavelength adjustment is supported by the installed multichannel LED system.
+
+**Wavelength-specific output calibration:** N/A.
+
+---
+
+## 6. Potential Light Leakage Between Treatments
+
+### 6.1 Concern
+
+The multichannel LED fixture may illuminate neighboring culture positions beyond its intended experimental area.
+
+This could introduce unintended spectral exposure into cultures maintained under conventional white illumination.
+
+Because the chamber contains multiple lighting racks within a shared enclosure, light emitted from one fixture may reach other shelves through direct illumination or reflection from internal surfaces.
+
+### 6.2 Experimental implications
+
+For future spectral-acclimation experiments, uncontrolled light leakage could introduce confounding variables.
+
+Potential consequences include:
+
+1. Unintended exposure of control cultures to experimental wavelengths.
+2. Differences between nominal and actual spectral treatments.
+3. Spatial heterogeneity in photon flux.
+4. Reduced reproducibility of pigment and antenna-acclimation measurements.
+
+This is particularly relevant when comparing responses to blue, green and red illumination.
+
+### 6.3 Required verification
+
+A spatial illumination assessment is proposed.
+
+**Test A — Baseline**
+
+- Switch off all light banks.
+- Measure background PPFD at representative culture positions.
+- Record any external light entering the chamber.
+
+**Test B — Multichannel LED only**
+
+- Activate LB1.
+- Keep LB2 and LB3 off.
+- Measure PPFD at the intended experimental position.
+- Measure PPFD at neighboring culture positions.
+- Repeat for each wavelength channel.
+
+**Test C — Conventional lighting**
+
+- Switch off LB1.
+- Activate LB3 at 23%.
+- Measure PPFD at equivalent positions.
+- Assess illumination uniformity.
+
+**Test D — Combined illumination**
+
+- Activate LB1 and LB3.
+- Measure PPFD at the same positions.
+- Determine the additional photon flux reaching routine cultures when the multichannel LED is operating.
+
+For spectral contamination, wavelength-resolved measurements are preferable to broadband PPFD alone.
+
+### 6.4 Acceptance criteria
+
+Quantitative acceptance criteria have not yet been established.
+
+**Maximum acceptable spectral leakage:** N/A.
+
+Acceptance thresholds should be defined according to the experimental design and the magnitude of the spectral treatment.
+
+---
+
+## 7. Preliminary Interpretation
+
+The lighting-bank mapping was successfully established.
+
+The six conventional lighting racks are distributed across three controller banks, with two racks controlled by each bank.
+
+The multichannel LED can share the LB1 control output with conventional fixtures, but the conventional fixtures were disconnected to allow dedicated operation of the multichannel system.
+
+Current routine cultures receive approximately 52–63 µmol photons m⁻² s⁻¹ under LB3 at 23%.
+
+A spatial difference in measured illumination was observed between the two compartments.
+
+The source of this difference remains unresolved.
+
+The current configuration provides a potential platform for controlled spectral-acclimation experiments.
+
+However, spectral isolation between experimental and control cultures must be demonstrated before simultaneous treatments can be considered independent.
+
+---
+
+## 8. Next Actions
+
+- [ ] Confirm that LB1 exclusively activates the multichannel LED.
+- [ ] Record the available LED wavelength channels.
+- [ ] Record the multichannel LED manufacturer and model.
+- [ ] Measure PPFD at equivalent positions in both compartments.
+- [ ] Repeat measurements with and without culture vessels.
+- [ ] Map illumination across shelf positions.
+- [ ] Quantify light leakage from LB1 into adjacent culture locations.
+- [ ] Measure wavelength-specific photon flux where instrumentation permits.
+- [ ] Establish acceptable spectral contamination thresholds.
+- [ ] Calibrate experimental recipes before introducing spectral treatments.
+
+---
+
+## 9. N/A Register
+
+| Item | Status |
+|---|---|
+| PPFD sensor manufacturer/model | N/A |
+| PPFD sensor calibration | N/A |
+| Multichannel LED manufacturer/model | N/A |
+| Exact LED wavelength channels | N/A |
+| Maximum photon flux per channel | N/A |
+| Spatial PPFD distribution | N/A |
+| Spectral light leakage | N/A |
+| Spectral leakage acceptance threshold | N/A |
+| Effect of culture-vessel shading | N/A |
+| Wavelength-resolved irradiance | N/A |
+
+---
+
+## 10. Conclusion
+
+The ARALAB FITOCLIMA D1200 lighting system was characterized, and the relationship between its six conventional LED racks and three controller light banks was established.
+
+The multichannel LED was configured as the sole fixture connected to LB1, on the right side of the chamber.
+
+Routine cultures remain under a 12:12 photoperiod using LB3 at 23%.
+
+Measured PPFD values were 63 and 52 µmol photons m⁻² s⁻¹ in the left and right compartments, respectively.
+
+The principal unresolved issue is whether illumination from the multichannel LED reaches neighboring cultures at levels sufficient to confound spectral-acclimation experiments.
+
+A spatial and spectral light-distribution assessment is required before implementing simultaneous wavelength-specific treatments.

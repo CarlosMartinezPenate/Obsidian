@@ -15,11 +15,23 @@ Systems**
 
 > **Title status:** Working title. Final title = **N/A**.
 
-# Abstract
+# Introduction
 
-Photosynthetic organisms dynamically organize and remodel
-light-harvesting antenna systems to balance efficient photon capture
-with changing environmental and metabolic demands. Despite major
+Photosynthesis converts light energy into chemical energy, driving primary production and sustaining life on Earth. This fundamental process begins with the absorption of light, whose intensity and spectral composition vary widely across habitats and over time. Photosynthetic organisms capture light through specialized antenna systems, where proteins organize pigments to absorb photons and transfer excitation energy to reaction centers. Within these reaction centers, photochemical charge separation initiates the conversion of excitation energy into chemical energy.
+
+Light-harvesting antennae support photosynthesis across remarkably diverse environments—from dim aquatic habitats and sun-exposed deserts to the interior of host cells and the familiar vegetation of gardens and backyards. Across photosynthetic lineages, antenna systems differ in pigment composition, protein architecture, and assembly organization, reflecting distinct evolutionary histories and ecological contexts. Their molecular organization, coupled with mechanisms that regulate their function, abundance, and turnover, enables organisms to capture available light while managing excess excitation. Understanding how these pigment–protein systems are assembled and regulated provides a molecular basis for explaining their light-harvesting properties and their responses to changing cellular requirements.
+
+This thesis examines the molecular organization and regulation of two distinct photosynthetic antenna systems. In **Symbiodiniaceae**, the focus lies on isolating and characterizing pigment–protein complexes to determine how their composition and assembly relate to their spectroscopic properties. In the cyanobacterium **_Acaryochloris marina_**, the investigation centers on how the proteins NblA and NblB individually and jointly affect phycobilisome organization and disassembly. Together, these complementary studies address how antenna components form functional molecular assemblies and how those assemblies are modified through the action of regulatory proteins.
+
+Symbiodiniaceae provide an ideal system for investigating how distinct apoprotein–pigment scaffolds organize photosynthetic pigments. Their antenna machinery includes water-soluble peridinin–chlorophyll _a_ proteins (PCP) and membrane-associated chlorophyll _a_–chlorophyll $c_2$–peridinin complexes (acpPC). These antenna systems incorporate overlapping sets of pigments within different molecular architectures, offering a clear framework to examine how protein composition and assembly influence light-harvesting properties.
+
+Previous biochemical studies have identified functional trimeric acpPC assemblies, while cryo-electron microscopy has resolved a _Symbiodinium_ photosystem I supercomplex surrounded by an organized array of acpPC antenna proteins. These findings provide critical reference points for investigating the complexes recovered from the strains examined here. Chapter 1 will therefore investigate which antenna assemblies can be reproducibly isolated from selected Symbiodiniaceae and how their molecular organization relates to their absorption and fluorescence properties. Tracking soluble and membrane fractions separately will support the identification of distinct antenna populations, with structural investigations pursued concurrently.
+
+Understanding antenna regulation also requires determining how established pigment–protein assemblies are dismantled. Chapter 2 will investigate these dismantling processes using native phycobilisomes from the cyanobacterium _Acaryochloris marina_ alongside recombinant regulatory proteins AmNblA and AmNblB. To explore the biochemical mechanisms behind phycobilisome disassembly, we will combine protein interaction assays, spectroscopy, and structural analysis. These complementary approaches will link broad antenna breakdown to specific molecular events—such as whether the regulatory proteins act independently, undergo structural changes, or directly interact with the antenna substrate.
+
+Light-harvesting complexes (LHC) are protein-pigment arrays that utilize structural transitions to balance light absorption and dissipate excess energy(@si2024;@Lokstain2021). 
+
+Despite major
 advances in structural biology, the molecular transitions that connect
 antenna architecture to acclimation, remodeling, and degradation remain
 incompletely resolved. This proposal addresses these transitions in two

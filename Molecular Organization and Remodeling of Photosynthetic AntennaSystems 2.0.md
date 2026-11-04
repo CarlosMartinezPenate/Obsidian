@@ -5,7 +5,7 @@ date: 2026-09-18
 institution: Technion -- Israel Institute of Technology
 status: Scientific working draft
 supervisor: Prof. Dvir Harris
-title: Research Proposal --- Working Draft 1
+title: Research Proposal --- Working Draft 2.0
 ---
 
 ---
@@ -20,7 +20,9 @@ title: Research Proposal --- Working Draft 1
 
 # Abstract
 
-Photosynthetic antennae are usually described by their structures, but their biological function depends on transitions between molecular states. Cryo-EM has recently delivered high-resolution architectures for both antenna systems studied here, yet the transitions that connect those architectures to acclimation and to regulated degradation remain unresolved. This proposal treats two evolutionarily independent antenna systems as tractable models of the same problem: the membrane-associated peridinin--chlorophyll _a/c_-binding complexes (acpPC) of Symbiodiniaceae dinoflagellates, and the phycobilisome (PBS) degradation machinery of _Acaryochloris marina_ MBIC11017.
+Light-harvesting complexes (LHC) are protein-pigment arrays that utilize structural transitions to balance light absorption and dissipate excess energy(@si2024;@Lokstain2021). 
+
+Cryo-EM has recently delivered high-resolution architectures for both antenna systems studied here, yet the transitions that connect those architectures to acclimation and to regulated degradation remain unresolved. This proposal treats two evolutionarily independent antenna systems as tractable models of the same problem: the membrane-associated peridinin--chlorophyll _a/c_-binding complexes (acpPC) of Symbiodiniaceae dinoflagellates, and the phycobilisome (PBS) degradation machinery of _Acaryochloris marina_ MBIC11017.
 
 Both systems are antennae that operate in unusual spectral niches and whose organization is under active physiological control. In Symbiodiniaceae, peridinin-based antennae harvest blue-green light in the marine environment and are remodeled during photoacclimation. In _A. marina_, a horizontally reacquired phycocyanin antenna fills the spectral gap left by chlorophyll _d_, and the genes for both its assembly and its disassembly were regained by horizontal transfer [@ulrich2024; @miller2021]. Each therefore offers a case where antenna organization must be actively established, maintained and dismantled.
 
