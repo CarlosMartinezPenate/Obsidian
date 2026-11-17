@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RP-HL-CH1.0.md",
+                "file": "Research_Proposal_Integrated_Draft_2026-11-04 (1).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RP-HL-CH1.0"
+              "title": "Research_Proposal_Integrated_Draft_2026-11-04 (1)"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regulated Molecular States of Photosynthetic Antennae  Acclimatory Remodeling of Dinoflagellate acpPC and Controlled Disassembly of the _Acaryochloris marina_ Phycobilisome.md",
-                "mode": "source",
-                "source": false
+                "file": "Tris-HCl_Buffer_Calculator.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Regulated Molecular States of Photosynthetic Antennae  Acclimatory Remodeling of Dinoflagellate acpPC and Controlled Disassembly of the _Acaryochloris marina_ Phycobilisome"
+              "title": "Tris-HCl_Buffer_Calculator"
             }
           },
           {
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Whole-Cell Spectral Phenotypes Across Five Symbiodiniaceae Strains.md",
+                "file": "HarrisLab/Notebook HarrisLab.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Whole-Cell Spectral Phenotypes Across Five Symbiodiniaceae Strains"
+              "title": "Notebook HarrisLab"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -229,13 +229,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
+                "file": "Research_Proposal_Integrated_Draft_2026-11-04 (1).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Potassium Phosphate Buffer Calculator"
+              "title": "Outline"
             }
           }
         ],
@@ -259,33 +259,33 @@
   },
   "active": "64600e5180f044a9",
   "lastOpenFiles": [
-    "RP-HL - Introduction V.1.md",
+    "Research_Proposal_Methodological_Foundations_2026-11-17.md",
+    "Molecular Organization and Remodeling of Photosynthetic AntennaSystems v1.0.md",
+    "HarrisLab/Notebook HarrisLab.md",
+    "Research_Proposal_Integrated_Draft_2026-11-04 (1).md",
+    "Tris-HCl_Buffer_Calculator.md",
     "RP-HL-CH1.0.md",
+    "Whole-Cell Spectral Phenotypes Across Five Symbiodiniaceae Strains.md",
+    "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
+    "Tricine–KCl Extraction Buffer Calculator.md",
+    "Fog Staining Pilot.md",
+    "HarrisLab/Protocols/Calcofluor White Staining Solution recipe.md",
+    "HarrisLab/Protocols/Recipes/ASW recipe.md",
+    "HarrisLab/Protocols/Recipes/F2 Medium Preparation.md",
+    "Regulated Molecular States of Photosynthetic Antennae  Acclimatory Remodeling of Dinoflagellate acpPC and Controlled Disassembly of the _Acaryochloris marina_ Phycobilisome.md",
+    "RP-HL - Introduction V.1.md",
     "Regulated Molecular States of Photosynthetic Antennae AcclimatoryRemodeling of Dinoflagellate acpPC and Controlled Disassembly of the*Acaryochloris marina* Phycobilisome v3.2.md",
     "Regulated Molecular States of Photosynthetic Antennae -  Acclimatory Remodeling of Dinoflagellate acpPC and Controlled Disassembly of the Acaryochloris marina Phycobilisome v3.1.md",
     "Molecular Organization and Remodeling of Photosynthetic AntennaSystems 2.0.md",
     "2026-11-03.md",
-    "Molecular Organization and Remodeling of Photosynthetic AntennaSystems v1.0.md",
-    "HarrisLab/Notebook HarrisLab.md",
     "Untitled.canvas",
-    "Regulated Molecular States of Photosynthetic Antennae  Acclimatory Remodeling of Dinoflagellate acpPC and Controlled Disassembly of the _Acaryochloris marina_ Phycobilisome.md",
     "Dinoflagellate Culture Observation Sheet.md",
-    "Whole-Cell Spectral Phenotypes Across Five Symbiodiniaceae Strains.md",
     "M2 — Maintenance 2 Establishment.md",
     "HarrisLab/Protocols/Glycerol Stock Preparation and Flash Freezing Workflow.md",
-    "HarrisLab/Protocols/Potassium Phosphate Buffer Calculator.md",
     "Untitled 2.md",
     "Research Proposal v 0.1.md",
-    "HarrisLab/Protocols/Recipes/F2 Medium Preparation.md",
-    "HarrisLab/Protocols/Recipes/ASW recipe.md",
     "Sources/xiang2013.md",
     "HarrisLab/Protocols/TingTing's Culturing Symbiodinium protocol notes.md",
-    "Sources/hu2020.md",
-    "Concepts/phycoerythrins.md",
-    "Concepts/IMK2.md",
-    "Concepts/Diago's IMK.md",
-    "Concepts/phycocyanins.md",
-    "HarrisLab/NblB/NbLB.md",
     "Research Proposal",
     "Pasted image 20260707125836.png",
     "publish-protocols.yml",
